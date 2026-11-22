@@ -2,6 +2,7 @@ import os
 import json
 import random
 import re
+import time
 from datetime import datetime, timezone, timedelta
 import feedparser
 import requests
@@ -62,6 +63,33 @@ def fetch_verbatim_article():
             except Exception:
                 continue
     raise RuntimeError("記事の取得に失敗しました。")
+
+def generate_with_fallback(client, prompt):
+    # 混雑(503)時に自動で待機・別モデルへ切り替える安全リスト
+    models_to_try = [
+        "gemini-3.8-flash",
+        "gemini-3.8-flash",
+        "gemini-3.8-flash-lite",
+        "gemini-3.8-pro"
+    ]
+    last_error = None
+    for idx, model_name in enumerate(models_to_try):
+        try:
+            print(f"Attempt {idx + 1}: Trying {model_name}...")
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    temperature=0.2
+                )
+            )
+            return response.text
+        except Exception as e:
+            last_error = e
+            print(f"{model_name} failed ({e}). Waiting 15s before retry...")
+            time.sleep(15)
+    raise last_error
 
 def main():
     article = fetch_verbatim_article()
@@ -159,16 +187,8 @@ Return ONLY a valid JSON object matching this exact structure (no markdown fence
 Ensure `expressions` has 4 items, `slash_reading` has 2 items, and `travel_apps` has 2 items.
 """
 
-    response = client.models.generate_content(
-        model="gemini-3.8-flash",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            temperature=0.2
-        )
-    )
-
-    lesson_data = json.loads(response.text)
+    raw_json_text = generate_with_fallback(client, prompt)
+    lesson_data = json.loads(raw_json_text)
 
     # 原文完全一致の自動検証とフェイルセーフ
     for i, orig_p in enumerate(article["paragraphs"]):
