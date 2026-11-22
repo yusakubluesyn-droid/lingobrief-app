@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-22",
+  "category": "Technology",
+  "source": "BBC Technology",
+  "url": "https://www.bbc.com/news/technology",
+  "lesson": {
+    "title_en": "Next-generation AI chips reshape global supply chains amid export curbs",
+    "title_fr": "Les puces d'IA de nouvelle génération transforment les chaînes d'approvisionnement mondiales",
+    "vocab": {
+      "w1": {
+        "en": "export restrictions",
+        "fr": "restrictions à l'exportation",
+        "pos": "名詞句",
+        "lemma": "restriction (f.)",
+        "cognate": "英語と同語源 (restriction)",
+        "ja": "輸出規制",
+        "note": "フランス語では前置詞 à + 定冠詞 l' を伴うのが定型です。"
+      },
+      "w2": {
+        "en": "cutting-edge",
+        "fr": "de pointe",
+        "pos": "形容詞句",
+        "lemma": "pointe (f.)",
+        "cognate": "固有表現（先端）",
+        "ja": "最先端の",
+        "note": "technologie de pointe（最先端技術）はニュース頻出の決まり文句です。"
+      },
+      "w3": {
+        "en": "mitigate",
+        "fr": "atténuer",
+        "pos": "動詞",
+        "lemma": "atténuer",
+        "cognate": "英語 attenuate と同語源",
+        "ja": "緩和する、軽減する",
+        "note": "英語の論文や高級紙でリスクや影響を和らげる文脈で好まれます。"
+      }
+    },
+    "paragraphs": [
+      {
+        "en_tagged": "Major semiconductor manufacturers are accelerating efforts to diversify their production bases as <w id=\"w1\">export restrictions</w> tighten across key markets.",
+        "fr_b2_tagged": "Les principaux fabricants de semi-conducteurs accélèrent leurs efforts pour diversifier leurs bases de production alors que les <w id=\"w1\">restrictions à l'exportation</w> se durcissent sur les marchés clés.",
+        "fr_a2_tagged": "Les grands fabricants de puces électroniques changent leurs usines de pays parce que les <w id=\"w1\">restrictions à l'exportation</w> deviennent plus strictes."
+      },
+      {
+        "en_tagged": "Industry analysts warn that limited access to <w id=\"w2\">cutting-edge</w> processors could slow down artificial intelligence research unless firms <w id=\"w3\">mitigate</w> supply bottlenecks.",
+        "fr_b2_tagged": "Les analystes du secteur avertissent qu'un accès limité aux processeurs <w id=\"w2\">de pointe</w> pourrait ralentir la recherche en intelligence artificielle à moins que les entreprises n'<w id=\"w3\">atténuent</w> les goulets d'étranglement.",
+        "fr_a2_tagged": "Les experts disent que le manque de processeurs <w id=\"w2\">de pointe</w> peut ralentir la recherche sur l'IA si les entreprises n'arrivent pas à <w id=\"w3\">atténuer</w> les problèmes de livraison."
+      }
+    ],
+    "expressions": [
+      {
+        "en_phrase": "cutting-edge processors",
+        "academic_alt": "state-of-the-art architectures / frontier hardware",
+        "fr_phrase": "processeurs de pointe",
+        "cognate_hint": "英語の point（先端）と同じ語源の pointe を使用",
+        "ja_explanation": "日常やビジネスニュースでは cutting-edge が定番ですが、学術論文では state-of-the-art や frontier を用いるとより客観的で洗練された印象になります。"
+      },
+      {
+        "en_phrase": "mitigate supply bottlenecks",
+        "academic_alt": "alleviate structural constraints",
+        "fr_phrase": "atténuer les goulets d'étranglement",
+        "cognate_hint": "atténuer は英語の attenuate（弱める）と同語源",
+        "ja_explanation": "mitigate は「（悪影響を）和らげる」という意味で、英検準1級〜論文レベルで必須の他動詞です。reduce よりも「完全にはなくせないが被害を抑える」ニュアンスが出ます。"
+      }
+    ],
+    "slash_reading": [
+      {
+        "fr_original": "Les grands fabricants changent leurs usines de pays.",
+        "en_meaning": "Major manufacturers are moving their factories to other countries.",
+        "ja_meaning": "大手メーカーは工場を他国へ移している。",
+        "chunks": [
+          {"role": "S", "text": "Les grands fabricants", "note": "主語（複数形）"},
+          {"role": "V", "text": "changent", "note": "changer の直説法現在3人称複数"},
+          {"role": "O", "text": "leurs usines de pays", "note": "直接目的語＋場所の補足"}
+        ],
+        "verbs": [
+          {"word": "changent", "lemma": "changer", "tense": "直説法現在", "meaning": "変える、移す"}
+        ]
+      }
+    ],
+    "travel_apps": [
+      {
+        "from_news_fr": "restrictions à l'exportation",
+        "from_news_ja": "輸出規制",
+        "situation": "美術館や駅での入場制限",
+        "travel_fr": "Y a-t-il des restrictions d'accès aujourd'hui ?",
+        "travel_ja": "今日は入場制限がありますか？",
+        "tip": "restriction はそのまま英語と同じ感覚で「制限」として旅行中も通じます。"
+      }
+    ],
+    "quiz": {
+      "q1": {
+        "question": "New policies were introduced to _____ the economic impact of the energy crisis.",
+        "options": ["mitigate", "escalate", "fabricate", "proliferate"],
+        "answer": 0,
+        "explanation": "「経済的影響を緩和する」という意味になる mitigate が正解です。"
+      },
+      "q2": {
+        "question": "フランス語の「de pointe」の意味として最も適切なものはどれですか？",
+        "options": ["時代遅れの", "最先端の", "安価な", "故障中の"],
+        "answer": 1,
+        "explanation": "technologie de pointe で「最先端技術」を表す頻出表現です。"
+      },
+      "q3": {
+        "prompt": "半導体の供給網やAI規制について、英語で1文意見を書いてみましょう。",
+        "model_answer": "Diversifying semiconductor supply chains is imperative to mitigate geopolitical vulnerabilities.",
+        "notes": "imperative（不可欠な）と mitigate（緩和する）を組み合わせると論文調の引き締まった文になります。"
+      }
+    }
+  }
+}
