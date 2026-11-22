@@ -58,7 +58,7 @@ def fetch_verbatim_article():
                             "source": source_name,
                             "url": url,
                             "title": entry.title,
-                            "paragraphs": valid_p[:5]
+                            "paragraphs": valid_p[:3]
                         }
             except Exception:
                 continue
