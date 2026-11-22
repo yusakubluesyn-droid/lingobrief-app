@@ -65,12 +65,13 @@ def fetch_verbatim_article():
     raise RuntimeError("記事の取得に失敗しました。")
 
 def generate_with_fallback(client, prompt):
-    # 混雑(503)時に自動で待機・別モデルへ切り替える安全リスト
+    # 実在する正規モデルで粘り強くリトライする
     models_to_try = [
         "gemini-3.8-flash",
+        "gemini-3.8-flash-lite",
         "gemini-3.8-flash",
         "gemini-3.8-flash-lite",
-        "gemini-3.8-pro"
+        "gemini-3.8-flash"
     ]
     last_error = None
     for idx, model_name in enumerate(models_to_try):
@@ -87,8 +88,8 @@ def generate_with_fallback(client, prompt):
             return response.text
         except Exception as e:
             last_error = e
-            print(f"{model_name} failed ({e}). Waiting 15s before retry...")
-            time.sleep(15)
+            print(f"{model_name} failed ({e}). Waiting 25s before retry...")
+            time.sleep(25)
     raise last_error
 
 def main():
