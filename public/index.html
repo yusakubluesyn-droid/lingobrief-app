@@ -10,7 +10,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', 'Noto Sans JP', sans-serif; background-color: #f8fafc; color: #0f172a; padding-bottom: 130px; }
+    body { font-family: 'Inter', 'Noto Sans JP', sans-serif; background-color: #f8fafc; color: #0f172a; padding-bottom: 140px; }
     .article-serif { font-family: 'Merriweather', Georgia, serif; line-height: 1.9; }
     w { cursor: pointer; border-bottom: 1.5px dashed #94a3b8; border-radius: 3px; padding: 1px 2px; transition: all 0.15s ease; }
     w:hover { background-color: #e0e7ff; border-bottom-color: #4f46e5; }
@@ -24,7 +24,7 @@
 <body>
 
 <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-2.5 flex flex-wrap items-center justify-between gap-2">
     <div class="flex items-center gap-3">
       <div class="w-9 h-9 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">LB</div>
       <div>
@@ -35,10 +35,20 @@
         <p id="header-date" class="text-xs text-slate-500">毎朝 06:30 自動更新</p>
       </div>
     </div>
-    <div class="flex items-center gap-2">
-      <span class="hidden md:inline-flex items-center gap-1.5 text-xs text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full">
-        <span>💡</span> 下線付きの単語をクリックで英仏同時ハイライト
-      </span>
+
+    <!-- ナビゲーション：バックナンバー切替 & お気に入り/単語帳 -->
+    <div class="flex items-center gap-2 flex-wrap">
+      <select id="archive-select" onchange="loadArchiveByDate(this.value)" class="text-xs bg-slate-50 border border-slate-300 text-slate-700 rounded-lg px-2.5 py-1.5 font-medium focus:outline-none focus:border-indigo-500">
+        <option value="latest">📅 最新号 (Today)</option>
+      </select>
+      <button onclick="openLibraryModal('articles')" class="text-xs bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 px-3 py-1.5 rounded-lg font-semibold flex items-center gap-1 transition">
+        <span>⭐ お気に入り記事</span>
+        <span id="fav-article-count" class="bg-amber-200/80 text-amber-900 px-1.5 rounded-full text-[10px]">0</span>
+      </button>
+      <button onclick="openLibraryModal('words')" class="text-xs bg-indigo-50 hover:bg-indigo-100 text-indigo-800 border border-indigo-200 px-3 py-1.5 rounded-lg font-semibold flex items-center gap-1 transition">
+        <span>🔖 単語帳</span>
+        <span id="fav-word-count" class="bg-indigo-200/80 text-indigo-900 px-1.5 rounded-full text-[10px]">0</span>
+      </button>
     </div>
   </div>
 </header>
@@ -50,9 +60,12 @@
       <a id="source-link" href="#" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-1.5 font-semibold text-slate-700 hover:text-indigo-600 bg-slate-50 hover:bg-indigo-50 px-3 py-1.5 rounded-lg border border-slate-200 hover:border-indigo-300 transition-all">
         <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
         <span>Source: <span id="source-name" class="underline decoration-slate-300 group-hover:decoration-indigo-500 underline-offset-2"></span></span>
-        <span class="text-[10px] text-indigo-600 font-normal ml-1">原文記事を開く ↗</span>
+        <span class="text-[10px] text-indigo-600 font-normal ml-1">引用元の元記事に直接飛ぶ ↗</span>
       </a>
-      <span class="text-slate-400">毎日4分野（軍事・テクノロジー・環境・経済）からランダム選出</span>
+      <button id="btn-fav-article" onclick="toggleFavoriteArticle()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-amber-50 text-slate-700 font-semibold transition">
+        <span id="fav-article-icon">☆</span>
+        <span id="fav-article-label">この記事をお気に入りに保存</span>
+      </button>
     </div>
     <h2 id="title-en" class="text-xl sm:text-2xl font-bold text-slate-900 leading-snug mb-1"></h2>
     <p id="title-fr" class="text-sm sm:text-base text-slate-500 font-medium"></p>
@@ -60,20 +73,18 @@
 
   <!-- 2カラム対訳リーダー -->
   <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-    <!-- 左：英語原文 -->
     <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
       <div class="px-5 py-3.5 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
         <div class="flex items-center gap-2">
           <span class="text-base">🇬🇧</span>
           <span class="font-bold text-sm text-slate-800">English Original</span>
-          <span class="text-[11px] bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded font-medium">✓ 原文完全一致</span>
+          <span id="para-count-badge" class="text-[11px] bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded font-medium">✓ 原文完全一致</span>
         </div>
         <button onclick="speakFull('en')" class="text-xs bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 px-2.5 py-1 rounded-md flex items-center gap-1 transition">🔊 英語音声</button>
       </div>
       <div id="en-article-body" class="p-5 sm:p-6 article-serif text-slate-800 text-[15px] sm:text-base space-y-4 flex-1"></div>
     </div>
 
-    <!-- 右：フランス語対訳 -->
     <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
       <div class="px-5 py-3 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-2">
         <div class="flex items-center gap-2">
@@ -93,7 +104,7 @@
     </div>
   </section>
 
-  <!-- 1. 重要イディオム・学術/報道表現の解説（1列・横長カード） -->
+  <!-- 1. 重要イディオム・学術/報道表現の解説 -->
   <section class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 sm:p-6">
     <div class="flex items-center gap-2.5 mb-5">
       <span class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-sm">1</span>
@@ -149,20 +160,35 @@
   </section>
 </main>
 
-<!-- Loading / Error State -->
 <div id="loading-state" class="max-w-xl mx-auto mt-20 p-8 bg-white rounded-2xl border border-slate-200 text-center shadow-sm">
-  <p class="text-slate-700 font-bold mb-2">今日のバイリンガル記事を読み込み中...</p>
-  <p class="text-xs text-slate-500">※初回公開直後は、GitHub Actionsの「Run workflow」を実行すると記事が生成されます。</p>
+  <p class="text-slate-700 font-bold mb-2">バイリンガル記事を読み込み中...</p>
+</div>
+
+<!-- お気に入り記事 & 単語帳モーダル -->
+<div id="library-modal" class="hidden fixed inset-0 bg-slate-900/60 z-50 flex items-center justify-center p-4">
+  <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+    <div class="px-6 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <button id="tab-articles" onclick="switchLibraryTab('articles')" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-100 text-amber-900">⭐ お気に入り記事</button>
+        <button id="tab-words" onclick="switchLibraryTab('words')" class="px-3 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:bg-slate-200">🔖 マイ単語帳</button>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="btn-export-csv" onclick="exportWordsCSV()" class="hidden text-xs bg-emerald-600 hover:bg-emerald-700 text-white px-3 py-1.5 rounded-lg font-semibold">CSV保存</button>
+        <button onclick="closeLibraryModal()" class="text-slate-400 hover:text-slate-700 text-lg font-bold px-2">✕</button>
+      </div>
+    </div>
+    <div id="library-body" class="p-6 overflow-y-auto space-y-3 flex-1"></div>
+  </div>
 </div>
 
 <!-- 画面下部固定：単語インスペクターバー -->
-<div id="word-inspector" class="fixed bottom-0 inset-x-0 bg-slate-900 text-white border-t border-slate-700 shadow-2xl z-40 transform transition-transform duration-200">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+<div id="word-inspector" class="fixed bottom-0 inset-x-0 bg-slate-900 text-white border-t border-slate-700 shadow-2xl z-40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
     <div id="inspector-empty" class="text-sm text-slate-400 flex items-center gap-2 py-1">
-      <span class="text-amber-400">👆</span> 記事中の<strong>下線付き単語</strong>をクリックすると、英仏同時ハイライト＆日本語訳・語源ヒントが表示されます。
+      <span class="text-amber-400">👆</span> 記事中の<strong>下線付き単語</strong>をクリックすると、英仏同時ハイライト＆日本語訳・単語帳保存ができます。
     </div>
     <div id="inspector-content" class="hidden flex-1 grid grid-cols-1 sm:grid-cols-12 gap-3 items-center">
-      <div class="sm:col-span-5 flex items-center gap-2.5 flex-wrap">
+      <div class="sm:col-span-5 flex items-center gap-2 flex-wrap">
         <div class="flex items-center gap-1.5 bg-slate-800 px-2.5 py-1.5 rounded-lg border border-slate-700">
           <span class="text-xs">🇬🇧</span>
           <span id="insp-en" class="font-bold text-amber-300 text-sm"></span>
@@ -184,7 +210,10 @@
           </div>
           <p id="insp-note" class="text-xs text-slate-300 mt-0.5"></p>
         </div>
-        <button onclick="clearSelection()" class="self-end sm:self-center text-xs text-slate-400 hover:text-white px-2 py-1">✕</button>
+        <div class="flex items-center gap-2 self-end sm:self-center">
+          <button id="btn-save-word" onclick="toggleSaveCurrentWord()" class="text-xs bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-3 py-1.5 rounded-lg transition whitespace-nowrap">＋ 単語帳に保存</button>
+          <button onclick="clearSelection()" class="text-xs text-slate-400 hover:text-white px-2 py-1">✕</button>
+        </div>
       </div>
     </div>
   </div>
@@ -195,11 +224,46 @@ let appData = null;
 let currentFrLevel = 'a2';
 let activeWordId = null;
 
+// LocalStorage 管理
+function getFavArticles() { return JSON.parse(localStorage.getItem('lb_fav_articles') || '[]'); }
+function setFavArticles(arr) { localStorage.setItem('lb_fav_articles', JSON.stringify(arr)); updateCounts(); }
+function getFavWords() { return JSON.parse(localStorage.getItem('lb_fav_words') || '[]'); }
+function setFavWords(arr) { localStorage.setItem('lb_fav_words', JSON.stringify(arr)); updateCounts(); }
+
+function updateCounts() {
+  document.getElementById('fav-article-count').textContent = getFavArticles().length;
+  document.getElementById('fav-word-count').textContent = getFavWords().length;
+}
+
 async function initApp() {
+  updateCounts();
+  await loadArchiveIndex();
+  await loadArticleFromUrl('data/latest.json?t=' + Date.now());
+}
+
+async function loadArchiveIndex() {
   try {
-    const res = await fetch('data/latest.json?t=' + Date.now());
+    const res = await fetch('data/index.json?t=' + Date.now());
+    if (!res.ok) return;
+    const list = await res.json();
+    const sel = document.getElementById('archive-select');
+    sel.innerHTML = `<option value="latest">📅 最新号 (Today)</option>` + list.map(item =>
+      `<option value="${item.date}">${item.date} [${item.category}] ${item.title_en.slice(0, 32)}...</option>`
+    ).join('');
+  } catch (e) {}
+}
+
+async function loadArchiveByDate(val) {
+  const path = val === 'latest' ? 'data/latest.json?t=' + Date.now() : `data/archive/${val}.json`;
+  await loadArticleFromUrl(path);
+}
+
+async function loadArticleFromUrl(url) {
+  try {
+    const res = await fetch(url);
     if (!res.ok) throw new Error("Not found");
     appData = await res.json();
+    clearSelection();
     renderAll();
     document.getElementById('loading-state').classList.add('hidden');
     document.getElementById('app-content').classList.remove('hidden');
@@ -216,9 +280,39 @@ function renderAll() {
   document.getElementById('source-link').href = appData.url;
   document.getElementById('title-en').textContent = L.title_en;
   document.getElementById('title-fr').textContent = L.title_fr;
+  document.getElementById('para-count-badge').textContent = `✓ 原文完全一致 (${L.paragraphs.length}段落)`;
 
+  updateFavArticleButton();
   renderArticles();
   renderLearningBlocks();
+}
+
+function updateFavArticleButton() {
+  const exists = getFavArticles().some(a => a.url === appData.url && a.date === appData.date);
+  const icon = document.getElementById('fav-article-icon');
+  const label = document.getElementById('fav-article-label');
+  const btn = document.getElementById('btn-fav-article');
+  if (exists) {
+    icon.textContent = '★';
+    label.textContent = 'お気に入り保存済み';
+    btn.className = "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-amber-300 bg-amber-50 text-amber-800 font-semibold transition";
+  } else {
+    icon.textContent = '☆';
+    label.textContent = 'この記事をお気に入りに保存';
+    btn.className = "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-amber-50 text-slate-700 font-semibold transition";
+  }
+}
+
+function toggleFavoriteArticle() {
+  let list = getFavArticles();
+  const idx = list.findIndex(a => a.url === appData.url && a.date === appData.date);
+  if (idx >= 0) {
+    list.splice(idx, 1);
+  } else {
+    list.unshift(appData);
+  }
+  setFavArticles(list);
+  updateFavArticleButton();
 }
 
 function renderArticles() {
@@ -263,6 +357,33 @@ function selectWord(id) {
   document.getElementById('insp-cognate').textContent = data.cognate;
   document.getElementById('insp-ja').textContent = data.ja;
   document.getElementById('insp-note').textContent = data.note;
+  updateSaveWordButton(data);
+}
+
+function updateSaveWordButton(data) {
+  const exists = getFavWords().some(w => w.en === data.en && w.fr === data.fr);
+  const btn = document.getElementById('btn-save-word');
+  if (exists) {
+    btn.textContent = '✓ 単語帳に登録済み';
+    btn.className = "text-xs bg-emerald-600 text-white font-semibold px-3 py-1.5 rounded-lg transition whitespace-nowrap";
+  } else {
+    btn.textContent = '＋ 単語帳に保存';
+    btn.className = "text-xs bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-3 py-1.5 rounded-lg transition whitespace-nowrap";
+  }
+}
+
+function toggleSaveCurrentWord() {
+  if (!activeWordId) return;
+  const data = appData.lesson.vocab[activeWordId];
+  let words = getFavWords();
+  const idx = words.findIndex(w => w.en === data.en && w.fr === data.fr);
+  if (idx >= 0) {
+    words.splice(idx, 1);
+  } else {
+    words.unshift({ ...data, date: appData.date, source: appData.source });
+  }
+  setFavWords(words);
+  updateSaveWordButton(data);
 }
 
 function applyHighlight(id) {
@@ -278,9 +399,96 @@ function clearSelection() {
   document.getElementById('inspector-empty').classList.remove('hidden');
 }
 
+// モーダル（お気に入り記事 & 単語帳）
+function openLibraryModal(tab) {
+  document.getElementById('library-modal').classList.remove('hidden');
+  switchLibraryTab(tab);
+}
+function closeLibraryModal() {
+  document.getElementById('library-modal').classList.add('hidden');
+}
+function switchLibraryTab(tab) {
+  const body = document.getElementById('library-body');
+  const csvBtn = document.getElementById('btn-export-csv');
+  if (tab === 'articles') {
+    document.getElementById('tab-articles').className = "px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-100 text-amber-900";
+    document.getElementById('tab-words').className = "px-3 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:bg-slate-200";
+    csvBtn.classList.add('hidden');
+    const list = getFavArticles();
+    if (!list.length) {
+      body.innerHTML = `<p class="text-sm text-slate-500 text-center py-8">まだお気に入り保存された記事はありません。</p>`;
+      return;
+    }
+    body.innerHTML = list.map((item, idx) => `
+      <div class="p-4 rounded-xl border border-slate-200 hover:border-indigo-300 flex items-center justify-between gap-3">
+        <div>
+          <div class="text-xs text-slate-500 mb-1">${item.date} • ${item.category} • ${item.source}</div>
+          <div class="font-bold text-sm text-slate-900">${item.lesson.title_en}</div>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <button onclick="loadSavedArticle(${idx})" class="text-xs bg-indigo-600 text-white px-3 py-1.5 rounded-lg font-semibold">読む</button>
+          <button onclick="deleteSavedArticle(${idx})" class="text-xs text-rose-600 hover:bg-rose-50 px-2 py-1.5 rounded-lg">削除</button>
+        </div>
+      </div>
+    `).join('');
+  } else {
+    document.getElementById('tab-words').className = "px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-900";
+    document.getElementById('tab-articles').className = "px-3 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:bg-slate-200";
+    csvBtn.classList.remove('hidden');
+    const words = getFavWords();
+    if (!words.length) {
+      body.innerHTML = `<p class="text-sm text-slate-500 text-center py-8">まだ単語帳に保存された単語はありません。記事中の単語をクリックして「＋ 単語帳に保存」を押してください。</p>`;
+      return;
+    }
+    body.innerHTML = words.map((w, idx) => `
+      <div class="p-3.5 rounded-xl border border-slate-200 flex items-center justify-between gap-3">
+        <div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="font-bold text-indigo-900 text-sm">🇬🇧 ${w.en}</span>
+            <span class="text-slate-400 text-xs">⇄</span>
+            <span class="font-bold text-sky-800 text-sm">🇫🇷 ${w.fr}</span>
+            <span class="text-[11px] bg-slate-100 px-2 py-0.5 rounded text-slate-600">${w.pos}</span>
+          </div>
+          <div class="text-xs font-bold text-slate-800 mt-1">${w.ja} <span class="font-normal text-slate-500">（${w.note}）</span></div>
+        </div>
+        <button onclick="deleteSavedWord(${idx})" class="text-xs text-rose-600 hover:bg-rose-50 px-2 py-1 rounded">削除</button>
+      </div>
+    `).join('');
+  }
+}
+
+function loadSavedArticle(idx) {
+  appData = getFavArticles()[idx];
+  closeLibraryModal();
+  renderAll();
+}
+function deleteSavedArticle(idx) {
+  const list = getFavArticles();
+  list.splice(idx, 1);
+  setFavArticles(list);
+  switchLibraryTab('articles');
+  updateFavArticleButton();
+}
+function deleteSavedWord(idx) {
+  const words = getFavWords();
+  words.splice(idx, 1);
+  setFavWords(words);
+  switchLibraryTab('words');
+}
+function exportWordsCSV() {
+  const words = getFavWords();
+  if (!words.length) return;
+  const header = "English,French,POS,Lemma,Japanese,Note,Date\n";
+  const rows = words.map(w => [w.en, w.fr, w.pos, w.lemma, w.ja, w.note, w.date].map(v => `"${(v||'').replace(/"/g, '""')}"`).join(',')).join('\n');
+  const blob = new Blob(["\uFEFF" + header + rows], { type: 'text/csv;charset=utf-8;' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `lingobrief_vocab_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+}
+
 function renderLearningBlocks() {
   const L = appData.lesson;
-  // 1. Expressions (1列横長)
   document.getElementById('expressions-list').innerHTML = L.expressions.map(item => `
     <div class="rounded-xl border border-slate-200 bg-slate-50/70 p-4 sm:p-5 hover:border-indigo-300 transition flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6">
       <div class="lg:w-5/12 space-y-2 border-b lg:border-b-0 lg:border-r border-slate-200 pb-3 lg:pb-0 lg:pr-5">
@@ -299,7 +507,6 @@ function renderLearningBlocks() {
     </div>
   `).join('');
 
-  // 2. Slash Reading
   document.getElementById('slash-reading-list').innerHTML = L.slash_reading.map((sr, idx) => `
     <div class="rounded-xl border border-slate-200 p-4 bg-slate-50/50 space-y-3">
       <div class="text-xs font-semibold text-slate-400">例文 ${idx + 1}</div>
@@ -316,7 +523,6 @@ function renderLearningBlocks() {
     </div>
   `).join('');
 
-  // 3. Travel Conversion
   document.getElementById('travel-conversion-list').innerHTML = L.travel_apps.map(tc => `
     <div class="rounded-xl border border-slate-200 p-4 bg-slate-50/50 space-y-2.5">
       <div class="flex items-center justify-between text-xs">
@@ -334,7 +540,6 @@ function renderLearningBlocks() {
     </div>
   `).join('');
 
-  // 4. Quiz
   const q = L.quiz;
   document.getElementById('quiz-container').innerHTML = `
     <div class="rounded-xl border border-slate-200 p-4 flex flex-col justify-between bg-slate-50/50">
