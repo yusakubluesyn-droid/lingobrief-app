@@ -1,0 +1,401 @@
+{
+  "date": "2026-11-24",
+  "category": "Military & Geopolitics",
+  "source": "Al Jazeera",
+  "url": "https://www.aljazeera.com/news/2026/11/24/us-army-says-detonation-of-lead-explosives-in-iowa-will-proceed?traffic_source=rss",
+  "lesson": {
+    "title_en": "US army says detonation of lead explosives in Iowa will proceed",
+    "title_fr": "L'armée américaine affirme que la détonation d'explosifs au plomb en Iowa aura lieu",
+    "vocab": {
+      "w1": {
+        "en": "public outcry",
+        "fr": "tollé",
+        "pos": "名詞",
+        "lemma": "tollé",
+        "cognate": "なし",
+        "ja": "世論の猛反発、公衆の抗議",
+        "note": "社会的な強い反発や憤りを指す表現。フランス語の「tollé」も同様に強い世論の批判を表します。"
+      },
+      "w2": {
+        "en": "detonations",
+        "fr": "détonations",
+        "pos": "名詞",
+        "lemma": "détonation",
+        "cognate": "detonation（同源）",
+        "ja": "爆発、爆破",
+        "note": "爆薬などが急速に爆発する現象を指す専門的・公式な表現です。"
+      },
+      "w3": {
+        "en": "proceed with",
+        "fr": "poursuivre",
+        "pos": "動詞句",
+        "lemma": "poursuivre",
+        "cognate": "proceed（ラテン語 procedere 由来の類縁関係）",
+        "ja": "〜を推進する、進める",
+        "note": "計画や手続きを予定通り継続して進めることを意味します。"
+      },
+      "w4": {
+        "en": "deteriorating",
+        "fr": "en dégradation",
+        "pos": "形容詞/分詞",
+        "lemma": "détériorer",
+        "cognate": "deteriorate / détériorer",
+        "ja": "劣化している、悪化している",
+        "note": "品質や保存状態が徐々に低下・劣化している状態を表します。"
+      },
+      "w5": {
+        "en": "stockpile",
+        "fr": "réserve",
+        "pos": "名詞",
+        "lemma": "réserve",
+        "cognate": "なし",
+        "ja": "備蓄、貯蔵量",
+        "note": "軍事物資や資源などの大量の蓄積・蓄えを意味します。"
+      },
+      "w6": {
+        "en": "clearance",
+        "fr": "feu vert",
+        "pos": "名詞",
+        "lemma": "feu vert",
+        "cognate": "clear / clair",
+        "ja": "許可、承認、ゴーサイン",
+        "note": "司法や行政機関による正式な処分許可や承認を指します。フランス語では「feu vert（青信号）」もよく用いられます。"
+      },
+      "w7": {
+        "en": "consensus",
+        "fr": "consensus",
+        "pos": "名詞",
+        "lemma": "consensus",
+        "cognate": "consensus（英仏同一）",
+        "ja": "合意、意見の一致",
+        "note": "ラテン語由来で、関係機関や当事者全員の意見が一致している状態を示します。"
+      },
+      "w8": {
+        "en": "filed suit",
+        "fr": "ont porté plainte",
+        "pos": "動詞句",
+        "lemma": "porter plainte",
+        "cognate": "なし",
+        "ja": "訴訟を起こした",
+        "note": "法的手続きとして裁判所に提訴することを指す法的表現です。"
+      },
+      "w9": {
+        "en": "likelihood",
+        "fr": "probabilité",
+        "pos": "名詞",
+        "lemma": "probabilité",
+        "cognate": "probability",
+        "ja": "可能性、見込み",
+        "note": "ある事象が実際に発生する確率や高まりを意味します。"
+      },
+      "w10": {
+        "en": "plume",
+        "fr": "panache",
+        "pos": "名詞",
+        "lemma": "panache",
+        "cognate": "plume（英語でも羽毛や煙雲の意味で借用される）",
+        "ja": "立ち上る煙・粉塵の雲",
+        "note": "爆発や火災によって空中に放射状・柱状に広がる煙や粉塵の塊を指します。"
+      },
+      "w30": {
+        "en": "detonation",
+        "fr": "détonation",
+        "pos": "名詞",
+        "lemma": "détonation",
+        "cognate": "英語の detonation と同語源（ラテン語 dētonāre より）。",
+        "ja": "爆破、起爆",
+        "note": "controlled detonation で「制御爆破」を意味します。"
+      },
+      "w31": {
+        "en": "volatile",
+        "fr": "volatile",
+        "pos": "形容詞",
+        "lemma": "volatile",
+        "cognate": "英語の volatile と綴り・意味ともにほぼ同じ（ラテン語 volatilis より）。",
+        "ja": "揮発性の、不安定な",
+        "note": "化学物質の「揮発性」だけでなく、情勢などが「不安定な」という意味でも用いられます。"
+      },
+      "w32": {
+        "en": "temporary stay",
+        "fr": "suspension provisoire",
+        "pos": "名詞句",
+        "lemma": "suspension provisoire",
+        "cognate": "フランス語の suspension は英語の suspension と同根。",
+        "ja": "一時停止命令、仮差し止め",
+        "note": "法的手続きにおいて判決が出るまで効力を一時的に止める措置を指します。"
+      },
+      "w33": {
+        "en": "exemption",
+        "fr": "dérogation",
+        "pos": "名詞",
+        "lemma": "dérogation",
+        "cognate": "フランス語にも exemption が存在しますが、法律の「適用除外・特例」には dérogation もよく使われます。",
+        "ja": "適用除外、免除、特例",
+        "note": "emergency exemption で「緊急特例措置」を意味します。"
+      },
+      "w34": {
+        "en": "twist",
+        "fr": "rebondissement",
+        "pos": "名詞",
+        "lemma": "rebondissement",
+        "cognate": "英語の twist（急展開）に相当するフランス語報道語彙が rebondissement（跳ね返り→急展開）。",
+        "ja": "予期せぬ展開、急展開",
+        "note": "ニュースや物語の「どんでん返し」を表現する際によく使われます。"
+      },
+      "w35": {
+        "en": "weighed in on",
+        "fr": "est intervenu dans",
+        "pos": "動詞句",
+        "lemma": "intervenir",
+        "cognate": "英語の intervene とフランス語の intervenir は同語源。",
+        "ja": "〜に介入した、〜に意見を述べた",
+        "note": "weigh in (on) は討論や争いに割り込んで強い意見を述べたり介入したりすることを表します。"
+      },
+      "w36": {
+        "en": "edict",
+        "fr": "décret",
+        "pos": "名詞",
+        "lemma": "décret",
+        "cognate": "フランス語の édit（勅令）と同語源ですが、現代の行政命令には décret が用いられます。",
+        "ja": "布告、命令、大統領令",
+        "note": "権力者による一方的な指示・命令を指す語です。"
+      },
+      "w37": {
+        "en": "sided with",
+        "fr": "s'est rangé du côté de",
+        "pos": "動詞句",
+        "lemma": "se ranger du côté de",
+        "cognate": "なし",
+        "ja": "〜の側に立った、〜の味方をした",
+        "note": "裁判などで一方の訴えや主張を支持した際によく使われる表現です。"
+      }
+    },
+    "paragraphs": [
+      {
+        "en_tagged": "<w id='w1'>Public outcry</w> led to a legal battle when details surfaced of the plans to conduct two controlled <w id='w2'>detonations</w>.",
+        "fr_b2_tagged": "Un <w id='w1'>tollé</w> a déclenché une bataille juridique lorsque les détails du projet prévoyant deux <w id='w2'>détonations</w> contrôlées ont fait surface.",
+        "fr_a2_tagged": "Un grand <w id='w1'>mécontentement</w> a provoqué un procès quand on a appris le plan de faire deux <w id='w2'>explosions</w> contrôlées."
+      },
+      {
+        "en_tagged": "The United States military will <w id='w3'>proceed with</w> its plan to blow up a <w id='w4'>deteriorating</w> <w id='w5'>stockpile</w> of toxic lead explosives in rural Iowa, according to the army’s top civilian official, after a federal appeals court gave <w id='w6'>clearance</w> to the waste disposal operation.",
+        "fr_b2_tagged": "L'armée américaine va <w id='w3'>poursuivre</w> son plan visant à faire exploser une <w id='w5'>réserve</w> <w id='w4'>en dégradation</w> d'explosifs au plomb toxique dans l'Iowa rural, selon le plus haut responsable civil de l'armée, après qu'une cour d'appel fédérale a donné son <w id='w6'>feu vert</w> à l'opération d'élimination des déchets.",
+        "fr_a2_tagged": "L'armée américaine va <w id='w3'>continuer</w> son plan pour détruire une <w id='w5'>réserve</w> d'explosifs <w id='w4'>abîmés</w> dans l'Iowa, après l'accord (<w id='w6'>autorisation</w>) d'un tribunal."
+      },
+      {
+        "en_tagged": "In an announcement late Monday on X, Acting Army Secretary Adam Telle called the choice to move forward a “<w id='w7'>consensus</w> decision” among all the federal agencies involved, as well as the courts and state officials.",
+        "fr_b2_tagged": "Dans une annonce publiée lundi soir sur X, le secrétaire par intérim à l'Armée, Adam Telle, a qualifié la décision d'aller de l'avant de « décision de <w id='w7'>consensus</w> » entre toutes les agences fédérales concernées, les tribunaux et les responsables de l'État.",
+        "fr_a2_tagged": "Lundi soir sur X, Adam Telle a dit que la décision d'avancer était un <w id='w7'>consensus</w> entre toutes les agences, les juges et l'État."
+      },
+      {
+        "en_tagged": "“Every expert agency agrees, and both Iowa’s current and incoming governors say the call belongs to the experts,” Telle said.",
+        "fr_b2_tagged": "« Toutes les agences d'experts sont d'accord, et les gouverneurs actuel et élu de l'Iowa affirment que la décision revient aux experts », a déclaré Telle.",
+        "fr_a2_tagged": "« Tous les experts sont d'accord, et les gouverneurs de l'Iowa disent que c'est aux experts de décider », a dit Telle."
+      },
+      {
+        "en_tagged": "“We are proceeding with the controlled removal in full coordination with all state, local and federal authorities.”",
+        "fr_b2_tagged": "« Nous poursuivons l'élimination contrôlée en pleine coordination avec toutes les autorités locales, d'État et fédérales. »",
+        "fr_a2_tagged": "« Nous continuons la suppression contrôlée avec l'aide de toutes les autorités. »"
+      },
+      {
+        "en_tagged": "The Army prompted a <w id='w1'>public outcry</w> last week when details surfaced of its plan to conduct two controlled <w id='w2'>detonations</w> of 68 drums containing almost 4,500kg (10,000lb) of degraded lead azide, a chemical used in munitions, at the Iowa Army Ammunition Plant in Middletown, Iowa.",
+        "fr_b2_tagged": "L'armée a suscité un <w id='w1'>tollé</w> la semaine dernière lorsque des détails ont émergé concernant son plan d'effectuer deux <w id='w2'>détonations</w> contrôlées de 68 fûts contenant près de 4 500 kg d'azoture de plomb dégradé, un produit chimique utilisé dans les munitions, à l'usine de munitions de l'armée de l'Iowa à Middletown.",
+        "fr_a2_tagged": "L'armée a provoqué un grand <w id='w1'>mécontentement</w> la semaine dernière avec son projet de faire deux <w id='w2'>explosions</w> contrôlées de 68 bidons de produits chimiques dangereux dans une usine de l'Iowa."
+      },
+      {
+        "en_tagged": "Environmental groups immediately <w id='w8'>filed suit</w> to block the plan, raising public safety concerns over the <w id='w9'>likelihood</w> that the explosions would release a <w id='w10'>plume</w> of toxic lead dust over homes, crops and livestock far beyond the detonation site, about 240km (150 miles) southeast of Des Moines.",
+        "fr_b2_tagged": "Des groupes écologistes ont immédiatement <w id='w8'>porté plainte</w> pour bloquer le projet, soulevant des inquiétudes quant à la <w id='w9'>probabilité</w> que les explosions libèrent un <w id='w10'>panache</w> de poussière de plomb toxique sur les habitations, les cultures et le bétail, bien au-delà du site de détonation, à environ 240 km au sud-est de Des Moines.",
+        "fr_a2_tagged": "Des groupes d'écologistes ont <w id='w8'>attaqué en justice</w> pour stopper le plan. Ils ont peur de la <w id='w9'>possibilité</w> qu'un grand <w id='w10'>nuage</w> de poussière toxique touche les maisons et les fermes."
+      },
+      {
+        "en_tagged": "The lawsuit challenged a special permit granted for the operation by the Environmental Protection Agency (EPA).",
+        "fr_b2_tagged": "La poursuite judiciaire a contesté un permis spécial accordé pour l'opération par l'Agence de protection de l'environnement (EPA).",
+        "fr_a2_tagged": "La plainte a attaqué un permis spécial donné pour l'opération par l'Agence de protection de l'environnement (EPA)."
+      },
+      {
+        "en_tagged": "The EPA countered that a managed <w id='w30'>detonation</w> would be far less risky than an uncontrolled, spontaneous explosion of the highly <w id='w31'>volatile</w> material, a scenario the agency said was growing more likely as the weather turns colder in Iowa.",
+        "fr_b2_tagged": "L'EPA a répliqué qu'une <w id='w30'>détonation</w> contrôlée serait bien moins risquée qu'une explosion spontanée et incontrôlée de cette matière très <w id='w31'>volatile</w>, un scénario qui, selon l'agence, devenait plus probable avec le refroidissement du temps dans l'Iowa.",
+        "fr_a2_tagged": "L'EPA a répondu qu'une <w id='w30'>détonation</w> contrôlée était moins dangereuse qu'une explosion soudaine de ce produit très <w id='w31'>volatile</w>. L'agence a dit que ce risque augmentait avec le froid dans l'Iowa."
+      },
+      {
+        "en_tagged": "According to the EPA, any attempt to chemically neutralise or relocate the storage drums would also risk an uncontrolled blast.",
+        "fr_b2_tagged": "Selon l'EPA, toute tentative de neutraliser chimiquement ou de déplacer les fûts de stockage risquerait également de provoquer une explosion incontrôlée.",
+        "fr_a2_tagged": "Selon l'EPA, essayer de neutraliser avec des produits chimiques ou de déplacer les bidons risquerait aussi de causer une explosion."
+      },
+      {
+        "en_tagged": "A three-judge panel of the 8th US Circuit Court of Appeals last Thursday issued a <w id='w32'>temporary stay</w> blocking the EPA’s permit while the court more thoroughly reviewed the case.",
+        "fr_b2_tagged": "Un collège de trois juges de la 8e cour d'appel fédérale des États-Unis a accordé jeudi dernier une <w id='w32'>suspension provisoire</w> bloquant le permis de l'EPA pendant que la cour réexaminait l'affaire plus en détail.",
+        "fr_a2_tagged": "Jeudi dernier, trois juges de la cour d'appel ont décidé une <w id='w32'>suspension provisoire</w>. Cela bloque le permis de l'EPA pendant que les juges étudient le dossier."
+      },
+      {
+        "en_tagged": "But Trump administration lawyers filed a legal notice two days later asserting that the Army intended to carry out the controlled detonation with or without court approval, citing an emergency <w id='w33'>exemption</w> to federal environmental laws.",
+        "fr_b2_tagged": "Mais les avocats de l'administration Trump ont déposé un avis juridique deux jours plus tard, affirmant que l'armée avait l'intention d'effectuer la détonation contrôlée avec ou sans l'accord du tribunal, en invoquant une <w id='w33'>dérogation</w> d'urgence aux lois environnementales fédérales.",
+        "fr_a2_tagged": "Mais deux jours plus tard, les avocats de Trump ont écrit une note. Ils ont dit que l'armée voulait faire la détonation avec ou sans l'accord du tribunal, en utilisant une <w id='w33'>dérogation</w> d'urgence."
+      },
+      {
+        "en_tagged": "Then, in another <w id='w34'>twist</w> on Monday, US President Donald Trump <w id='w35'>weighed in on</w> the controversy, ordering the Army to hold off on its disposal plan until the appeals court had ruled in its favour.",
+        "fr_b2_tagged": "Puis, dans un autre <w id='w34'>rebondissement</w> lundi, le président américain Donald Trump <w id='w35'>est intervenu dans</w> la controverse, ordonnant à l'armée de suspendre son plan d'élimination jusqu'à ce que la cour d'appel ait statué en sa faveur.",
+        "fr_a2_tagged": "Puis, dans un nouveau <w id='w34'>rebondissement</w> lundi, le président Donald Trump <w id='w35'>est intervenu dans</w> la discussion. Il a demandé à l'armée d'attendre la décision de la cour d'appel."
+      },
+      {
+        "en_tagged": "Hours after Trump’s <w id='w36'>edict</w> on Monday pausing the army’s demolition plan, the 8th Circuit <w id='w37'>sided with</w> the EPA and lifted the court’s earlier stay, removing the final legal obstacle. But the status of the detonation plan remained unclear until Telle’s announcement on Monday night.",
+        "fr_b2_tagged": "Quelques heures après le <w id='w36'>décret</w> de Trump lundi suspendant le plan de démolition de l'armée, la 8e cour d'appel <w id='w37'>s'est rangée du côté de</w> l'EPA et a levé le sursis antérieur du tribunal, éliminant le dernier obstacle juridique. Mais le statut du plan de détonation est resté incertain jusqu'à l'annonce de Telle lundi soir.",
+        "fr_a2_tagged": "Quelques heures après l'<w id='w36'>ordre</w> de Trump lundi de stopper le plan, la cour d'appel <w id='w37'>s'est rangée du côté de</w> l'EPA. Elle a enlevé la suspension. Mais le plan de détonation restait flou jusqu'à l'annonce de Telle lundi soir."
+      }
+    ],
+    "expressions": [
+      {
+        "en_phrase": "proceed with",
+        "academic_alt": "carry out / execute",
+        "fr_phrase": "procéder à",
+        "cognate_hint": "英語の proceed とフランス語の procéder は同語源（ラテン語 procedere 「前進する」）。",
+        "ja_explanation": "「〜を進める」「〜を執り行う」という意味の重要熟語。計画や手続きを予定通り実行する際に使われます。学術文脈では execute や carry out に言い換え可能です。"
+      },
+      {
+        "en_phrase": "prompt a public outcry",
+        "academic_alt": "elicit widespread public condemnation",
+        "fr_phrase": "susciter un tollé général",
+        "cognate_hint": "public（英）＝ public（仏）。outcry はフランス語で tollé（世論の反発）に相当します。",
+        "ja_explanation": "「世論の強い反発を引き起こす」という意味。prompt は「〜を誘発する（elicit/evoke）」という意味で、環境問題や軍事計画などのニュースで高頻出の表現です。"
+      },
+      {
+        "en_phrase": "weigh in on",
+        "academic_alt": "intervene in / express an authoritative opinion on",
+        "fr_phrase": "intervenir dans / se prononcer sur",
+        "cognate_hint": "フランス語の intervenir（介入する）は英語の intervene と同源同義です。",
+        "ja_explanation": "「（議論や論争に）介入する、意見を述べる」という意味の口語・報道表現。権威ある人物（大統領や専門家など）が議論に加わる際に好まれます。"
+      },
+      {
+        "en_phrase": "hold off on",
+        "academic_alt": "defer / suspend / postpone",
+        "fr_phrase": "suspendre / différer",
+        "cognate_hint": "フランス語の différer は英語の defer（延期する）や differ と同語源です。",
+        "ja_explanation": "「〜を保留する、延期する」という意味。決定や行動を一時的に止める状況を表します。論文やフォーマルな場では defer や suspend が用いられます。"
+      }
+    ],
+    "slash_reading": [
+      {
+        "fr_original": "L'armée américaine va procéder à la destruction contrôlée de matériels dangereux.",
+        "en_meaning": "The US army will proceed with the controlled destruction of dangerous materials.",
+        "ja_meaning": "米軍は危険物質の制御された破棄を進める予定です。",
+        "chunks": [
+          {
+            "role": "S",
+            "text": "L'armée américaine",
+            "note": "主語：アメリカ軍（女性名詞 armée ＋ 形容詞 américaine）"
+          },
+          {
+            "role": "V",
+            "text": "va procéder",
+            "note": "動詞：近接未来（aller + 不定詞「〜する予定である」）"
+          },
+          {
+            "role": "O",
+            "text": "à la destruction contrôlée",
+            "note": "目的語/前置詞句：制御された破棄へ（procéder à 〜）"
+          },
+          {
+            "role": "M",
+            "text": "de matériels dangereux",
+            "note": "修飾語：危険な物質の（de ＋ 複数名詞 ＋ 形容詞）"
+          }
+        ],
+        "verbs": [
+          {
+            "word": "va",
+            "lemma": "aller",
+            "tense": "直説法現在（近接未来の助動詞）",
+            "meaning": "〜しようとしている、〜する予定である"
+          },
+          {
+            "word": "procéder",
+            "lemma": "procéder",
+            "tense": "不定詞",
+            "meaning": "執り行う、着手する"
+          }
+        ]
+      },
+      {
+        "fr_original": "Les autorités locales ont demandé une évaluation des risques pour la sécurité.",
+        "en_meaning": "Local authorities requested a risk assessment for safety.",
+        "ja_meaning": "地方当局は安全のためのリスク評価を要請しました。",
+        "chunks": [
+          {
+            "role": "S",
+            "text": "Les autorités locales",
+            "note": "主語：地方当局（複数形）"
+          },
+          {
+            "role": "V",
+            "text": "ont demandé",
+            "note": "動詞：複合過去（avoir + 過去分詞「要求した」）"
+          },
+          {
+            "role": "O",
+            "text": "une évaluation des risques",
+            "note": "目的語：リスクの評価"
+          },
+          {
+            "role": "M",
+            "text": "pour la sécurité",
+            "note": "修飾語：安全のための（pour ＋ 前置詞句）"
+          }
+        ],
+        "verbs": [
+          {
+            "word": "ont demandé",
+            "lemma": "demander",
+            "tense": "複合過去",
+            "meaning": "要求した、尋ねた"
+          }
+        ]
+      }
+    ],
+    "travel_apps": [
+      {
+        "from_news_fr": "procéder à",
+        "from_news_ja": "〜を進める、手続きを行う",
+        "situation": "ホテルのレセプションでチェックインを行うとき",
+        "travel_fr": "Pouvez-vous procéder à l'enregistrement, s'il vous plaît ?",
+        "travel_ja": "チェックイン手続きを進めていただけますか？",
+        "tip": "「l'enregistrement」はチェックインやご乗車手続きを指します。丁寧かつ正確に手続きを頼みたい時に便利な表現です。"
+      },
+      {
+        "from_news_fr": "sécurité",
+        "from_news_ja": "安全、保安検査",
+        "situation": "空港や美術館の保安検査場の場所を聞くとき",
+        "travel_fr": "Où se trouve le contrôle de sécurité ?",
+        "travel_ja": "保安検査場はどこにありますか？",
+        "tip": "フランスの主要観光地や空港では「contrôle de sécurité（保安検査）」が必須です。場所を尋ねる「Où se trouve 〜 ?」と組み合わせて覚えましょう。"
+      }
+    ],
+    "quiz": {
+      "q1": {
+        "question": "Environmental group concerns led the court to temporarily _____ the disposal operation pending review.",
+        "options": [
+          "hold off on",
+          "proceed with",
+          "weigh in on",
+          "prompt for"
+        ],
+        "answer": 0,
+        "explanation": "「hold off on（〜を保留する・一時停止する）」が文脈に最も合致します。「court（裁判所）がレビューを待つ間、処分作業を一時停止させた」という意味になります。"
+      },
+      "q2": {
+        "question": "ニュース本文に関連するフランス語 'sécurité' の日本語の意味として最も適切なものはどれですか？",
+        "options": [
+          "許可",
+          "安全・保安",
+          "緊急事態",
+          "爆破"
+        ],
+        "answer": 1,
+        "explanation": "'sécurité' は英語の 'security' や 'safety' に相当する単語で、「安全」「保安」を意味します。"
+      },
+      "q3": {
+        "prompt": "環境リスクと安全措置を巡る議論について、本文の語彙（prompt / proceed with 等）を1つ以上使用して、英検准1級〜1級レベルの英文を1文作成してください。",
+        "model_answer": "The government's decision to proceed with the waste disposal operation prompted severe backlash from local residents concerned about environmental contamination.",
+        "notes": "「proceed with（〜を推し進める）」と「prompt severe backlash（強い反発を引き起こす）」を英検1級レベルの自然な学術的英作文に組み込んでいます。"
+      }
+    }
+  }
+}
