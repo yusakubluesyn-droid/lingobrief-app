@@ -1,0 +1,401 @@
+{
+  "date": "2026-11-25",
+  "category": "Military & Geopolitics",
+  "source": "Al Jazeera",
+  "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
+  "lesson": {
+    "title_en": "Colombian president blames ex-FARC rebels for car bomb blast",
+    "title_fr": "Le président colombien accuse les ex-rebelles des FARC d'un attentat à la voiture piégée",
+    "vocab": {
+      "w1": {
+        "en": "retaliation",
+        "fr": "représailles",
+        "pos": "名詞",
+        "lemma": "représailles",
+        "cognate": "英語 retaliation と同義。フランス語 représailles は repriser/reprendre（買い戻す・仕返す）に由来。",
+        "ja": "報復、仕返し",
+        "note": "in retaliation for/of 〜（〜への報復として）。フランス語では en représailles de... と表現します。"
+      },
+      "w2": {
+        "en": "targeting",
+        "fr": "visant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "viser",
+        "cognate": "英語 target, フランス語 viser（狙いを定める）。",
+        "ja": "〜を標的とした、〜を対象とする",
+        "note": "target A = Aを標的にする。フランス語 viser は直接目的語をとって「〜を狙う」を意味します。"
+      },
+      "w3": {
+        "en": "plotting",
+        "fr": "fomentant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "fomenter",
+        "cognate": "英語 plot, フランス語 fomenter / comploter（陰謀を企てる）。",
+        "ja": "（陰謀・テロなどを）企てている、策動している",
+        "note": "accuse A of plotting B = AがBを企てたと糾弾する。"
+      },
+      "w4": {
+        "en": "dissidents",
+        "fr": "dissidents",
+        "pos": "名詞",
+        "lemma": "dissident",
+        "cognate": "英・仏同型 dissident (ラテン語 dissidere「反目する・離れて座る」由来)。",
+        "ja": "脱退派、反乱分子、異論者",
+        "note": "和平協定や組織の決定に従わず離脱した派閥を指す言葉です。"
+      },
+      "w5": {
+        "en": "extensive damage",
+        "fr": "dégâts considérables",
+        "pos": "名詞句",
+        "lemma": "dégât",
+        "cognate": "英語 damage, フランス語 dégât(s)。extensive は仏 considérable / important。",
+        "ja": "甚大な被害・損傷",
+        "note": "extensive は「広範な・大規模な」という意味。フランス語の dégâts には plural（複数形）がよく使われます。"
+      },
+      "w6": {
+        "en": "laden with",
+        "fr": "chargé de",
+        "pos": "形容詞句",
+        "lemma": "charger",
+        "cognate": "英語 laden, フランス語 chargé de...",
+        "ja": "〜を積み込んだ、〜で満ちた",
+        "note": "be laden with ~ = 〜（荷物・爆薬など）を大量に載せている状態。"
+      },
+      "w7": {
+        "en": "high explosive",
+        "fr": "puissant explosif",
+        "pos": "名詞句",
+        "lemma": "explosif",
+        "cognate": "英語 explosive, フランス語 explosif。",
+        "ja": "高性能爆薬",
+        "note": "軍事や鉱山採掘で用いられる強力な爆破物質のこと。"
+      },
+      "w8": {
+        "en": "demobilised",
+        "fr": "démobilisées",
+        "pos": "動詞 (過去形/過去分詞)",
+        "lemma": "démobiliser",
+        "cognate": "英 demobilise, 仏 démobiliser (dé- + mobiliser)。完全な同根語。",
+        "ja": "（部隊・組織が）武装解除した、復員した",
+        "note": "軍隊や反乱組織が戦闘状態を解除して解散することを指します。"
+      },
+      "w9": {
+        "en": "lay down their arms",
+        "fr": "déposer les armes",
+        "pos": "動詞句",
+        "lemma": "déposer",
+        "cognate": "英語 lay down arms, フランス語 déposer les armes（直訳構造が一致）。",
+        "ja": "武器を置く、投降・武装解除する",
+        "note": "戦闘行為をやめて降伏または武装解除することを表す決まり文句です。"
+      },
+      "w30": {
+        "en": "bounty",
+        "fr": "récompense",
+        "pos": "名詞",
+        "lemma": "récompense",
+        "cognate": "なし（英語 bounty は古仏語 bonté『好意』に由来するが、現代仏語では prime / récompense）",
+        "ja": "懸賞金、報奨金",
+        "note": "容疑者の逮捕や殺害に設定される報奨金を指します。フランス語では prime (de capture) や récompense が対応します。"
+      },
+      "w31": {
+        "en": "targeting",
+        "fr": "ciblant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "cibler",
+        "cognate": "なし（cible『標的』という名詞に由来する動詞）",
+        "ja": "〜を標的にする、狙い撃ちにする",
+        "note": "cible（的・ターゲット）から派生した動詞 cibler の現在分詞。特定の人物や組織を攻撃対象に指定する際に使われます。"
+      },
+      "w32": {
+        "en": "security pivot",
+        "fr": "pivot sécuritaire",
+        "pos": "名詞句",
+        "lemma": "pivot sécuritaire",
+        "cognate": "pivot (仏・英共通), sécuritaire (英: security)",
+        "ja": "治安政策の転換、安全保障方針の方向転換",
+        "note": "pivot は「軸・旋回」、sécuritaire は「治安の・安全保障の」を意味する形容詞。政策の大きな路線変更を表す表現です。"
+      },
+      "w33": {
+        "en": "initiated",
+        "fr": "engagées",
+        "pos": "動詞 (過去分詞)",
+        "lemma": "engager",
+        "cognate": "initiate ↔ initier",
+        "ja": "開始された、着手された",
+        "note": "英語 initiate に直接対応する仏語は initier ですが、交渉（négociations）を開始するという文脈では engager も極めて自然に用いられます。"
+      },
+      "w34": {
+        "en": "retaliation",
+        "fr": "riposte",
+        "pos": "名詞",
+        "lemma": "riposte",
+        "cognate": "retaliation ↔ talio（同害報復） / 仏: représailles",
+        "ja": "報復、仕返し",
+        "note": "軍事・治安問題での「報復攻撃」を指します。フランス語では riposte や représailles が該当します。"
+      },
+      "w35": {
+        "en": "ramped-up",
+        "fr": "accrue",
+        "pos": "形容詞",
+        "lemma": "accru",
+        "cognate": "なし",
+        "ja": "強化された、急増した",
+        "note": "ramp up（強化する・増強する）の分詞形容詞。フランス語では accroître の過去分詞 accrue（女性形）や renforcée が相当します。"
+      },
+      "w36": {
+        "en": "heavy-handed",
+        "fr": "répressive",
+        "pos": "形容詞",
+        "lemma": "répressif",
+        "cognate": "なし",
+        "ja": "高圧的な、強硬な、手厳しい",
+        "note": "「重い手で扱う」ことから、強硬策や高圧的な統制を意味します。フランス語では répressif/répressive や de main de fer（鉄の拳の）と意訳されます。"
+      },
+      "w37": {
+        "en": "exerting",
+        "fr": "infligeant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "infliger",
+        "cognate": "exert ↔ exercer",
+        "ja": "（力・影響・苦痛などを）加える、及ぼす",
+        "note": "語源的には exert ↔ exercer ですが、「苦痛や損害を加える」という文脈では infliger（〜を負わせる・加える）がより自然な仏訳となります。"
+      },
+      "w38": {
+        "en": "instilling",
+        "fr": "instillant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "instiller",
+        "cognate": "instill ↔ instiller",
+        "ja": "（感情や観念を）徐々に植えつける、じわじわと抱かせる",
+        "note": "ラテン語 instillare（滴下する）由来の完全な同源語。恐怖（feui / peur）をしみ込ませる・植え付ける動作を表します。"
+      }
+    },
+    "paragraphs": [
+      {
+        "en_tagged": "Colombian President says Villavicencio bomb attack came in <w id='w1'>retaliation</w> of government offensives.",
+        "fr_b2_tagged": "Le président colombien affirme que l'attentat à la bombe de Villavicencio est survenu en <w id='w1'>représailles</w> aux offensives gouvernementales.",
+        "fr_a2_tagged": "Le président de la Colombie dit que la bombe à Villavicencio est une réponse en <w id='w1'>représailles</w> aux attaques du gouvernement."
+      },
+      {
+        "en_tagged": "Bogota, Colombia – Colombian President Abelardo de la Espriella has blamed ex-FARC rebels for a car bomb attack last night <w id='w2'>targeting</w> a state government building, which injured at least 23 people.",
+        "fr_b2_tagged": "Bogota, Colombie – Le président colombien Abelardo de la Espriella a accusé d'anciens rebelles des FARC d'un attentat à la voiture piégée survenu hier soir et <w id='w2'>visant</w> un bâtiment du gouvernement provincial, qui a fait au moins 23 blessés.",
+        "fr_a2_tagged": "Bogota, Colombie – Le président Abelardo de la Espriella accuse des anciens rebelles des FARC pour une voiture piégée hier soir. L'attaque <w id='w2'>visait</w> un bâtiment officiel et a blessé au moins 23 personnes."
+      },
+      {
+        "en_tagged": "On a visit to Villavicencio on Tuesday, where the attack took place, the president accused Antonio Medina, a commander of the Central General Staff (EMC) rebel group, of <w id='w3'>plotting</w> the bombing in retaliation for government offensives in the province.",
+        "fr_b2_tagged": "Lors d'une visite mardi à Villavicencio, où l'attentat s'est produit, le président a accusé Antonio Medina, un commandant du groupe rebelle État-major central (EMC), d'avoir <w id='w3'>fomenté</w> l'attentat en représailles aux offensives gouvernementales dans la province.",
+        "fr_a2_tagged": "Mardi, pendant sa visite à Villavicencio où l'attaque a eu lieu, le président a accusé le chef rebelle Antonio Medina d'avoir <w id='w3'>préparé</w> cette attaque après les actions de l'armée."
+      },
+      {
+        "en_tagged": "“The bandit Antonio Medina from the [FARC] <w id='w4'>dissidents</w> is to blame, and we’re going to go after him and make him pay with blood,” de la Espriella told reporters.",
+        "fr_b2_tagged": "« Le bandit Antonio Medina, issu des <w id='w4'>dissidents</w> des [FARC], est le responsable, et nous allons le traquer et lui faire payer par le sang », a déclaré M. de la Espriella aux journalistes.",
+        "fr_a2_tagged": "« Le bandit Antonio Medina des <w id='w4'>dissidents</w> des FARC est le coupable. Nous allons l'attraper et le punir », a dit le président aux journalistes."
+      },
+      {
+        "en_tagged": "Last night’s attack rocked the seat of government in Meta, a province bordering the capital, Bogota, to the southeast. Videos show <w id='w5'>extensive damage</w> to the building in Villavicencio, which houses the governor’s office, as well as surrounding businesses and vehicles.",
+        "fr_b2_tagged": "L'attaque d'hier soir a secoué le siège du gouvernement du Meta, une province limitrophe de la capitale, Bogota, au sud-est. Des vidéos montrent des <w id='w5'>dégâts considérables</w> sur le bâtiment de Villavicencio, qui abrite le bureau du gouverneur, ainsi que sur les commerces et véhicules environnants.",
+        "fr_a2_tagged": "L'attaque d'hier soir a frappé le gouvernement de la région de Meta, près de Bogota. Des vidéos montrent des <w id='w5'>dégâts très importants</w> sur le bâtiment où travaille le gouverneur et sur les voitures autour."
+      },
+      {
+        "en_tagged": "The Head of National Police Operations, Ricardo Alarcon, told local media that initial tests indicate the car was <w id='w6'>laden with</w> between 80 and 100kg (176-220 pounds) of pentolite, a <w id='w7'>high explosive</w> used in military warheads, as well as civilian mining.",
+        "fr_b2_tagged": "Le chef des opérations de la police nationale, Ricardo Alarcon, a déclaré aux médias locaux que les premiers tests indiquaient que la voiture était <w id='w6'>chargée de</w> 80 à 100 kg de pentolite, un <w id='w7'>puissant explosif</w> utilisé dans les ogives militaires ainsi que dans l'exploitation minière civile.",
+        "fr_a2_tagged": "Le chef de la police a dit aux journaux que la voiture était <w id='w6'>remplie de</w> 80 à 100 kg de pentolite. C'est un <w id='w7'>explosif très fort</w> utilisé par l'armée et dans les mines."
+      },
+      {
+        "en_tagged": "Meta was a historical heartland for the FARC, which officially <w id='w8'>demobilised</w> following a historic peace deal in 2016. In the years since, dissident rebels who refused to <w id='w9'>lay down their arms</w> or returned to war have expanded their control in the province, a key access point to the coca plantations, gold mining and drug smuggling routes of the Amazon River Basin.",
+        "fr_b2_tagged": "Le Meta était un fief historique des FARC, qui se sont officiellement <w id='w8'>démobilisées</w> après un accord de paix historique en 2016. Depuis, les rebelles dissidents qui ont refusé de <w id='w9'>déposer les armes</w> ou sont retournés au combat ont étendu leur contrôle dans la province, un point d'accès clé vers les plantations de coca, les mines d'or et les routes du trafic de drogue du bassin de l'Amazone.",
+        "fr_a2_tagged": "La région de Meta était très importante pour les FARC, qui se sont officiellement <w id='w8'>séparées</w> après la paix en 2016. Mais des rebelles qui n'ont pas voulu <w id='w9'>déposer les armes</w> ont repris le contrôle de la région pour la drogue et l'or."
+      },
+      {
+        "en_tagged": "The most powerful group is the EMC, headed by alias Ivan Mordisco, one of Colombia’s most wanted men. The government earlier this year announced a <w id='w30'>bounty</w> of 5 billion pesos (roughly $1.4m) for his capture or killing.",
+        "fr_b2_tagged": "Le groupe le plus puissant est l'EMC, dirigé par le surnommé Ivan Mordisco, l'un des hommes les plus recherchés de Colombie. Plus tôt cette année, le gouvernement a annoncé une <w id='w30'>récompense</w> de 5 milliards de pesos (environ 1,4 million de dollars) pour sa capture ou son élimination.",
+        "fr_a2_tagged": "Le groupe le plus fort est l'EMC. Son chef est Ivan Mordisco, un homme très recherché en Colombie. Cette année, le gouvernement a promis une <w id='w30'>récompense</w> de 5 milliards de pesos pour l'attraper ou le tuer."
+      },
+      {
+        "en_tagged": "In recent months, the government has increased pressure on the EMC, bombing its camps and <w id='w31'>targeting</w> senior members. Just yesterday, the president confirmed the killing of alias El Churco, an EMC commander.",
+        "fr_b2_tagged": "Ces derniers mois, le gouvernement a intensifié la pression sur l'EMC, bombardant ses camps et <w id='w31'>ciblant</w> ses cadres dirigeants. Hier encore, le président a confirmé la mort du surnommé El Churco, un commandant de l'EMC.",
+        "fr_a2_tagged": "Ces derniers mois, le gouvernement met plus de pression sur l'EMC. Il bombarde ses camps et <w id='w31'>vise</w> ses chefs. Hier, le président a confirmé la mort d'El Churco, un chef de l'EMC."
+      },
+      {
+        "en_tagged": "The campaign is part of the new far-right government’s <w id='w32'>security pivot</w>, which aims to tackle criminal organisations through military force and has suspended the negotiations <w id='w33'>initiated</w> under the previous government.",
+        "fr_b2_tagged": "Cette campagne s'inscrit dans le cadre du <w id='w32'>pivot sécuritaire</w> du nouveau gouvernement d'extrême droite, qui vise à combattre les organisations criminelles par la force militaire et a suspendu les négociations <w id='w33'>engagées</w> sous le gouvernement précédent.",
+        "fr_a2_tagged": "Cette action fait partie du nouveau <w id='w32'>virage sécuritaire</w> du gouvernement. Il veut combattre les criminels par la force armée et a arrêté les discussions <w id='w33'>commencées</w> sous l'ancien gouvernement."
+      },
+      {
+        "en_tagged": "De la Espriella has suggested that last night’s bombing in Villavicencio was likely a <w id='w34'>retaliation</w> against <w id='w35'>ramped-up</w> state pressure on armed groups.",
+        "fr_b2_tagged": "De la Espriella a suggéré que l'attentat de la nuit dernière à Villavicencio était vraisemblablement une <w id='w34'>riposte</w> à la pression étatique <w id='w35'>accrue</w> exercée sur les groupes armés.",
+        "fr_a2_tagged": "De la Espriella pense que l'attaque d'hier soir à Villavicencio est une <w id='w34'>réponse</w> à la pression <w id='w35'>renforcée</w> de l'État contre les groupes armés."
+      },
+      {
+        "en_tagged": "“The narco-terrorists are running wild, launching desperate attacks, because they know we are defeating them and that their end is near,” the president wrote on X this morning.",
+        "fr_b2_tagged": "« Les narco-terroristes sont déchaînés et lancent des attaques désespérées parce qu'ils savent que nous les vainquons et que leur fin est proche », a écrit le président sur X ce matin.",
+        "fr_a2_tagged": "« Les narco-terroristes font n'importe quoi et font des attaques désespérées parce qu'ils savent que nous gagnons et que leur fin arrive », a écrit le président sur X ce matin."
+      },
+      {
+        "en_tagged": "The attack, which happened on the eve of the 10-year anniversary of the 2016 peace deal, highlights the growing risks to civilians under de la Espriella’s <w id='w36'>heavy-handed</w> security strategy, say experts.",
+        "fr_b2_tagged": "L'attaque, survenue à la veille du 10e anniversaire de l'accord de paix de 2016, souligne les risques croissants pour les civils sous la stratégie sécuritaire <w id='w36'>répressive</w> de de la Espriella, selon les experts.",
+        "fr_a2_tagged": "L'attaque s'est passée juste avant les 10 ans de l'accord de paix de 2016. Selon des experts, elle montre les dangers pour les habitants sous la stratégie <w id='w36'>durcie</w> de de la Espriella."
+      },
+      {
+        "en_tagged": "“As the government increases pressure, armed and criminal groups are trying to raise the cost of doing that for the government by <w id='w37'>exerting</w> pain, <w id='w38'>instilling</w> fear and causing direct harm against communities and against the civilian population,” said Elizabeth Dickinson, deputy director for Latin America at the International Crisis Group.",
+        "fr_b2_tagged": "« À mesure que le gouvernement augmente la pression, les groupes armés et criminels tentent d'en augmenter le coût pour le pouvoir en <w id='w37'>infligeant</w> de la souffrance, en <w id='w38'>instillant</w> la peur et en causant des préjudices directs aux communautés et à la population civile », a déclaré Elizabeth Dickinson, directrice adjointe pour l'Amérique latine à l'International Crisis Group.",
+        "fr_a2_tagged": "« Quand le gouvernement met plus de pression, les groupes armés essaient d'augmenter le prix à payer pour l'État en <w id='w37'>donnant</w> de la douleur, en <w id='w38'>mettant</w> de la peur et en faisant du mal directement aux gens et aux civils », a dit Elizabeth Dickinson."
+      }
+    ],
+    "expressions": [
+      {
+        "en_phrase": "in retaliation for",
+        "academic_alt": "in reprisal for / as a countermeasure against",
+        "fr_phrase": "en représailles de",
+        "cognate_hint": "retaliation（英）と représailles（仏）は共に「報復・しっぺ返し」を意味し、対外政策や軍事のニュースで頻出します。",
+        "ja_explanation": "「〜への報復として」という意味の重要表現。テロ行為や経済制裁、紛争の動機を提示する際に学術論文や国際報道で頻繁に使用されます。"
+      },
+      {
+        "en_phrase": "lay down their arms",
+        "academic_alt": "demilitarize / cease hostilities",
+        "fr_phrase": "déposer les armes",
+        "cognate_hint": "arms（英）と armes（仏）はラテン語 arma（武器）を共通の語源とする同義語です。",
+        "ja_explanation": "「武器を置く、投降・武装解除する」という慣用表現。和平交渉や元戦闘員の社会復帰の文脈で用いられます。"
+      },
+      {
+        "en_phrase": "heavy-handed security strategy",
+        "academic_alt": "coercive security policy / authoritarian counter-terrorism approach",
+        "fr_phrase": "stratégie de sécurité autoritaire",
+        "cognate_hint": "strategy（英）と stratégie（仏）はギリシャ語 stratēgia（将術・軍略）に由来する同源語です。",
+        "ja_explanation": "「強硬な治安（安全保障）戦略」。heavy-handed は「高圧的な、過剰な力を用いた」という批判的ニュアンスを含む形容詞です。"
+      },
+      {
+        "en_phrase": "instill fear",
+        "academic_alt": "induce terror / engender a climate of fear",
+        "fr_phrase": "instiller la peur / inspirer la crainte",
+        "cognate_hint": "instill（英）と instiller（仏）はラテン語 instillare（一滴ずつ落とす）から「（感情や観念を）徐々に染み込ませる」を意味します。",
+        "ja_explanation": "「（人々の心に）恐怖を植え付ける」。思想や感情を時間をかけて浸透させる際に用いられる、非常にフォーマルかつ抽象度の高い動詞です。"
+      }
+    ],
+    "slash_reading": [
+      {
+        "fr_original": "Le président colombien accuse les rebelles d'avoir orchestré l'attentat.",
+        "en_meaning": "The Colombian president accuses the rebels of having orchestrated the attack.",
+        "ja_meaning": "コロンビアの大統領は、反乱軍がテロを仕組んだとして非難している。",
+        "chunks": [
+          {
+            "role": "S",
+            "text": "Le président colombien",
+            "note": "主語：コロンビアの大統領"
+          },
+          {
+            "role": "V",
+            "text": "accuse",
+            "note": "動詞：非難する・訴える（accuserの直説法現在3人称単数）"
+          },
+          {
+            "role": "O",
+            "text": "les rebelles",
+            "note": "直接目的語：反乱分子らを"
+          },
+          {
+            "role": "M",
+            "text": "d'avoir orchestré l'attentat",
+            "note": "前置詞句（accuser A de B）：テロを画策したことに対して"
+          }
+        ],
+        "verbs": [
+          {
+            "word": "accuse",
+            "lemma": "accuser",
+            "tense": "現在形",
+            "meaning": "非難する"
+          },
+          {
+            "word": "avoir orchestré",
+            "lemma": "orchestrer",
+            "tense": "複合過去（不定詞）",
+            "meaning": "計画・画策した"
+          }
+        ]
+      },
+      {
+        "fr_original": "Les attaques visent le bâtiment du gouvernement dans la province.",
+        "en_meaning": "The attacks target the government building in the province.",
+        "ja_meaning": "攻撃は州内にある政府機関の建物を標的にしている。",
+        "chunks": [
+          {
+            "role": "S",
+            "text": "Les attaques",
+            "note": "主語：攻撃（複数形）"
+          },
+          {
+            "role": "V",
+            "text": "visent",
+            "note": "動詞：狙う・標的にする（viserの直説法現在3人称複数）"
+          },
+          {
+            "role": "O",
+            "text": "le bâtiment du gouvernement",
+            "note": "直接目的語：政府の建物"
+          },
+          {
+            "role": "M",
+            "text": "dans la province",
+            "note": "場所の修飾語：州内の"
+          }
+        ],
+        "verbs": [
+          {
+            "word": "visent",
+            "lemma": "viser",
+            "tense": "現在形",
+            "meaning": "標的にする・目指す"
+          }
+        ]
+      }
+    ],
+    "travel_apps": [
+      {
+        "from_news_fr": "bâtiment (建物)",
+        "from_news_ja": "建物、ビル",
+        "situation": "パリなどの観光地で歴史的建造物や目的地を探すとき",
+        "travel_fr": "Où se trouve ce bâtiment historique, s'il vous plaît ?",
+        "travel_ja": "すいません、この歴史的建造物はどこにありますか？",
+        "tip": "ニュースでは「政府ビル」の意味でしたが、旅行では美術館や歴史的建造物（bâtiment historique）の位置を聞く際に重宝します。"
+      },
+      {
+        "from_news_fr": "sécurité (安全・治安)",
+        "from_news_ja": "治安、安全",
+        "situation": "ホテルのフロントで夜間の治安状況を確認するとき",
+        "travel_fr": "Est-ce qu'il y a un problème de sécurité dans ce quartier ?",
+        "travel_ja": "このエリアは安全上の問題（治安の問題）がありますか？",
+        "tip": "初めての都市で夜出かける際、「quartier（地区）」と「sécurité（安全）」を組み合わせてスタッフに相談すると安心です。"
+      }
+    ],
+    "quiz": {
+      "q1": {
+        "question": "The dissident militia carried out the strike in _____ for the military offensive.",
+        "options": [
+          "retaliation",
+          "reluctance",
+          "reconciliation",
+          "restitution"
+        ],
+        "answer": 0,
+        "explanation": "「in retaliation for ~（〜の報復として）」が正解です。他の選択肢：reluctance（気の進まないこと）、reconciliation（和解）、restitution（賠償・返還）。"
+      },
+      "q2": {
+        "question": "ニュース記事の中に出てきた表現 \"déposer les armes\" の日本語訳として最も適切なものはどれですか？",
+        "options": [
+          "武器を購入する",
+          "武装解除する（武器を置く）",
+          "警備を強化する",
+          "宣戦布告する"
+        ],
+        "answer": 1,
+        "explanation": "「déposer（置く）+ les armes（武器）」で、英語の「lay down arms（武装解除する、武器を捨てる）」に対応します。"
+      },
+      "q3": {
+        "prompt": "「政府の強硬な治安策（heavy-handed strategy）は意図せず紛争を激化させ、市民のリスクを高める可能性がある」という趣旨の英文を1文で書いてください。",
+        "model_answer": "A heavy-handed counter-terrorism strategy may inadvertently escalate violence, thereby compounding the security risks faced by the civilian population.",
+        "notes": "heavy-handed（強硬な）、inadvertently escalate（意図せず激化させる）、thereby compounding（それによって〜を重層的に悪化させる）などの学術的な語彙・分詞構文を活用すると説得力が増します。"
+      }
+    }
+  }
+}

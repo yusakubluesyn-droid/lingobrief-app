@@ -1,406 +1,400 @@
 {
-  "date": "2026-11-24",
-  "category": "Environment",
-  "source": "BBC Science & Environment",
-  "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+  "date": "2026-11-25",
+  "category": "Military & Geopolitics",
+  "source": "Al Jazeera",
+  "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
   "lesson": {
-    "title_en": "What failure of COP31 reveals about a divided world",
-    "title_fr": "Ce que l'échec de la COP31 révèle sur un monde divisé",
+    "title_en": "Colombian president blames ex-FARC rebels for car bomb blast",
+    "title_fr": "Le président colombien accuse les ex-rebelles des FARC d'un attentat à la voiture piégée",
     "vocab": {
       "w1": {
-        "en": "hailed",
-        "fr": "salué",
-        "pos": "動詞 (過去形/過去分詞)",
-        "lemma": "saluer",
-        "cognate": "英語の hail（〜と称賛する・歓迎する）",
-        "ja": "〜を（好意的に）評価した、称賛した",
-        "note": "hail A as B で「AをBとして歓迎する・称える」という意味で報道によく用いられます。"
+        "en": "retaliation",
+        "fr": "représailles",
+        "pos": "名詞",
+        "lemma": "représailles",
+        "cognate": "英語 retaliation と同義。フランス語 représailles は repriser/reprendre（買い戻す・仕返す）に由来。",
+        "ja": "報復、仕返し",
+        "note": "in retaliation for/of 〜（〜への報復として）。フランス語では en représailles de... と表現します。"
       },
       "w2": {
-        "en": "fossil fuels",
-        "fr": "énergies fossiles",
-        "pos": "名詞句",
-        "lemma": "énergie fossile",
-        "cognate": "英語 fossil（化石）+ fuel（燃料）",
-        "ja": "化石燃料",
-        "note": "フランス語では combustibles fossiles や énergies fossiles と表現されます。"
+        "en": "targeting",
+        "fr": "visant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "viser",
+        "cognate": "英語 target, フランス語 viser（狙いを定める）。",
+        "ja": "〜を標的とした、〜を対象とする",
+        "note": "target A = Aを標的にする。フランス語 viser は直接目的語をとって「〜を狙う」を意味します。"
       },
       "w3": {
-        "en": "fraught",
-        "fr": "tendu",
-        "pos": "形容詞",
-        "lemma": "tendu",
-        "cognate": "英語 fraught（緊迫した、問題に満ちた）",
-        "ja": "緊迫した、多難な、危険をはらんだ",
-        "note": "fraught geopolitical environment で「非常に緊張し混沌とした地政学的環境」を意味します。"
+        "en": "plotting",
+        "fr": "fomentant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "fomenter",
+        "cognate": "英語 plot, フランス語 fomenter / comploter（陰謀を企てる）。",
+        "ja": "（陰謀・テロなどを）企てている、策動している",
+        "note": "accuse A of plotting B = AがBを企てたと糾弾する。"
       },
       "w4": {
-        "en": "unbridgeable",
-        "fr": "insurmontable",
-        "pos": "形容詞",
-        "lemma": "insurmontable",
-        "cognate": "un- (否定) + bridge (橋を架ける) + -able",
-        "ja": "（隔たりなどが）埋められない、譲歩できない",
-        "note": "unbridgeable red lines は「決して歩み寄ることのできない妥協不可の境界線」を表します。"
+        "en": "dissidents",
+        "fr": "dissidents",
+        "pos": "名詞",
+        "lemma": "dissident",
+        "cognate": "英・仏同型 dissident (ラテン語 dissidere「反目する・離れて座る」由来)。",
+        "ja": "脱退派、反乱分子、異論者",
+        "note": "和平協定や組織の決定に従わず離脱した派閥を指す言葉です。"
       },
       "w5": {
-        "en": "getting hung up on",
-        "fr": "se focaliser sur",
-        "pos": "熟語/動詞句",
-        "lemma": "se focaliser",
-        "cognate": "英語 get hung up on（〜に固執する）",
-        "ja": "〜にこだわる、〜に取らわれる",
-        "note": "get hung up on... は批判的なニュアンスで「些細な言葉や点にこだわる」ことを意味します。"
+        "en": "extensive damage",
+        "fr": "dégâts considérables",
+        "pos": "名詞句",
+        "lemma": "dégât",
+        "cognate": "英語 damage, フランス語 dégât(s)。extensive は仏 considérable / important。",
+        "ja": "甚大な被害・損傷",
+        "note": "extensive は「広範な・大規模な」という意味。フランス語の dégâts には plural（複数形）がよく使われます。"
       },
       "w6": {
-        "en": "transition away from",
-        "fr": "s'éloigner de",
-        "pos": "熟語/動詞句",
-        "lemma": "s'éloigner",
-        "cognate": "transition（移行）+ away from（〜から離れて）",
-        "ja": "〜からの脱却を進める、〜からの移行を図る",
-        "note": "気候変動分野の重要熟語で、エネルギー源などを段階的にやめていくプロセスのことです。"
+        "en": "laden with",
+        "fr": "chargé de",
+        "pos": "形容詞句",
+        "lemma": "charger",
+        "cognate": "英語 laden, フランス語 chargé de...",
+        "ja": "〜を積み込んだ、〜で満ちた",
+        "note": "be laden with ~ = 〜（荷物・爆薬など）を大量に載せている状態。"
       },
       "w7": {
-        "en": "worth sacrificing",
-        "fr": "valait la peine de sacrifier",
-        "pos": "熟語/形容詞句",
-        "lemma": "valoir la peine",
-        "cognate": "worth（価値がある）+ sacrifice（犠牲にする）",
-        "ja": "犠牲にする価値がある",
-        "note": "be worth -ing（〜する価値がある）はフランス語で valoir la peine de + 不定詞 で表現します。"
+        "en": "high explosive",
+        "fr": "puissant explosif",
+        "pos": "名詞句",
+        "lemma": "explosif",
+        "cognate": "英語 explosive, フランス語 explosif。",
+        "ja": "高性能爆薬",
+        "note": "軍事や鉱山採掘で用いられる強力な爆破物質のこと。"
       },
       "w8": {
-        "en": "explicit commitment",
-        "fr": "engagement explicite",
-        "pos": "名詞句",
-        "lemma": "engagement explicite",
-        "cognate": "explicit（明示的な）+ commitment（公約・誓約）",
-        "ja": "明確な約束、明示的なコミットメント",
-        "note": "曖昧さを排した具体的な合意事項・約束を指します。"
+        "en": "demobilised",
+        "fr": "démobilisées",
+        "pos": "動詞 (過去形/過去分詞)",
+        "lemma": "démobiliser",
+        "cognate": "英 demobilise, 仏 démobiliser (dé- + mobiliser)。完全な同根語。",
+        "ja": "（部隊・組織が）武装解除した、復員した",
+        "note": "軍隊や反乱組織が戦闘状態を解除して解散することを指します。"
+      },
+      "w9": {
+        "en": "lay down their arms",
+        "fr": "déposer les armes",
+        "pos": "動詞句",
+        "lemma": "déposer",
+        "cognate": "英語 lay down arms, フランス語 déposer les armes（直訳構造が一致）。",
+        "ja": "武器を置く、投降・武装解除する",
+        "note": "戦闘行為をやめて降伏または武装解除することを表す決まり文句です。"
       },
       "w30": {
-        "en": "fraught",
-        "fr": "tendu",
-        "pos": "形容詞",
-        "lemma": "tendu",
-        "cognate": "なし（英語 fraught は「〜に満ちた / 緊迫した」の意）",
-        "ja": "（問題や危険に）満ちた、緊迫した",
-        "note": "fraught with ...（〜に満ちている）の形でよく使われますが、単独で fraught environment / situation とすると「緊迫した環境・状況」を意味します。"
+        "en": "bounty",
+        "fr": "récompense",
+        "pos": "名詞",
+        "lemma": "récompense",
+        "cognate": "なし（英語 bounty は古仏語 bonté『好意』に由来するが、現代仏語では prime / récompense）",
+        "ja": "懸賞金、報奨金",
+        "note": "容疑者の逮捕や殺害に設定される報奨金を指します。フランス語では prime (de capture) や récompense が対応します。"
       },
       "w31": {
-        "en": "bargaining",
-        "fr": "négociations",
-        "pos": "名詞",
-        "lemma": "négociation",
-        "cognate": "英語 negotiation とフランス語 négociation は同語源",
-        "ja": "交渉、駆け引き",
-        "note": "動詞 bargain（交渉する、値切る）の動名詞形。国際会議での水面下の交渉・駆け引きを指します。"
+        "en": "targeting",
+        "fr": "ciblant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "cibler",
+        "cognate": "なし（cible『標的』という名詞に由来する動詞）",
+        "ja": "〜を標的にする、狙い撃ちにする",
+        "note": "cible（的・ターゲット）から派生した動詞 cibler の現在分詞。特定の人物や組織を攻撃対象に指定する際に使われます。"
       },
       "w32": {
-        "en": "reluctant",
-        "fr": "réticent",
-        "pos": "形容詞",
-        "lemma": "réticent",
-        "cognate": "英語 reluctant と仏語 réticent は同根のラテン語 reluctari（抵抗する）/ reticere（沈黙する）に由来",
-        "ja": "気が進まない、〜するのを躊躇する",
-        "note": "be reluctant to do（〜することに気乗りしない）の構文で多用されます。"
+        "en": "security pivot",
+        "fr": "pivot sécuritaire",
+        "pos": "名詞句",
+        "lemma": "pivot sécuritaire",
+        "cognate": "pivot (仏・英共通), sécuritaire (英: security)",
+        "ja": "治安政策の転換、安全保障方針の方向転換",
+        "note": "pivot は「軸・旋回」、sécuritaire は「治安の・安全保障の」を意味する形容詞。政策の大きな路線変更を表す表現です。"
       },
       "w33": {
-        "en": "on behalf of",
-        "fr": "au nom de",
-        "pos": "前置詞句",
-        "lemma": "au nom de",
-        "cognate": "仏語 nom（名前）= 英語 name（〜の名において）",
-        "ja": "〜を代表して、〜に代わって",
-        "note": "特定の団体や国々を代表して意見を述べる際の定型表現です。"
+        "en": "initiated",
+        "fr": "engagées",
+        "pos": "動詞 (過去分詞)",
+        "lemma": "engager",
+        "cognate": "initiate ↔ initier",
+        "ja": "開始された、着手された",
+        "note": "英語 initiate に直接対応する仏語は initier ですが、交渉（négociations）を開始するという文脈では engager も極めて自然に用いられます。"
       },
       "w34": {
-        "en": "bore",
-        "fr": "portaient",
-        "pos": "動詞（過去形）",
-        "lemma": "porter",
-        "cognate": "英語 bear（耐える、負う）と仏語 porter（担う）",
-        "ja": "（責任などを）負った、担った",
-        "note": "原形は bear。bear responsibility for ... で「〜の責任を負う」という意味になります。"
+        "en": "retaliation",
+        "fr": "riposte",
+        "pos": "名詞",
+        "lemma": "riposte",
+        "cognate": "retaliation ↔ talio（同害報復） / 仏: représailles",
+        "ja": "報復、仕返し",
+        "note": "軍事・治安問題での「報復攻撃」を指します。フランス語では riposte や représailles が該当します。"
       },
       "w35": {
-        "en": "tackle",
-        "fr": "affronter",
-        "pos": "動詞",
-        "lemma": "affronter",
+        "en": "ramped-up",
+        "fr": "accrue",
+        "pos": "形容詞",
+        "lemma": "accru",
         "cognate": "なし",
-        "ja": "（難題・問題に）取り組む、立ち向かう",
-        "note": "tackle climate change（気候変動問題に取り組む）のように、困難な課題の解決に邁進する文脈で使われます。"
+        "ja": "強化された、急増した",
+        "note": "ramp up（強化する・増強する）の分詞形容詞。フランス語では accroître の過去分詞 accrue（女性形）や renforcée が相当します。"
       },
       "w36": {
-        "en": "shortages",
-        "fr": "pénuries",
-        "pos": "名詞（複数形）",
-        "lemma": "pénurie",
-        "cognate": "英語 penury（貧困）と仏語 pénurie（不足・絶体絶命の欠乏）",
-        "ja": "不足、深刻な欠乏",
-        "note": "energy shortages（エネルギー不足）など、供給不足を表す一般的な名詞です。"
+        "en": "heavy-handed",
+        "fr": "répressive",
+        "pos": "形容詞",
+        "lemma": "répressif",
+        "cognate": "なし",
+        "ja": "高圧的な、強硬な、手厳しい",
+        "note": "「重い手で扱う」ことから、強硬策や高圧的な統制を意味します。フランス語では répressif/répressive や de main de fer（鉄の拳の）と意訳されます。"
       },
       "w37": {
-        "en": "formulation",
-        "fr": "formulation",
-        "pos": "名詞",
-        "lemma": "formulation",
-        "cognate": "英語 formulation とフランス語 formulation は完全同型",
-        "ja": "文言、言い回し、策定",
-        "note": "外交交渉において、合意文書の「条文の言い回し・表出表現」を指します。"
+        "en": "exerting",
+        "fr": "infligeant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "infliger",
+        "cognate": "exert ↔ exercer",
+        "ja": "（力・影響・苦痛などを）加える、及ぼす",
+        "note": "語源的には exert ↔ exercer ですが、「苦痛や損害を加える」という文脈では infliger（〜を負わせる・加える）がより自然な仏訳となります。"
       },
       "w38": {
-        "en": "greenhouse gas emissions",
-        "fr": "émissions de gaz à effet de serre",
-        "pos": "名詞句",
-        "lemma": "émission de gaz à effet de serre",
-        "cognate": "英語 emission と仏語 émission は同源",
-        "ja": "温室効果ガスの排出",
-        "note": "環境問題・気候変動に関する交渉で最も頻出する重要語句です。"
-      },
-      "w39": {
-        "en": "delegate",
-        "fr": "délégué",
-        "pos": "名詞",
-        "lemma": "délégué",
-        "cognate": "英語 delegate と仏語 délégué はラテン語 delegatus 由来の同源語",
-        "ja": "代表者、派遣代議員",
-        "note": "国際会議等に送られる公式代表を意味します。"
+        "en": "instilling",
+        "fr": "instillant",
+        "pos": "動詞 (現在分詞)",
+        "lemma": "instiller",
+        "cognate": "instill ↔ instiller",
+        "ja": "（感情や観念を）徐々に植えつける、じわじわと抱かせる",
+        "note": "ラテン語 instillare（滴下する）由来の完全な同源語。恐怖（feui / peur）をしみ込ませる・植え付ける動作を表します。"
       }
     },
     "paragraphs": [
       {
-        "en_tagged": "Some have <w id='w1'>hailed</w> the lack of consensus as a sign of a positive shift, despite the Turkey summit failure",
-        "fr_b2_tagged": "Certains ont <w id='w1'>salué</w> l'absence de consensus comme le signe d'un changement positif, malgré l'échec du sommet en Turquie.",
-        "fr_a2_tagged": "Certaines personnes ont <w id='w1'>salué</w> ce manque d'accord comme un bon signe, malgré l'échec du sommet en Turquie."
+        "en_tagged": "Colombian President says Villavicencio bomb attack came in <w id='w1'>retaliation</w> of government offensives.",
+        "fr_b2_tagged": "Le président colombien affirme que l'attentat à la bombe de Villavicencio est survenu en <w id='w1'>représailles</w> aux offensives gouvernementales.",
+        "fr_a2_tagged": "Le président de la Colombie dit que la bombe à Villavicencio est une réponse en <w id='w1'>représailles</w> aux attaques du gouvernement."
       },
       {
-        "en_tagged": "Some may have found it ironic that the world's biggest conference on climate change should collapse over the very mention of <w id='w2'>fossil fuels</w> - the main cause of global warming.",
-        "fr_b2_tagged": "Certains ont pu trouver ironique que la plus grande conférence mondiale sur le climat s'effondre sur la simple mention des <w id='w2'>énergies fossiles</w> - la cause principale du réchauffement climatique.",
-        "fr_a2_tagged": "Il est ironique que la plus grande réunion sur le climat échoue à cause du mot <w id='w2'>énergies fossiles</w>, qui sont la cause principale du réchauffement de la Terre."
+        "en_tagged": "Bogota, Colombia – Colombian President Abelardo de la Espriella has blamed ex-FARC rebels for a car bomb attack last night <w id='w2'>targeting</w> a state government building, which injured at least 23 people.",
+        "fr_b2_tagged": "Bogota, Colombie – Le président colombien Abelardo de la Espriella a accusé d'anciens rebelles des FARC d'un attentat à la voiture piégée survenu hier soir et <w id='w2'>visant</w> un bâtiment du gouvernement provincial, qui a fait au moins 23 blessés.",
+        "fr_a2_tagged": "Bogota, Colombie – Le président Abelardo de la Espriella accuse des anciens rebelles des FARC pour une voiture piégée hier soir. L'attaque <w id='w2'>visait</w> un bâtiment officiel et a blessé au moins 23 personnes."
       },
       {
-        "en_tagged": "The failure tells us something about the state of climate diplomacy. But it may tell us even more about the increasingly divided world in which the negotiations take place.",
-        "fr_b2_tagged": "Cet échec nous en dit long sur l'état de la diplomatie climatique. Mais il nous en apprend peut-être encore plus sur le monde de plus en plus divisé dans lequel se déroulent les négociations.",
-        "fr_a2_tagged": "Cet échec montre l'état de la diplomatie du climat. Mais il montre aussi que notre monde est de plus en plus divisé."
+        "en_tagged": "On a visit to Villavicencio on Tuesday, where the attack took place, the president accused Antonio Medina, a commander of the Central General Staff (EMC) rebel group, of <w id='w3'>plotting</w> the bombing in retaliation for government offensives in the province.",
+        "fr_b2_tagged": "Lors d'une visite mardi à Villavicencio, où l'attentat s'est produit, le président a accusé Antonio Medina, un commandant du groupe rebelle État-major central (EMC), d'avoir <w id='w3'>fomenté</w> l'attentat en représailles aux offensives gouvernementales dans la province.",
+        "fr_a2_tagged": "Mardi, pendant sa visite à Villavicencio où l'attaque a eu lieu, le président a accusé le chef rebelle Antonio Medina d'avoir <w id='w3'>préparé</w> cette attaque après les actions de l'armée."
       },
       {
-        "en_tagged": "Chris Bowen, the Australian minister who led the negotiations, spoke of a backdrop constituting \"the most complicated and <w id='w3'>fraught</w> geopolitical environment in living memory\". The competing demands, he said, had become \"<w id='w4'>unbridgeable</w> red lines\".",
-        "fr_b2_tagged": "Chris Bowen, le ministre australien qui a mené les négociations, a évoqué un contexte constituant « l'environnement géopolitique le plus compliqué et <w id='w3'>tendu</w> de mémoire d'homme ». Les exigences concurrentes, a-t-il dit, étaient devenues des « lignes rouges <w id='w4'>insurmontables</w> ».",
-        "fr_a2_tagged": "Chris Bowen, le ministre australien, a parlé d'un contexte mondial « très difficile et <w id='w3'>tendu</w> ». Il a dit que les demandes opposées étaient devenues des « limites <w id='w4'>insurmontables</w> »."
+        "en_tagged": "“The bandit Antonio Medina from the [FARC] <w id='w4'>dissidents</w> is to blame, and we’re going to go after him and make him pay with blood,” de la Espriella told reporters.",
+        "fr_b2_tagged": "« Le bandit Antonio Medina, issu des <w id='w4'>dissidents</w> des [FARC], est le responsable, et nous allons le traquer et lui faire payer par le sang », a déclaré M. de la Espriella aux journalistes.",
+        "fr_a2_tagged": "« Le bandit Antonio Medina des <w id='w4'>dissidents</w> des FARC est le coupable. Nous allons l'attraper et le punir », a dit le président aux journalistes."
       },
       {
-        "en_tagged": "Murat Kurum, Turkey's environment minister and the summit's president, was blunter. Governments should not disappoint people desperate for climate action, he suggested, by getting \"hung up on one word or phrase\".",
-        "fr_b2_tagged": "Murat Kurum, le ministre turc de l'environnement et président du sommet, a été plus direct. Les gouvernements ne devraient pas décevoir les gens qui attendent désespérément des actions climatiques, a-t-il suggéré, en se <w id='w5'>focalisant sur</w> un seul mot ou une seule phrase.",
-        "fr_a2_tagged": "Murat Kurum, le ministre turc, a été plus direct. Il a dit que les gouvernements ne doivent pas décevoir les gens en se <w id='w5'>focalisant sur</w> un seul mot."
+        "en_tagged": "Last night’s attack rocked the seat of government in Meta, a province bordering the capital, Bogota, to the southeast. Videos show <w id='w5'>extensive damage</w> to the building in Villavicencio, which houses the governor’s office, as well as surrounding businesses and vehicles.",
+        "fr_b2_tagged": "L'attaque d'hier soir a secoué le siège du gouvernement du Meta, une province limitrophe de la capitale, Bogota, au sud-est. Des vidéos montrent des <w id='w5'>dégâts considérables</w> sur le bâtiment de Villavicencio, qui abrite le bureau du gouverneur, ainsi que sur les commerces et véhicules environnants.",
+        "fr_a2_tagged": "L'attaque d'hier soir a frappé le gouvernement de la région de Meta, près de Bogota. Des vidéos montrent des <w id='w5'>dégâts très importants</w> sur le bâtiment où travaille le gouverneur et sur les voitures autour."
       },
       {
-        "en_tagged": "And Kurum had a point. Three years ago, at COP28 in Dubai, there was agreement to <w id='w6'>transition away from</w> fossil fuels. The proposed Antalya Pact failed to mention them at all.",
-        "fr_b2_tagged": "Et Kurum n'avait pas tort. Il y a trois ans, lors de la COP28 à Dubaï, un accord avait été trouvé pour <w id='w6'>s'éloigner des</w> énergies fossiles. Le Pacte d'Antalya proposé ne les mentionnait pas du tout.",
-        "fr_a2_tagged": "Et Kurum avait raison. Il y a trois ans, à la COP28 à Dubaï, les pays ont accepté de <w id='w6'>s'éloigner de</w> l'utilisation des énergies fossiles. Le Pacte d'Antalya ne les mentionnait pas du tout."
+        "en_tagged": "The Head of National Police Operations, Ricardo Alarcon, told local media that initial tests indicate the car was <w id='w6'>laden with</w> between 80 and 100kg (176-220 pounds) of pentolite, a <w id='w7'>high explosive</w> used in military warheads, as well as civilian mining.",
+        "fr_b2_tagged": "Le chef des opérations de la police nationale, Ricardo Alarcon, a déclaré aux médias locaux que les premiers tests indiquaient que la voiture était <w id='w6'>chargée de</w> 80 à 100 kg de pentolite, un <w id='w7'>puissant explosif</w> utilisé dans les ogives militaires ainsi que dans l'exploitation minière civile.",
+        "fr_a2_tagged": "Le chef de la police a dit aux journaux que la voiture était <w id='w6'>remplie de</w> 80 à 100 kg de pentolite. C'est un <w id='w7'>explosif très fort</w> utilisé par l'armée et dans les mines."
       },
       {
-        "en_tagged": "Was it really <w id='w7'>worth sacrificing</w> the agreement over two words, then?",
-        "fr_b2_tagged": "Est-ce que cela <w id='w7'>valait la peine de sacrifier</w> l'accord pour seulement deux mots ?",
-        "fr_a2_tagged": "Est-ce que cela <w id='w7'>valait la peine de sacrifier</w> cet accord pour deux mots ?"
+        "en_tagged": "Meta was a historical heartland for the FARC, which officially <w id='w8'>demobilised</w> following a historic peace deal in 2016. In the years since, dissident rebels who refused to <w id='w9'>lay down their arms</w> or returned to war have expanded their control in the province, a key access point to the coca plantations, gold mining and drug smuggling routes of the Amazon River Basin.",
+        "fr_b2_tagged": "Le Meta était un fief historique des FARC, qui se sont officiellement <w id='w8'>démobilisées</w> après un accord de paix historique en 2016. Depuis, les rebelles dissidents qui ont refusé de <w id='w9'>déposer les armes</w> ou sont retournés au combat ont étendu leur contrôle dans la province, un point d'accès clé vers les plantations de coca, les mines d'or et les routes du trafic de drogue du bassin de l'Amazone.",
+        "fr_a2_tagged": "La région de Meta était très importante pour les FARC, qui se sont officiellement <w id='w8'>séparées</w> après la paix en 2016. Mais des rebelles qui n'ont pas voulu <w id='w9'>déposer les armes</w> ont repris le contrôle de la région pour la drogue et l'or."
       },
       {
-        "en_tagged": "The countries that rejected it said the distinction was fundamental. They argued that there was a world of difference between promising to reduce greenhouse gas emissions and committing to move away from the fuels responsible for most of them. Without that <w id='w8'>explicit commitment</w>, they feared the new agreement would weaken the one made in Dubai.",
-        "fr_b2_tagged": "Les pays qui l'ont rejeté ont estimé que la distinction était fondamentale. Ils ont soutenu qu'il y avait une énorme différence entre promettre de réduire les émissions de gaz à effet de serre et s'engager à s'éloigner des combustibles qui en sont principalement responsables. Sans cet <w id='w8'>engagement explicite</w>, ils craignaient que le nouvel accord ne fragilise celui conclu à Dubaï.",
-        "fr_a2_tagged": "Les pays qui ont refusé ont dit que la différence était très importante. Il y a une grande différence entre réduire les émissions et abandonner les énergies responsables du problème. Sans cet <w id='w8'>engagement explicite</w>, le nouvel accord serait plus faible que celui de Dubaï."
+        "en_tagged": "The most powerful group is the EMC, headed by alias Ivan Mordisco, one of Colombia’s most wanted men. The government earlier this year announced a <w id='w30'>bounty</w> of 5 billion pesos (roughly $1.4m) for his capture or killing.",
+        "fr_b2_tagged": "Le groupe le plus puissant est l'EMC, dirigé par le surnommé Ivan Mordisco, l'un des hommes les plus recherchés de Colombie. Plus tôt cette année, le gouvernement a annoncé une <w id='w30'>récompense</w> de 5 milliards de pesos (environ 1,4 million de dollars) pour sa capture ou son élimination.",
+        "fr_a2_tagged": "Le groupe le plus fort est l'EMC. Son chef est Ivan Mordisco, un homme très recherché en Colombie. Cette année, le gouvernement a promis une <w id='w30'>récompense</w> de 5 milliards de pesos pour l'attraper ou le tuer."
       },
       {
-        "en_tagged": "Co-leader of the negotiations Chris Bowen blamed the failure to reach an agreement on \"the most complicated and <w id='w30'>fraught</w> geopolitical environment in living memory\"",
-        "fr_b2_tagged": "Le co-leader des négociations Chris Bowen a attribué l'échec de l'accord à « l'environnement géopolitique le plus compliqué et <w id='w30'>tendu</w> de mémoire d'homme ».",
-        "fr_a2_tagged": "Chris Bowen, un des chefs des négociations, a dit qu'un accord était impossible à cause d'un contexte politique très <w id='w30'>tendu</w> dans le monde."
+        "en_tagged": "In recent months, the government has increased pressure on the EMC, bombing its camps and <w id='w31'>targeting</w> senior members. Just yesterday, the president confirmed the killing of alias El Churco, an EMC commander.",
+        "fr_b2_tagged": "Ces derniers mois, le gouvernement a intensifié la pression sur l'EMC, bombardant ses camps et <w id='w31'>ciblant</w> ses cadres dirigeants. Hier encore, le président a confirmé la mort du surnommé El Churco, un commandant de l'EMC.",
+        "fr_a2_tagged": "Ces derniers mois, le gouvernement met plus de pression sur l'EMC. Il bombarde ses camps et <w id='w31'>vise</w> ses chefs. Hier, le président a confirmé la mort d'El Churco, un chef de l'EMC."
       },
       {
-        "en_tagged": "Normally, it is difficult to establish exactly who has said what at these conferences. Much of the <w id='w31'>bargaining</w> takes place behind closed doors, and governments are often <w id='w32'>reluctant</w> to admit which proposals they have opposed.",
-        "fr_b2_tagged": "Normalement, il est difficile d'établir exactement qui a dit quoi lors de ces conférences. Une grande partie des <w id='w31'>négociations</w> se déroule à huis clos, et les gouvernements sont souvent <w id='w32'>réticents</w> à admettre quelles propositions ils ont rejetées.",
-        "fr_a2_tagged": "D'habitude, c'est difficile de savoir qui a dit quoi pendant ces réunions. Beaucoup de <w id='w31'>discussions</w> se font en secret, et les gouvernements sont <w id='w32'>hésitants</w> à dire quels projets ils ont refusés."
+        "en_tagged": "The campaign is part of the new far-right government’s <w id='w32'>security pivot</w>, which aims to tackle criminal organisations through military force and has suspended the negotiations <w id='w33'>initiated</w> under the previous government.",
+        "fr_b2_tagged": "Cette campagne s'inscrit dans le cadre du <w id='w32'>pivot sécuritaire</w> du nouveau gouvernement d'extrême droite, qui vise à combattre les organisations criminelles par la force militaire et a suspendu les négociations <w id='w33'>engagées</w> sous le gouvernement précédent.",
+        "fr_a2_tagged": "Cette action fait partie du nouveau <w id='w32'>virage sécuritaire</w> du gouvernement. Il veut combattre les criminels par la force armée et a arrêté les discussions <w id='w33'>commencées</w> sous l'ancien gouvernement."
       },
       {
-        "en_tagged": "This time, some of the opposition was public - mostly from oil-producing nations.",
-        "fr_b2_tagged": "Cette fois, une partie de l'opposition a été publique, principalement de la part des pays producteurs de pétrole.",
-        "fr_a2_tagged": "Cette fois, l'opposition était publique, surtout de la part des pays qui produisent du pétrole."
+        "en_tagged": "De la Espriella has suggested that last night’s bombing in Villavicencio was likely a <w id='w34'>retaliation</w> against <w id='w35'>ramped-up</w> state pressure on armed groups.",
+        "fr_b2_tagged": "De la Espriella a suggéré que l'attentat de la nuit dernière à Villavicencio était vraisemblablement une <w id='w34'>riposte</w> à la pression étatique <w id='w35'>accrue</w> exercée sur les groupes armés.",
+        "fr_a2_tagged": "De la Espriella pense que l'attaque d'hier soir à Villavicencio est une <w id='w34'>réponse</w> à la pression <w id='w35'>renforcée</w> de l'État contre les groupes armés."
       },
       {
-        "en_tagged": "Mohammad Ayoub, a Saudi negotiator speaking <w id='w33'>on behalf of</w> the 22 Arab League countries, argued that Arab nations had contributed less than 2% of historical <w id='w38'>greenhouse gas emissions</w>. It was wealthy industrialised nations, he said, that <w id='w34'>bore</w> the overwhelming responsibility for the problem.",
-        "fr_b2_tagged": "Mohammad Ayoub, négociateur saoudien s'exprimant <w id='w33'>au nom de</w> 22 pays de la Ligue arabe, a soutenu que les nations arabes avaient contribué à moins de 2 % des <w id='w38'>émissions de gaz à effet de serre</w> historiques. Ce sont les nations industrialisées riches, a-t-il dit, qui <w id='w34'>portaient</w> la responsabilité écrasante du problème.",
-        "fr_a2_tagged": "Mohammad Ayoub, un négociateur saoudien qui parlait <w id='w33'>au nom des</w> 22 pays de la Ligue arabe, a dit que les pays arabes ont produit moins de 2 % des <w id='w38'>émissions de gaz à effet de serre</w> de l'histoire. Selon lui, ce sont les pays riches qui <w id='w34'>portent</w> la plus grande responsabilité."
+        "en_tagged": "“The narco-terrorists are running wild, launching desperate attacks, because they know we are defeating them and that their end is near,” the president wrote on X this morning.",
+        "fr_b2_tagged": "« Les narco-terroristes sont déchaînés et lancent des attaques désespérées parce qu'ils savent que nous les vainquons et que leur fin est proche », a écrit le président sur X ce matin.",
+        "fr_a2_tagged": "« Les narco-terroristes font n'importe quoi et font des attaques désespérées parce qu'ils savent que nous gagnons et que leur fin arrive », a écrit le président sur X ce matin."
       },
       {
-        "en_tagged": "He defended the Arab countries' right to choose how to <w id='w35'>tackle</w> climate change according to their national circumstances.",
-        "fr_b2_tagged": "Il a défendu le droit des pays arabes de choisir comment <w id='w35'>affronter</w> le changement climatique en fonction de leur situation nationale.",
-        "fr_a2_tagged": "Il a défendu le droit des pays arabes de choisir comment <w id='w35'>lutter contre</w> le changement climatique selon leur situation."
+        "en_tagged": "The attack, which happened on the eve of the 10-year anniversary of the 2016 peace deal, highlights the growing risks to civilians under de la Espriella’s <w id='w36'>heavy-handed</w> security strategy, say experts.",
+        "fr_b2_tagged": "L'attaque, survenue à la veille du 10e anniversaire de l'accord de paix de 2016, souligne les risques croissants pour les civils sous la stratégie sécuritaire <w id='w36'>répressive</w> de de la Espriella, selon les experts.",
+        "fr_a2_tagged": "L'attaque s'est passée juste avant les 10 ans de l'accord de paix de 2016. Selon des experts, elle montre les dangers pour les habitants sous la stratégie <w id='w36'>durcie</w> de de la Espriella."
       },
       {
-        "en_tagged": "Russia's <w id='w39'>delegate</w> Sergei Kononuchenko went further. Cutting oil and gas supplies before demand fell, he warned, would cause <w id='w36'>shortages</w>, higher prices and energy poverty.",
-        "fr_b2_tagged": "Le <w id='w39'>délégué</w> russe Sergueï Kononoutchenko est allé plus loin. Réduire les approvisionnements en pétrole et en gaz avant que la demande ne baisse, a-t-il averti, causerait des <w id='w36'>pénuries</w>, des prix plus élevés et de la pauvreté énergétique.",
-        "fr_a2_tagged": "Le <w id='w39'>délégué</w> de la Russie, Sergueï Kononoutchenko, est allé encore plus loin. Il a dit que réduire le pétrole et le gaz trop vite créerait des <w id='w36'>pénuries</w>, des prix élevés et de la pauvreté."
-      },
-      {
-        "en_tagged": "\"For that reason, we cannot agree to any <w id='w37'>formulation</w> on fossil fuel,\" he said.",
-        "fr_b2_tagged": "« Pour cette raison, nous ne pouvons accepter aucune <w id='w37'>formulation</w> sur les combustibles fossiles », a-t-il déclaré.",
-        "fr_a2_tagged": "« Pour cette raison, nous ne pouvons pas accepter cette <w id='w37'>formulation</w> sur les énergies fossiles », a-t-il dit."
+        "en_tagged": "“As the government increases pressure, armed and criminal groups are trying to raise the cost of doing that for the government by <w id='w37'>exerting</w> pain, <w id='w38'>instilling</w> fear and causing direct harm against communities and against the civilian population,” said Elizabeth Dickinson, deputy director for Latin America at the International Crisis Group.",
+        "fr_b2_tagged": "« À mesure que le gouvernement augmente la pression, les groupes armés et criminels tentent d'en augmenter le coût pour le pouvoir en <w id='w37'>infligeant</w> de la souffrance, en <w id='w38'>instillant</w> la peur et en causant des préjudices directs aux communautés et à la population civile », a déclaré Elizabeth Dickinson, directrice adjointe pour l'Amérique latine à l'International Crisis Group.",
+        "fr_a2_tagged": "« Quand le gouvernement met plus de pression, les groupes armés essaient d'augmenter le prix à payer pour l'État en <w id='w37'>donnant</w> de la douleur, en <w id='w38'>mettant</w> de la peur et en faisant du mal directement aux gens et aux civils », a dit Elizabeth Dickinson."
       }
     ],
     "expressions": [
       {
-        "en_phrase": "unbridgeable red lines",
-        "academic_alt": "insurmountable policy constraints",
-        "fr_phrase": "lignes rouges insurmontables",
-        "cognate_hint": "英語の red line はフランス語でも ligne rouge（不可侵線・譲れない一線）と直訳されます。",
-        "ja_explanation": "「妥協不可能な一線（レッドライン）」。政治や外交の交渉でこれ以上譲歩できない限界を指します。学術論文では insurmountable constraints（克服不能な制約）や irreconcilable impasses と言い換えられます。"
+        "en_phrase": "in retaliation for",
+        "academic_alt": "in reprisal for / as a countermeasure against",
+        "fr_phrase": "en représailles de",
+        "cognate_hint": "retaliation（英）と représailles（仏）は共に「報復・しっぺ返し」を意味し、対外政策や軍事のニュースで頻出します。",
+        "ja_explanation": "「〜への報復として」という意味の重要表現。テロ行為や経済制裁、紛争の動機を提示する際に学術論文や国際報道で頻繁に使用されます。"
       },
       {
-        "en_phrase": "get hung up on",
-        "academic_alt": "preoccupy oneself excessively with",
-        "fr_phrase": "s'accrocher à",
-        "cognate_hint": "英語 hang（吊るす・固執する）に対し、フランス語 s'accrocher は「〜にしがみつく・固執する」を意味します。",
-        "ja_explanation": "「〜にこだわりすぎる、（細部に）囚われる」という口語表現。文脈上、1つの単語の文言に捕らわれて全体を台無しにすることを指しています。フォーマルな文体では disproportionately focus on や remain unduly preoccupied with を用います。"
+        "en_phrase": "lay down their arms",
+        "academic_alt": "demilitarize / cease hostilities",
+        "fr_phrase": "déposer les armes",
+        "cognate_hint": "arms（英）と armes（仏）はラテン語 arma（武器）を共通の語源とする同義語です。",
+        "ja_explanation": "「武器を置く、投降・武装解除する」という慣用表現。和平交渉や元戦闘員の社会復帰の文脈で用いられます。"
       },
       {
-        "en_phrase": "a world of difference",
-        "academic_alt": "a fundamental disparity",
-        "fr_phrase": "un monde de différence",
-        "cognate_hint": "英語もフランス語もまったく同じ「世界（monde/world）ほどの違い」という直訳表現が存在します。",
-        "ja_explanation": "「天と地ほどの差、根本的な違い」。2つの概念や立場の間に著しい隔たりがあることを強調するフレーズです。学術的記述では a profound distinction や a stark disparity などが好まれます。"
+        "en_phrase": "heavy-handed security strategy",
+        "academic_alt": "coercive security policy / authoritarian counter-terrorism approach",
+        "fr_phrase": "stratégie de sécurité autoritaire",
+        "cognate_hint": "strategy（英）と stratégie（仏）はギリシャ語 stratēgia（将術・軍略）に由来する同源語です。",
+        "ja_explanation": "「強硬な治安（安全保障）戦略」。heavy-handed は「高圧的な、過剰な力を用いた」という批判的ニュアンスを含む形容詞です。"
       },
       {
-        "en_phrase": "bear the overwhelming responsibility for",
-        "academic_alt": "assure the primary accountability for",
-        "fr_phrase": "porter la responsabilité écrasante de",
-        "cognate_hint": "responsibility と responsabilité は語源を同じくする同質語（cognate）です。",
-        "ja_explanation": "「〜の圧倒的な責任を負う」。気候変動などの国際課題において、歴史的排出量に対する責任（historical responsibility）を論じる際に非常によく使われる表現です。"
+        "en_phrase": "instill fear",
+        "academic_alt": "induce terror / engender a climate of fear",
+        "fr_phrase": "instiller la peur / inspirer la crainte",
+        "cognate_hint": "instill（英）と instiller（仏）はラテン語 instillare（一滴ずつ落とす）から「（感情や観念を）徐々に染み込ませる」を意味します。",
+        "ja_explanation": "「（人々の心に）恐怖を植え付ける」。思想や感情を時間をかけて浸透させる際に用いられる、非常にフォーマルかつ抽象度の高い動詞です。"
       }
     ],
     "slash_reading": [
       {
-        "fr_original": "Les pays divisés / n'ont pas pu / trouver un accord / sur les combustibles fossiles.",
-        "en_meaning": "The divided countries could not reach an agreement on fossil fuels.",
-        "ja_meaning": "分断された国々は、化石燃料に関する合意に達することができなかった。",
+        "fr_original": "Le président colombien accuse les rebelles d'avoir orchestré l'attentat.",
+        "en_meaning": "The Colombian president accuses the rebels of having orchestrated the attack.",
+        "ja_meaning": "コロンビアの大統領は、反乱軍がテロを仕組んだとして非難している。",
         "chunks": [
           {
             "role": "S",
-            "text": "Les pays divisés",
-            "note": "主語：「分断された国々」"
+            "text": "Le président colombien",
+            "note": "主語：コロンビアの大統領"
           },
           {
             "role": "V",
-            "text": "n'ont pas pu",
-            "note": "動詞：pouvoir（〜できる）の複合過去否定形「〜できなかった」"
+            "text": "accuse",
+            "note": "動詞：非難する・訴える（accuserの直説法現在3人称単数）"
           },
           {
             "role": "O",
-            "text": "trouver un accord",
-            "note": "目的語：「合意を見つける（達する）」"
+            "text": "les rebelles",
+            "note": "直接目的語：反乱分子らを"
           },
           {
             "role": "M",
-            "text": "sur les combustibles fossiles",
-            "note": "修飾語：「化石燃料に関する」（surは〜に関して）"
+            "text": "d'avoir orchestré l'attentat",
+            "note": "前置詞句（accuser A de B）：テロを画策したことに対して"
           }
         ],
         "verbs": [
           {
-            "word": "ont pu",
-            "lemma": "pouvoir",
-            "tense": "複合過去",
-            "meaning": "〜することができた"
+            "word": "accuse",
+            "lemma": "accuser",
+            "tense": "現在形",
+            "meaning": "非難する"
           },
           {
-            "word": "trouver",
-            "lemma": "trouver",
-            "tense": "不定詞（原形）",
-            "meaning": "見つける"
+            "word": "avoir orchestré",
+            "lemma": "orchestrer",
+            "tense": "複合過去（不定詞）",
+            "meaning": "計画・画策した"
           }
         ]
       },
       {
-        "fr_original": "Le ministre / a déclaré / que l'environnement géopolitique / était très complexe.",
-        "en_meaning": "The minister declared that the geopolitical environment was very complex.",
-        "ja_meaning": "大臣は、地政学的な環境が非常に対立し複雑であると述べた。",
+        "fr_original": "Les attaques visent le bâtiment du gouvernement dans la province.",
+        "en_meaning": "The attacks target the government building in the province.",
+        "ja_meaning": "攻撃は州内にある政府機関の建物を標的にしている。",
         "chunks": [
           {
             "role": "S",
-            "text": "Le ministre",
-            "note": "主語：「大臣は」"
+            "text": "Les attaques",
+            "note": "主語：攻撃（複数形）"
           },
           {
             "role": "V",
-            "text": "a déclaré",
-            "note": "動詞：déclarer（宣言する・述べる）の複合過去"
+            "text": "visent",
+            "note": "動詞：狙う・標的にする（viserの直説法現在3人称複数）"
           },
           {
             "role": "O",
-            "text": "que l'environnement géopolitique était très complexe",
-            "note": "従属節（目的語）：「地政学的環境がとても複雑であったということ」"
+            "text": "le bâtiment du gouvernement",
+            "note": "直接目的語：政府の建物"
+          },
+          {
+            "role": "M",
+            "text": "dans la province",
+            "note": "場所の修飾語：州内の"
           }
         ],
         "verbs": [
           {
-            "word": "a déclaré",
-            "lemma": "déclarer",
-            "tense": "複合過去",
-            "meaning": "述べた、宣言した"
-          },
-          {
-            "word": "était",
-            "lemma": "être",
-            "tense": "半過去",
-            "meaning": "〜であった（過去の状態）"
+            "word": "visent",
+            "lemma": "viser",
+            "tense": "現在形",
+            "meaning": "標的にする・目指す"
           }
         ]
       }
     ],
     "travel_apps": [
       {
-        "from_news_fr": "combustibles / carburants",
-        "from_news_ja": "燃料・エネルギー",
-        "situation": "フランスでレンタカーに給油する際",
-        "travel_fr": "Quel type de carburant faut-il utiliser pour cette voiture ?",
-        "travel_ja": "この車にはどの種類の燃料（ガソリン）を使えばいいですか？",
-        "travel_tip": "フランスのガソリンスタンドでは、ガソリン全般を « carburant »、無鉛ガソリンを « Sans Plomb (SP) »、軽油（ディーゼル）を « Gazole / Diesel » と表記します。"
+        "from_news_fr": "bâtiment (建物)",
+        "from_news_ja": "建物、ビル",
+        "situation": "パリなどの観光地で歴史的建造物や目的地を探すとき",
+        "travel_fr": "Où se trouve ce bâtiment historique, s'il vous plaît ?",
+        "travel_ja": "すいません、この歴史的建造物はどこにありますか？",
+        "tip": "ニュースでは「政府ビル」の意味でしたが、旅行では美術館や歴史的建造物（bâtiment historique）の位置を聞く際に重宝します。"
       },
       {
-        "from_news_fr": "différence",
-        "from_news_ja": "違い・差",
-        "situation": "パリのカフェでメニューを選ぶ際",
-        "travel_fr": "Quelle est la différence entre le café crème et le café au lait ?",
-        "travel_ja": "カフェ・クレームとカフェ・オ・レの違いは何ですか？",
-        "travel_tip": "« Quelle est la différence entre A et B ? » （AとBの違いは何ですか？）は、料理やワインの銘柄の違いを聞くときに現地でそのまま使える超実用フレーズです。"
+        "from_news_fr": "sécurité (安全・治安)",
+        "from_news_ja": "治安、安全",
+        "situation": "ホテルのフロントで夜間の治安状況を確認するとき",
+        "travel_fr": "Est-ce qu'il y a un problème de sécurité dans ce quartier ?",
+        "travel_ja": "このエリアは安全上の問題（治安の問題）がありますか？",
+        "tip": "初めての都市で夜出かける際、「quartier（地区）」と「sécurité（安全）」を組み合わせてスタッフに相談すると安心です。"
       }
     ],
     "quiz": {
       "q1": {
-        "question": "Negotiators failed to sign the treaty because both parties reached _____ red lines that could not be reconciled.",
+        "question": "The dissident militia carried out the strike in _____ for the military offensive.",
         "options": [
-          "unbridgeable",
-          "unbreakable",
-          "uncountable",
-          "unavoidable"
+          "retaliation",
+          "reluctance",
+          "reconciliation",
+          "restitution"
         ],
         "answer": 0,
-        "explanation": "「埋められない隔たり・妥協不可能な一線」を指す表現は unbridgeable red lines です。橋（bridge）を架けることができないという意味合いに基づきます。"
+        "explanation": "「in retaliation for ~（〜の報復として）」が正解です。他の選択肢：reluctance（気の進まないこと）、reconciliation（和解）、restitution（賠償・返還）。"
       },
       "q2": {
-        "question": "ニュース記事に登場したフランス語フレーズ「une responsabilité écrasante」の日本語訳として最も適切なものはどれですか？",
+        "question": "ニュース記事の中に出てきた表現 \"déposer les armes\" の日本語訳として最も適切なものはどれですか？",
         "options": [
-          "一時的な責任",
-          "圧倒的な責任",
-          "曖昧な責任",
-          "法的免責"
+          "武器を購入する",
+          "武装解除する（武器を置く）",
+          "警備を強化する",
+          "宣戦布告する"
         ],
         "answer": 1,
-        "explanation": "« responsabilité »（責任）＋ « écrasante »（押しつぶすような、圧倒的な）で「圧倒的な責任」を意味します。"
+        "explanation": "「déposer（置く）+ les armes（武器）」で、英語の「lay down arms（武装解除する、武器を捨てる）」に対応します。"
       },
       "q3": {
-        "prompt": "「地政学的な対立が、地球規模の課題解決を阻害している」という内容を、学術的な英語1文で書いてください。",
-        "model_answer": "Deepening geopolitical divisions continue to impede international consensus on addressing pressing global challenges such as climate change.",
-        "notes": "「阻害する」に impede や hinder を使い、「地政学的な対立」に geopolitical divisions を用いることで、英検1級・学術論文レベルの格調高い文になります。"
+        "prompt": "「政府の強硬な治安策（heavy-handed strategy）は意図せず紛争を激化させ、市民のリスクを高める可能性がある」という趣旨の英文を1文で書いてください。",
+        "model_answer": "A heavy-handed counter-terrorism strategy may inadvertently escalate violence, thereby compounding the security risks faced by the civilian population.",
+        "notes": "heavy-handed（強硬な）、inadvertently escalate（意図せず激化させる）、thereby compounding（それによって〜を重層的に悪化させる）などの学術的な語彙・分詞構文を活用すると説得力が増します。"
       }
     }
   }
