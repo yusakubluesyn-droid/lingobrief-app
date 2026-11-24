@@ -64,14 +64,14 @@ def fetch_verbatim_article():
     raise RuntimeError("記事の取得に失敗しました。")
 
 def generate_with_fallback(client, prompt):
-    # 混雑している3.8系が503の場合、別サーバー群の2.5系へ確実にフォールバックさせる
+    # 現在有効な安定版3.5系を優先し、混雑時は3.8系へフォールバックさせる
     models_to_try = [
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
         "gemini-3.8-flash",
-        "gemini-2.5-flash",
-        "gemini-2.5-flash-lite",
-        "gemini-3.8-flash-lite",
-        "gemini-2.5-flash",
-        "gemini-2.5-flash-lite"
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.8-flash-lite"
     ]
     last_error = None
     for idx, model_name in enumerate(models_to_try):
