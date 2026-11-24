@@ -44,7 +44,6 @@ def fetch_verbatim_article():
                     url = entry.link
                     res = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
                     soup = BeautifulSoup(res.text, "html.parser")
-                    # 記事本文のコンテナを優先的に探す
                     container = soup.find("article") or soup.find("main") or soup
                     paragraphs = [p.get_text(" ", strip=True) for p in container.find_all("p")]
                     valid_p = [
@@ -52,7 +51,6 @@ def fetch_verbatim_article():
                         if len(p) > 65 
                         and not any(ng in p.lower() for ng in ["cookie", "subscribe", "sign up", "newsletter", "all rights reserved", "follow us", "read more:"])
                     ]
-                    # 全文引用（最大15段落まで）
                     if len(valid_p) >= 4:
                         return {
                             "category": category,
@@ -66,12 +64,14 @@ def fetch_verbatim_article():
     raise RuntimeError("記事の取得に失敗しました。")
 
 def generate_with_fallback(client, prompt):
+    # 混雑している3.8系が503の場合、別サーバー群の2.5系へ確実にフォールバックさせる
     models_to_try = [
         "gemini-3.8-flash",
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
         "gemini-3.8-flash-lite",
-        "gemini-3.8-flash",
-        "gemini-3.8-flash-lite",
-        "gemini-3.8-flash"
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite"
     ]
     last_error = None
     for idx, model_name in enumerate(models_to_try):
@@ -85,11 +85,13 @@ def generate_with_fallback(client, prompt):
                     temperature=0.2
                 )
             )
+            print(f"Success with {model_name}!")
             return response.text
         except Exception as e:
             last_error = e
-            print(f"{model_name} failed ({e}). Waiting 20s before retry...")
-            time.sleep(20)
+            wait_sec = 15 if idx < 2 else 30
+            print(f"{model_name} failed ({e}). Waiting {wait_sec}s before fallback...")
+            time.sleep(wait_sec)
     raise last_error
 
 def translate_chunk(client, source, paragraphs_chunk, start_word_idx):
@@ -134,7 +136,6 @@ def main():
     chunk1_p = all_p[:mid]
     chunk2_p = all_p[mid:]
 
-    # 負荷分散のため前半・後半に分けて対訳＆単語リンクを生成
     res1 = translate_chunk(client, article["source"], chunk1_p, 1)
     merged_vocab = dict(res1.get("vocab", {}))
     merged_paragraphs = list(res1.get("paragraphs", []))
@@ -144,7 +145,6 @@ def main():
         merged_vocab.update(res2.get("vocab", {}))
         merged_paragraphs.extend(res2.get("paragraphs", []))
 
-    # 原文完全一致の自動検証
     for i, orig_p in enumerate(all_p):
         if i < len(merged_paragraphs):
             tagged_p = merged_paragraphs[i]["en_tagged"]
@@ -152,7 +152,6 @@ def main():
             if stripped.strip() != orig_p.strip():
                 merged_paragraphs[i]["en_tagged"] = orig_p
 
-    # 学習解説・クイズの生成
     study_prompt = f"""
 You are an expert English & French linguistics tutor for a Japanese graduate student (English: Eiken Pre-1 aiming for academic mastery; French: beginner aiming for travel reading).
 
@@ -251,7 +250,6 @@ Ensure `expressions` has 4 items, `slash_reading` has 2 items, and `travel_apps`
     with open(f"public/data/archive/{today_str}.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # バックナンバー目録 (public/data/index.json) の更新
     index_path = "public/data/index.json"
     archive_list = []
     if os.path.exists(index_path):
