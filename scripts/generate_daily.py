@@ -63,14 +63,23 @@ def fetch_verbatim_article():
                 continue
     raise RuntimeError("記事の取得に失敗しました。")
 
-def generate_with_fallback(client, prompt):
-    # 現在有効な安定版3.5系を優先し、混雑時は3.8系へフォールバックさせる
+def clean_and_parse_json(raw_text):
+    text = raw_text.strip()
+    # マークダウンのコードブロック除去
+    if text.startswith("```"):
+        text = re.sub(r"^```(?:json)?\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+    # 末尾の余分なカンマを修復
+    text = re.sub(r",\s*([}\]])", r"\1", text)
+    return json.loads(text, strict=False)
+
+def generate_json_with_fallback(client, prompt):
     models_to_try = [
         "gemini-3.5-flash",
         "gemini-3.5-flash-lite",
-        "gemini-3.8-flash",
         "gemini-3.5-flash",
         "gemini-3.5-flash-lite",
+        "gemini-3.8-flash",
         "gemini-3.8-flash-lite"
     ]
     last_error = None
@@ -85,19 +94,22 @@ def generate_with_fallback(client, prompt):
                     temperature=0.2
                 )
             )
+            parsed = clean_and_parse_json(response.text)
             print(f"Success with {model_name}!")
-            return response.text
+            return parsed
         except Exception as e:
             last_error = e
-            wait_sec = 15 if idx < 2 else 30
-            print(f"{model_name} failed ({e}). Waiting {wait_sec}s before fallback...")
+            wait_sec = 10 if idx < 2 else 20
+            print(f"{model_name} failed ({type(e).__name__}: {e}). Waiting {wait_sec}s before retry...")
             time.sleep(wait_sec)
     raise last_error
 
 def translate_chunk(client, source, paragraphs_chunk, start_word_idx):
     prompt = f"""
 You are an expert English & French linguistics tutor for a Japanese graduate student.
-CRITICAL RULE: In `en_tagged`, preserve EVERY SINGLE CHARACTER, SPACE, AND PUNCTUATION MARK of the original English paragraphs identically. ONLY insert `<w id="w{start_word_idx}">...</w>`, `<w id="w{start_word_idx+1}">...</w>` tags around 10-14 important vocabulary words/phrases in this section.
+CRITICAL RULES:
+1. In `en_tagged`, preserve EVERY SINGLE CHARACTER, SPACE, AND PUNCTUATION MARK of the original English paragraphs identically. ONLY insert `<w id='w{start_word_idx}'>...</w>`, `<w id='w{start_word_idx+1}'>...</w>` tags (using SINGLE QUOTES for id='...') around 8-12 important vocabulary words/phrases in this section.
+2. Ensure valid JSON output: properly escape any double quotes inside string values as \\".
 
 Paragraphs:
 {json.dumps(paragraphs_chunk, ensure_ascii=False, indent=2)}
@@ -124,8 +136,7 @@ Return ONLY a valid JSON object:
   ]
 }}
 """
-    raw = generate_with_fallback(client, prompt)
-    return json.loads(raw)
+    return generate_json_with_fallback(client, prompt)
 
 def main():
     article = fetch_verbatim_article()
@@ -154,6 +165,7 @@ def main():
 
     study_prompt = f"""
 You are an expert English & French linguistics tutor for a Japanese graduate student (English: Eiken Pre-1 aiming for academic mastery; French: beginner aiming for travel reading).
+Ensure valid JSON output and properly escape any double quotes inside strings as \\".
 
 Title: {article['title']}
 Full Text:
@@ -220,7 +232,7 @@ Return ONLY a valid JSON object:
 }}
 Ensure `expressions` has 4 items, `slash_reading` has 2 items, and `travel_apps` has 2 items.
 """
-    study_data = json.loads(generate_with_fallback(client, study_prompt))
+    study_data = generate_json_with_fallback(client, study_prompt)
 
     lesson_data = {
         "title_en": article["title"],
