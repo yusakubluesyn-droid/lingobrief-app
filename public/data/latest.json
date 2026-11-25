@@ -1,400 +1,400 @@
 {
-  "date": "2026-11-25",
-  "category": "Military & Geopolitics",
-  "source": "Al Jazeera",
-  "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
+  "date": "2026-11-26",
+  "category": "Environment",
+  "source": "BBC Science & Environment",
+  "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
   "lesson": {
-    "title_en": "Colombian president blames ex-FARC rebels for car bomb blast",
-    "title_fr": "Le président colombien accuse les ex-rebelles des FARC d'un attentat à la voiture piégée",
+    "title_en": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+    "title_fr": "L'armée américaine affirme que l'explosion contrôlée d'explosifs dans l'Iowa a été un « grand succès »",
     "vocab": {
       "w1": {
-        "en": "retaliation",
-        "fr": "représailles",
+        "en": "detonation",
+        "fr": "détonation",
         "pos": "名詞",
-        "lemma": "représailles",
-        "cognate": "英語 retaliation と同義。フランス語 représailles は repriser/reprendre（買い戻す・仕返す）に由来。",
-        "ja": "報復、仕返し",
-        "note": "in retaliation for/of 〜（〜への報復として）。フランス語では en représailles de... と表現します。"
+        "lemma": "détonation",
+        "cognate": "English 'detonation' is directly borrowed from French / Latin.",
+        "ja": "起爆、爆破、爆発",
+        "note": "フランス語の女性名詞（une détonation）。英語の explosion より限定的な「爆薬の点火・爆破」を指す表現です。"
       },
       "w2": {
-        "en": "targeting",
-        "fr": "visant",
-        "pos": "動詞 (現在分詞)",
-        "lemma": "viser",
-        "cognate": "英語 target, フランス語 viser（狙いを定める）。",
-        "ja": "〜を標的とした、〜を対象とする",
-        "note": "target A = Aを標的にする。フランス語 viser は直接目的語をとって「〜を狙う」を意味します。"
+        "en": "toxic",
+        "fr": "toxique",
+        "pos": "形容詞",
+        "lemma": "toxique",
+        "cognate": "Identical stem: toxic / toxique",
+        "ja": "有毒な、有害な",
+        "note": "英語とほぼ同型。フランス語でも物質の毒性（substance toxique）や環境被害を表す際に常用されます。"
       },
       "w3": {
-        "en": "plotting",
-        "fr": "fomentant",
-        "pos": "動詞 (現在分詞)",
-        "lemma": "fomenter",
-        "cognate": "英語 plot, フランス語 fomenter / comploter（陰謀を企てる）。",
-        "ja": "（陰謀・テロなどを）企てている、策動している",
-        "note": "accuse A of plotting B = AがBを企てたと糾弾する。"
+        "en": "widespread",
+        "fr": "généralisé",
+        "pos": "形容詞",
+        "lemma": "généraliser",
+        "cognate": "English 'general' / French 'général'",
+        "ja": "広範な、普及した、大規模な",
+        "note": "wide(広範な)+spread(広がった)に対応する語。文脈に応じて généralisé, étendu, などの過去分詞由来の形容詞を使います。"
       },
       "w4": {
-        "en": "dissidents",
-        "fr": "dissidents",
-        "pos": "名詞",
-        "lemma": "dissident",
-        "cognate": "英・仏同型 dissident (ラテン語 dissidere「反目する・離れて座る」由来)。",
-        "ja": "脱退派、反乱分子、異論者",
-        "note": "和平協定や組織の決定に従わず離脱した派閥を指す言葉です。"
+        "en": "declared",
+        "fr": "déclaré",
+        "pos": "動詞（過去形・過去分詞）",
+        "lemma": "déclarer",
+        "cognate": "declare / déclarer",
+        "ja": "宣言した、表明した",
+        "note": "公式発言やリスク宣言などに使われる動詞。déclarer que + 直説法で「〜と明言する」の構造になります。"
       },
       "w5": {
-        "en": "extensive damage",
-        "fr": "dégâts considérables",
-        "pos": "名詞句",
-        "lemma": "dégât",
-        "cognate": "英語 damage, フランス語 dégât(s)。extensive は仏 considérable / important。",
-        "ja": "甚大な被害・損傷",
-        "note": "extensive は「広範な・大規模な」という意味。フランス語の dégâts には plural（複数形）がよく使われます。"
+        "en": "mitigation",
+        "fr": "atténuation",
+        "pos": "名詞",
+        "lemma": "atténuation",
+        "cognate": "attenuate (EN) / atténuer (FR)",
+        "ja": "軽減、緩和、リスク削減",
+        "note": "英語の mitigation（軽減策）はフランス語で atténuation や réduction des risques と訳されます。環境・安全分野の専門用語。"
       },
       "w6": {
-        "en": "laden with",
-        "fr": "chargé de",
-        "pos": "形容詞句",
-        "lemma": "charger",
-        "cognate": "英語 laden, フランス語 chargé de...",
-        "ja": "〜を積み込んだ、〜で満ちた",
-        "note": "be laden with ~ = 〜（荷物・爆薬など）を大量に載せている状態。"
+        "en": "volatile",
+        "fr": "instable",
+        "pos": "形容詞",
+        "lemma": "instable",
+        "cognate": "unstable (EN) / instable (FR)",
+        "ja": "不安定な、揮発性の、爆発しやすい",
+        "note": "化学物質の「揮発性・爆発しやすさ」を表す際、フランス語では volatile も使えますが、文脈上 instable（不安定な）が自然です。"
       },
       "w7": {
-        "en": "high explosive",
-        "fr": "puissant explosif",
-        "pos": "名詞句",
-        "lemma": "explosif",
-        "cognate": "英語 explosive, フランス語 explosif。",
-        "ja": "高性能爆薬",
-        "note": "軍事や鉱山採掘で用いられる強力な爆破物質のこと。"
+        "en": "outcry",
+        "fr": "tollé",
+        "pos": "名詞",
+        "lemma": "tollé",
+        "cognate": "No direct cognate with outcry",
+        "ja": "猛反発、大抗議、非難の嵐",
+        "note": "public outcry はフランス語のジャーナリズムで un tollé général（激しい抗議の嵐）とよく訳される重要語彙です。"
       },
       "w8": {
-        "en": "demobilised",
-        "fr": "démobilisées",
-        "pos": "動詞 (過去形/過去分詞)",
-        "lemma": "démobiliser",
-        "cognate": "英 demobilise, 仏 démobiliser (dé- + mobiliser)。完全な同根語。",
-        "ja": "（部隊・組織が）武装解除した、復員した",
-        "note": "軍隊や反乱組織が戦闘状態を解除して解散することを指します。"
+        "en": "promising",
+        "fr": "encourageant",
+        "pos": "形容詞",
+        "lemma": "encourager",
+        "cognate": "encourage / encourager",
+        "ja": "前途有望な、良好な、期待できる",
+        "note": "結果やデータが「良い兆候を示している」ときは prometteur や encourageant を用います。"
       },
       "w9": {
-        "en": "lay down their arms",
-        "fr": "déposer les armes",
-        "pos": "動詞句",
-        "lemma": "déposer",
-        "cognate": "英語 lay down arms, フランス語 déposer les armes（直訳構造が一致）。",
-        "ja": "武器を置く、投降・武装解除する",
-        "note": "戦闘行為をやめて降伏または武装解除することを表す決まり文句です。"
+        "en": "exceeded",
+        "fr": "dépassé",
+        "pos": "動詞（過去形・過去分詞）",
+        "lemma": "dépasser",
+        "cognate": "pass / passer",
+        "ja": "（予想・限界などを）超えた、上回った",
+        "note": "dépasser les attentes で「期待を超える」の意味。surpasser も同様に使えます。"
+      },
+      "w10": {
+        "en": "sensor array",
+        "fr": "réseau de capteurs",
+        "pos": "名詞句",
+        "lemma": "réseau de capteurs",
+        "cognate": "sensor / capteur (no direct cognate)",
+        "ja": "センサー群、センサー網",
+        "note": "array（配列・群）はフランス語で réseau（ネットワーク・網）や dispositif（装置群）と訳します。"
       },
       "w30": {
-        "en": "bounty",
-        "fr": "récompense",
-        "pos": "名詞",
-        "lemma": "récompense",
-        "cognate": "なし（英語 bounty は古仏語 bonté『好意』に由来するが、現代仏語では prime / récompense）",
-        "ja": "懸賞金、報奨金",
-        "note": "容疑者の逮捕や殺害に設定される報奨金を指します。フランス語では prime (de capture) や récompense が対応します。"
+        "en": "degraded",
+        "fr": "dégradé",
+        "pos": "動詞（過去分詞）",
+        "lemma": "dégrader",
+        "cognate": "英語の degrade と同語源（ラテン語 dēgradāre 由来）",
+        "ja": "劣化する、分解する",
+        "note": "物質や化学成分が時間経過とともに品質低下・分解を起こすプロセスを指します。"
       },
       "w31": {
-        "en": "targeting",
-        "fr": "ciblant",
-        "pos": "動詞 (現在分詞)",
-        "lemma": "cibler",
-        "cognate": "なし（cible『標的』という名詞に由来する動詞）",
-        "ja": "〜を標的にする、狙い撃ちにする",
-        "note": "cible（的・ターゲット）から派生した動詞 cibler の現在分詞。特定の人物や組織を攻撃対象に指定する際に使われます。"
+        "en": "detonation",
+        "fr": "détonation",
+        "pos": "名詞",
+        "lemma": "détonation",
+        "cognate": "英語の detonation と同語源（ラテン語 dētonāre 由来）",
+        "ja": "爆発、起爆",
+        "note": "急激な化学反応によって強い衝撃波を伴う爆発現象を指します。"
       },
       "w32": {
-        "en": "security pivot",
-        "fr": "pivot sécuritaire",
-        "pos": "名詞句",
-        "lemma": "pivot sécuritaire",
-        "cognate": "pivot (仏・英共通), sécuritaire (英: security)",
-        "ja": "治安政策の転換、安全保障方針の方向転換",
-        "note": "pivot は「軸・旋回」、sécuritaire は「治安の・安全保障の」を意味する形容詞。政策の大きな路線変更を表す表現です。"
+        "en": "exposure",
+        "fr": "exposition",
+        "pos": "名詞",
+        "lemma": "exposition",
+        "cognate": "英語の exposure と同語源（古フランス語 exposition 由来）",
+        "ja": "曝露（ばくろ）、危険にさらされること",
+        "note": "有害物質（鉛や放射線など）に身体が接触・直面する状態を表します。"
       },
       "w33": {
-        "en": "initiated",
-        "fr": "engagées",
-        "pos": "動詞 (過去分詞)",
-        "lemma": "engager",
-        "cognate": "initiate ↔ initier",
-        "ja": "開始された、着手された",
-        "note": "英語 initiate に直接対応する仏語は initier ですが、交渉（négociations）を開始するという文脈では engager も極めて自然に用いられます。"
+        "en": "vulnerable",
+        "fr": "vulnérable",
+        "pos": "形容詞",
+        "lemma": "vulnérable",
+        "cognate": "英語の vulnerable と同語源（ラテン語 vulnerabilis 由来）",
+        "ja": "脆弱な、影響を受けやすい",
+        "note": "「vulnerable to ~」の形で「〜に対して弱い、〜の影響を受けやすい」を表現します。"
       },
       "w34": {
-        "en": "retaliation",
-        "fr": "riposte",
-        "pos": "名詞",
-        "lemma": "riposte",
-        "cognate": "retaliation ↔ talio（同害報復） / 仏: représailles",
-        "ja": "報復、仕返し",
-        "note": "軍事・治安問題での「報復攻撃」を指します。フランス語では riposte や représailles が該当します。"
+        "en": "relieved",
+        "fr": "soulagé",
+        "pos": "形容詞",
+        "lemma": "soulager",
+        "cognate": "英語 relieve と意味対応（フランス語 soulager は俗ラテン語 subleviare 由来）",
+        "ja": "安心した、ほっとした",
+        "note": "不安や緊張状態が解消されて安堵した状態を表す感情表現です。"
       },
       "w35": {
-        "en": "ramped-up",
-        "fr": "accrue",
+        "en": "vindicated",
+        "fr": "justifié",
         "pos": "形容詞",
-        "lemma": "accru",
-        "cognate": "なし",
-        "ja": "強化された、急増した",
-        "note": "ramp up（強化する・増強する）の分詞形容詞。フランス語では accroître の過去分詞 accrue（女性形）や renforcée が相当します。"
+        "lemma": "justifier",
+        "cognate": "英語 vindicate（ラテン語 vindicare）/ フランス語 justifié（正当性が証明された）",
+        "ja": "正当性が証明された、疑惑が晴れた",
+        "note": "自分の判断や主張が正しかったことが結果として立証された様子を示します。"
       },
       "w36": {
-        "en": "heavy-handed",
-        "fr": "répressive",
-        "pos": "形容詞",
-        "lemma": "répressif",
-        "cognate": "なし",
-        "ja": "高圧的な、強硬な、手厳しい",
-        "note": "「重い手で扱う」ことから、強硬策や高圧的な統制を意味します。フランス語では répressif/répressive や de main de fer（鉄の拳の）と意訳されます。"
+        "en": "manufacturing plant",
+        "fr": "usine de fabrication",
+        "pos": "名詞句",
+        "lemma": "usine de fabrication",
+        "cognate": "英語 manufacturing / フランス語 fabrication（ラテン語 fabricatio 起源）",
+        "ja": "製造工場",
+        "note": "製品を生産・加工・製造するための施設やプラントを意味します。"
       },
       "w37": {
-        "en": "exerting",
-        "fr": "infligeant",
-        "pos": "動詞 (現在分詞)",
-        "lemma": "infliger",
-        "cognate": "exert ↔ exercer",
-        "ja": "（力・影響・苦痛などを）加える、及ぼす",
-        "note": "語源的には exert ↔ exercer ですが、「苦痛や損害を加える」という文脈では infliger（〜を負わせる・加える）がより自然な仏訳となります。"
-      },
-      "w38": {
-        "en": "instilling",
-        "fr": "instillant",
-        "pos": "動詞 (現在分詞)",
-        "lemma": "instiller",
-        "cognate": "instill ↔ instiller",
-        "ja": "（感情や観念を）徐々に植えつける、じわじわと抱かせる",
-        "note": "ラテン語 instillare（滴下する）由来の完全な同源語。恐怖（feui / peur）をしみ込ませる・植え付ける動作を表します。"
+        "en": "hunkered down",
+        "fr": "se terrer",
+        "pos": "動詞句（過去形）",
+        "lemma": "se terrer",
+        "cognate": "英語 hunker down（スコットランド語由来）/ 法 se terrer（隠れ家に身を潜める）",
+        "ja": "身を潜める、じっと耐えて待機する",
+        "note": "嵐や危険が過ぎ去るまで、安全な場所で小さくなって待機する動作を表す熟語です。"
       }
     },
     "paragraphs": [
       {
-        "en_tagged": "Colombian President says Villavicencio bomb attack came in <w id='w1'>retaliation</w> of government offensives.",
-        "fr_b2_tagged": "Le président colombien affirme que l'attentat à la bombe de Villavicencio est survenu en <w id='w1'>représailles</w> aux offensives gouvernementales.",
-        "fr_a2_tagged": "Le président de la Colombie dit que la bombe à Villavicencio est une réponse en <w id='w1'>représailles</w> aux attaques du gouvernement."
+        "en_tagged": "Smoke appears after explosion heard in Iowa near Army <w id='w1'>detonation</w> site",
+        "fr_b2_tagged": "De la fumée apparaît après une explosion entendue dans l'Iowa près d'un site de <w id='w1'>détonation</w> de l'armée",
+        "fr_a2_tagged": "De la fumée monte après une explosion dans l'Iowa près d'un lieu de <w id='w1'>détonation</w> de l'armée"
       },
       {
-        "en_tagged": "Bogota, Colombia – Colombian President Abelardo de la Espriella has blamed ex-FARC rebels for a car bomb attack last night <w id='w2'>targeting</w> a state government building, which injured at least 23 people.",
-        "fr_b2_tagged": "Bogota, Colombie – Le président colombien Abelardo de la Espriella a accusé d'anciens rebelles des FARC d'un attentat à la voiture piégée survenu hier soir et <w id='w2'>visant</w> un bâtiment du gouvernement provincial, qui a fait au moins 23 blessés.",
-        "fr_a2_tagged": "Bogota, Colombie – Le président Abelardo de la Espriella accuse des anciens rebelles des FARC pour une voiture piégée hier soir. L'attaque <w id='w2'>visait</w> un bâtiment officiel et a blessé au moins 23 personnes."
+        "en_tagged": "The US military has hailed as a \"huge success\" the <w id='w1'>detonation</w> of nearly five tonnes of <w id='w2'>toxic</w> explosives in Iowa, an operation that sparked <w id='w3'>widespread</w> fears of health and environmental problems across the region.",
+        "fr_b2_tagged": "L'armée américaine a salué comme un « grand succès » la <w id='w1'>détonation</w> de près de cinq tonnes d'explosifs <w id='w2'>toxiques</w> dans l'Iowa, une opération qui avait suscité des craintes <w id='w3'>généralisées</w> pour la santé et l'environnement dans toute la région.",
+        "fr_a2_tagged": "L'armée américaine dit que la <w id='w1'>détonation</w> de cinq tonnes d'explosifs <w id='w2'>toxiques</w> dans l'Iowa est un grand succès, malgré de <w id='w3'>grandes</w> peurs pour la santé dans la région."
       },
       {
-        "en_tagged": "On a visit to Villavicencio on Tuesday, where the attack took place, the president accused Antonio Medina, a commander of the Central General Staff (EMC) rebel group, of <w id='w3'>plotting</w> the bombing in retaliation for government offensives in the province.",
-        "fr_b2_tagged": "Lors d'une visite mardi à Villavicencio, où l'attentat s'est produit, le président a accusé Antonio Medina, un commandant du groupe rebelle État-major central (EMC), d'avoir <w id='w3'>fomenté</w> l'attentat en représailles aux offensives gouvernementales dans la province.",
-        "fr_a2_tagged": "Mardi, pendant sa visite à Villavicencio où l'attaque a eu lieu, le président a accusé le chef rebelle Antonio Medina d'avoir <w id='w3'>préparé</w> cette attaque après les actions de l'armée."
+        "en_tagged": "Smoke was seen rising into the sky shortly after 09:00 local time (14:00 GMT) following the explosion, as the Army <w id='w4'>declared</w> the risk \"as close to zero as is absolutely humanly possible\".",
+        "fr_b2_tagged": "De la fumée s'est élevée dans le ciel peu après 9 h 00 heure locale (14 h 00 GMT) après l'explosion, alors que l'armée a <w id='w4'>déclaré</w> que le risque était « aussi proche de zéro qu'il est humainement possible ».",
+        "fr_a2_tagged": "On a vu de la fumée dans le ciel peu après 9h00 après l'explosion, et l'armée a <w id='w4'>déclaré</w> que le risque était presque égal à zéro."
       },
       {
-        "en_tagged": "“The bandit Antonio Medina from the [FARC] <w id='w4'>dissidents</w> is to blame, and we’re going to go after him and make him pay with blood,” de la Espriella told reporters.",
-        "fr_b2_tagged": "« Le bandit Antonio Medina, issu des <w id='w4'>dissidents</w> des [FARC], est le responsable, et nous allons le traquer et lui faire payer par le sang », a déclaré M. de la Espriella aux journalistes.",
-        "fr_a2_tagged": "« Le bandit Antonio Medina des <w id='w4'>dissidents</w> des FARC est le coupable. Nous allons l'attraper et le punir », a dit le président aux journalistes."
+        "en_tagged": "President Donald Trump said reports showed <w id='w5'>mitigation</w> efforts \"far <w id='w9'>exceeded</w> expectations\".",
+        "fr_b2_tagged": "Le président Donald Trump a déclaré que les rapports montraient que les efforts d'<w id='w5'>atténuation</w> avaient « largement <w id='w9'>dépassé</w> les attentes ».",
+        "fr_a2_tagged": "Le président Donald Trump a dit que les travaux de <w id='w5'>réduction des risques</w> ont <w id='w9'>dépassé</w> les attentes."
       },
       {
-        "en_tagged": "Last night’s attack rocked the seat of government in Meta, a province bordering the capital, Bogota, to the southeast. Videos show <w id='w5'>extensive damage</w> to the building in Villavicencio, which houses the governor’s office, as well as surrounding businesses and vehicles.",
-        "fr_b2_tagged": "L'attaque d'hier soir a secoué le siège du gouvernement du Meta, une province limitrophe de la capitale, Bogota, au sud-est. Des vidéos montrent des <w id='w5'>dégâts considérables</w> sur le bâtiment de Villavicencio, qui abrite le bureau du gouverneur, ainsi que sur les commerces et véhicules environnants.",
-        "fr_a2_tagged": "L'attaque d'hier soir a frappé le gouvernement de la région de Meta, près de Bogota. Des vidéos montrent des <w id='w5'>dégâts très importants</w> sur le bâtiment où travaille le gouverneur et sur les voitures autour."
+        "en_tagged": "Plans to detonate the lead azide, a highly <w id='w6'>volatile</w> compound reportedly at risk of exploding on its own, were paused multiple times before Wednesday's detonation following public <w id='w7'>outcry</w> and legal challenges.",
+        "fr_b2_tagged": "Les projets de faire exploser l'azoture de plomb, un composé très <w id='w6'>instable</w> risquant d'exploser seul, ont été suspendus plusieurs fois avant la détonation de mercredi en raison d'un <w id='w7'>tollé</w> public et de recours en justice.",
+        "fr_a2_tagged": "Le projet de faire exploser ce produit très <w id='w6'>dangereux</w> a été arrêté plusieurs fois à cause de la <w id='w7'>colère</w> du public et de la justice."
       },
       {
-        "en_tagged": "The Head of National Police Operations, Ricardo Alarcon, told local media that initial tests indicate the car was <w id='w6'>laden with</w> between 80 and 100kg (176-220 pounds) of pentolite, a <w id='w7'>high explosive</w> used in military warheads, as well as civilian mining.",
-        "fr_b2_tagged": "Le chef des opérations de la police nationale, Ricardo Alarcon, a déclaré aux médias locaux que les premiers tests indiquaient que la voiture était <w id='w6'>chargée de</w> 80 à 100 kg de pentolite, un <w id='w7'>puissant explosif</w> utilisé dans les ogives militaires ainsi que dans l'exploitation minière civile.",
-        "fr_a2_tagged": "Le chef de la police a dit aux journaux que la voiture était <w id='w6'>remplie de</w> 80 à 100 kg de pentolite. C'est un <w id='w7'>explosif très fort</w> utilisé par l'armée et dans les mines."
+        "en_tagged": "Despite <w id='w3'>widespread</w> concern from residents of Middletown, Iowa, ahead of the blast, officials have said that lead readings in the area so far have been <w id='w8'>promising</w>.",
+        "fr_b2_tagged": "Malgré l'inquiétude <w id='w3'>généralisée</w> des habitants de Middletown, dans l'Iowa, avant l'explosion, les autorités ont indiqué que les relevés de plomb dans la zone étaient jusqu'ici <w id='w8'>encourageants</w>.",
+        "fr_a2_tagged": "Malgré les <w id='w3'>nombreuses</w> peurs des habitants avant l'explosion, les responsables disent que les résultats sur le plomb sont <w id='w8'>prometteurs</w>."
       },
       {
-        "en_tagged": "Meta was a historical heartland for the FARC, which officially <w id='w8'>demobilised</w> following a historic peace deal in 2016. In the years since, dissident rebels who refused to <w id='w9'>lay down their arms</w> or returned to war have expanded their control in the province, a key access point to the coca plantations, gold mining and drug smuggling routes of the Amazon River Basin.",
-        "fr_b2_tagged": "Le Meta était un fief historique des FARC, qui se sont officiellement <w id='w8'>démobilisées</w> après un accord de paix historique en 2016. Depuis, les rebelles dissidents qui ont refusé de <w id='w9'>déposer les armes</w> ou sont retournés au combat ont étendu leur contrôle dans la province, un point d'accès clé vers les plantations de coca, les mines d'or et les routes du trafic de drogue du bassin de l'Amazone.",
-        "fr_a2_tagged": "La région de Meta était très importante pour les FARC, qui se sont officiellement <w id='w8'>séparées</w> après la paix en 2016. Mais des rebelles qui n'ont pas voulu <w id='w9'>déposer les armes</w> ont repris le contrôle de la région pour la drogue et l'or."
+        "en_tagged": "\"The Army's controlled, mitigated detonation <w id='w9'>exceeded</w> all expectations and was a HUGE success,\" Adam Telle, acting secretary of the US Army, wrote on social media.",
+        "fr_b2_tagged": "« La détonation contrôlée et atténuée de l'armée a <w id='w9'>surpassé</w> toutes les attentes et a été un ÉNORME succès », a écrit Adam Telle, secrétaire par intérim de l'armée américaine, sur les réseaux sociaux.",
+        "fr_a2_tagged": "« L'explosion contrôlée de l'armée a <w id='w9'>dépassé</w> les attentes et a été un grand succès », a écrit Adam Telle sur les réseaux sociaux."
       },
       {
-        "en_tagged": "The most powerful group is the EMC, headed by alias Ivan Mordisco, one of Colombia’s most wanted men. The government earlier this year announced a <w id='w30'>bounty</w> of 5 billion pesos (roughly $1.4m) for his capture or killing.",
-        "fr_b2_tagged": "Le groupe le plus puissant est l'EMC, dirigé par le surnommé Ivan Mordisco, l'un des hommes les plus recherchés de Colombie. Plus tôt cette année, le gouvernement a annoncé une <w id='w30'>récompense</w> de 5 milliards de pesos (environ 1,4 million de dollars) pour sa capture ou son élimination.",
-        "fr_a2_tagged": "Le groupe le plus fort est l'EMC. Son chef est Ivan Mordisco, un homme très recherché en Colombie. Cette année, le gouvernement a promis une <w id='w30'>récompense</w> de 5 milliards de pesos pour l'attraper ou le tuer."
+        "en_tagged": "\"We are watching EPA's [Environmental Protection Agency] MASSIVE <w id='w10'>sensor array</w> throughout the area closely, and there are no readings so far above 0.0,\" he added.",
+        "fr_b2_tagged": "« Nous surveillons de près le MASSIDF <w id='w10'>réseau de capteurs</w> de l'EPA [Agence de protection de l'environnement] dans toute la zone, et aucun relevé n'est supérieur à 0,0 jusqu'à présent », a-t-il ajouté.",
+        "fr_a2_tagged": "« Nous regardons le grand <w id='w10'>réseau de capteurs</w> de l'EPA dans la région, et il n'y a aucun résultat au-dessus de 0,0 », a-t-il ajouté."
       },
       {
-        "en_tagged": "In recent months, the government has increased pressure on the EMC, bombing its camps and <w id='w31'>targeting</w> senior members. Just yesterday, the president confirmed the killing of alias El Churco, an EMC commander.",
-        "fr_b2_tagged": "Ces derniers mois, le gouvernement a intensifié la pression sur l'EMC, bombardant ses camps et <w id='w31'>ciblant</w> ses cadres dirigeants. Hier encore, le président a confirmé la mort du surnommé El Churco, un commandant de l'EMC.",
-        "fr_a2_tagged": "Ces derniers mois, le gouvernement met plus de pression sur l'EMC. Il bombarde ses camps et <w id='w31'>vise</w> ses chefs. Hier, le président a confirmé la mort d'El Churco, un chef de l'EMC."
+        "en_tagged": "The explosives had been in storage for around 20 years, and <w id='w30'>degraded</w> as part of a process known as recrystallisation - this made them more responsive to accidental <w id='w31'>detonation</w> from friction or other movement.",
+        "fr_b2_tagged": "Les explosifs étaient stockés depuis une vingtaine d'années et s'étaient <w id='w30'>dégradés</w> dans le cadre d'un processus appelé recristallisation, ce qui les rendait plus sensibles à une <w id='w31'>détonation</w> accidentelle due aux frictions ou à d'autres mouvements.",
+        "fr_a2_tagged": "Les explosifs étaient là depuis 20 ans. Ils se sont <w id='w30'>dégradés</w> à cause de la recristallisation, donc une <w id='w31'>détonation</w> accidentelle était plus facile avec le frottement."
       },
       {
-        "en_tagged": "The campaign is part of the new far-right government’s <w id='w32'>security pivot</w>, which aims to tackle criminal organisations through military force and has suspended the negotiations <w id='w33'>initiated</w> under the previous government.",
-        "fr_b2_tagged": "Cette campagne s'inscrit dans le cadre du <w id='w32'>pivot sécuritaire</w> du nouveau gouvernement d'extrême droite, qui vise à combattre les organisations criminelles par la force militaire et a suspendu les négociations <w id='w33'>engagées</w> sous le gouvernement précédent.",
-        "fr_a2_tagged": "Cette action fait partie du nouveau <w id='w32'>virage sécuritaire</w> du gouvernement. Il veut combattre les criminels par la force armée et a arrêté les discussions <w id='w33'>commencées</w> sous l'ancien gouvernement."
+        "en_tagged": "No level of lead <w id='w32'>exposure</w> is considered safe, with children and pregnant women particularly <w id='w33'>vulnerable</w> to harmful effects.",
+        "fr_b2_tagged": "Aucun niveau d'<w id='w32'>exposition</w> au plomb n'est considéré comme sûr, les enfants et les femmes enceinte étant particulièrement <w id='w33'>vulnérables</w> à ses effets nocifs.",
+        "fr_a2_tagged": "L'<w id='w32'>exposition</w> au plomb n'est jamais sûre. Les enfants et les femmes enceintes sont très <w id='w33'>vulnérables</w>."
       },
       {
-        "en_tagged": "De la Espriella has suggested that last night’s bombing in Villavicencio was likely a <w id='w34'>retaliation</w> against <w id='w35'>ramped-up</w> state pressure on armed groups.",
-        "fr_b2_tagged": "De la Espriella a suggéré que l'attentat de la nuit dernière à Villavicencio était vraisemblablement une <w id='w34'>riposte</w> à la pression étatique <w id='w35'>accrue</w> exercée sur les groupes armés.",
-        "fr_a2_tagged": "De la Espriella pense que l'attaque d'hier soir à Villavicencio est une <w id='w34'>réponse</w> à la pression <w id='w35'>renforcée</w> de l'État contre les groupes armés."
+        "en_tagged": "Middletown Mayor Rodney Johnson told the BBC he felt \"<w id='w34'>relieved</w>\" and \"<w id='w35'>vindicated</w>\" after the detonation.",
+        "fr_b2_tagged": "Le maire de Middletown, Rodney Johnson, a déclaré à la BBC qu'il se sentait « <w id='w34'>soulagé</w> » et « <w id='w35'>justifié</w> » après la détonation.",
+        "fr_a2_tagged": "Le maire Rodney Johnson a dit à la BBC qu'il était <w id='w34'>soulagé</w> et qu'il se sentait <w id='w35'>justifié</w> après l'explosion."
       },
       {
-        "en_tagged": "“The narco-terrorists are running wild, launching desperate attacks, because they know we are defeating them and that their end is near,” the president wrote on X this morning.",
-        "fr_b2_tagged": "« Les narco-terroristes sont déchaînés et lancent des attaques désespérées parce qu'ils savent que nous les vainquons et que leur fin est proche », a écrit le président sur X ce matin.",
-        "fr_a2_tagged": "« Les narco-terroristes font n'importe quoi et font des attaques désespérées parce qu'ils savent que nous gagnons et que leur fin arrive », a écrit le président sur X ce matin."
+        "en_tagged": "He watched the blast from his job at a <w id='w36'>manufacturing plant</w> eight miles (12km) away from the blast - and monitored a camera at his two-bedroom home just one mile from the detonation site.",
+        "fr_b2_tagged": "Il a observé l'explosion depuis son lieu de travail dans une <w id='w36'>usine de fabrication</w> située à douze kilomètres, tout en surveillant la caméra de son logement situé à seulement 1,6 km du site.",
+        "fr_a2_tagged": "Il a regardé l'explosion depuis son travail dans une <w id='w36'>usine de fabrication</w> à 12 km, et a regardé sa caméra à la maison."
       },
       {
-        "en_tagged": "The attack, which happened on the eve of the 10-year anniversary of the 2016 peace deal, highlights the growing risks to civilians under de la Espriella’s <w id='w36'>heavy-handed</w> security strategy, say experts.",
-        "fr_b2_tagged": "L'attaque, survenue à la veille du 10e anniversaire de l'accord de paix de 2016, souligne les risques croissants pour les civils sous la stratégie sécuritaire <w id='w36'>répressive</w> de de la Espriella, selon les experts.",
-        "fr_a2_tagged": "L'attaque s'est passée juste avant les 10 ans de l'accord de paix de 2016. Selon des experts, elle montre les dangers pour les habitants sous la stratégie <w id='w36'>durcie</w> de de la Espriella."
+        "en_tagged": "\"We did not feel anything. We did not see anything,\" Johnson said.",
+        "fr_b2_tagged": "« Nous n'avons rien ressenti. Nous n'avons rien vu », a déclaré Johnson.",
+        "fr_a2_tagged": "« Nous n'avons rien senti. Nous n'avons rien vu », a dit Johnson."
       },
       {
-        "en_tagged": "“As the government increases pressure, armed and criminal groups are trying to raise the cost of doing that for the government by <w id='w37'>exerting</w> pain, <w id='w38'>instilling</w> fear and causing direct harm against communities and against the civilian population,” said Elizabeth Dickinson, deputy director for Latin America at the International Crisis Group.",
-        "fr_b2_tagged": "« À mesure que le gouvernement augmente la pression, les groupes armés et criminels tentent d'en augmenter le coût pour le pouvoir en <w id='w37'>infligeant</w> de la souffrance, en <w id='w38'>instillant</w> la peur et en causant des préjudices directs aux communautés et à la population civile », a déclaré Elizabeth Dickinson, directrice adjointe pour l'Amérique latine à l'International Crisis Group.",
-        "fr_a2_tagged": "« Quand le gouvernement met plus de pression, les groupes armés essaient d'augmenter le prix à payer pour l'État en <w id='w37'>donnant</w> de la douleur, en <w id='w38'>mettant</w> de la peur et en faisant du mal directement aux gens et aux civils », a dit Elizabeth Dickinson."
+        "en_tagged": "Also eight miles away from Middletown, Sandy Mabeus closed the windows and the garage at her home, brought their outdoor cat inside and <w id='w37'>hunkered down</w>.",
+        "fr_b2_tagged": "Également à douze kilomètres de Middletown, Sandy Mabeus a fermé les fenêtres et le garage de sa maison, a fait rentrer le chat et s'est <w id='w37'>terrée</w> chez elle.",
+        "fr_a2_tagged": "À 12 km de Middletown, Sandy Mabeus a fermé les fenêtres, rentré le chat et s'est <w id='w37'>abritée</w>."
+      },
+      {
+        "en_tagged": "The family watched three separate live streams on iPads and televisions of the explosion as it happened.",
+        "fr_b2_tagged": "La famille a suivi trois direct vidéos distincts sur des iPads et des téléviseurs au moment de l'explosion.",
+        "fr_a2_tagged": "La famille a regardé trois vidéos en direct sur des iPads et des télévisions pendant l'explosion."
       }
     ],
     "expressions": [
       {
-        "en_phrase": "in retaliation for",
-        "academic_alt": "in reprisal for / as a countermeasure against",
-        "fr_phrase": "en représailles de",
-        "cognate_hint": "retaliation（英）と représailles（仏）は共に「報復・しっぺ返し」を意味し、対外政策や軍事のニュースで頻出します。",
-        "ja_explanation": "「〜への報復として」という意味の重要表現。テロ行為や経済制裁、紛争の動機を提示する際に学術論文や国際報道で頻繁に使用されます。"
+        "en_phrase": "sparked widespread fears",
+        "academic_alt": "engendered pervasive anxieties",
+        "fr_phrase": "susciter de vives inquiétudes",
+        "cognate_hint": "spark (火花を起こす・誘発する) ≒ susciter。fears ≒ inquiétudes。",
+        "ja_explanation": "「広範囲にわたる不安を引き起こした」という意味。ニュースや論文で社会問題や環境懸念を語る際によく使われます。学術的には engender pervasive anxieties や ignite widespread concerns などと言い換え可能です。"
       },
       {
-        "en_phrase": "lay down their arms",
-        "academic_alt": "demilitarize / cease hostilities",
-        "fr_phrase": "déposer les armes",
-        "cognate_hint": "arms（英）と armes（仏）はラテン語 arma（武器）を共通の語源とする同義語です。",
-        "ja_explanation": "「武器を置く、投降・武装解除する」という慣用表現。和平交渉や元戦闘員の社会復帰の文脈で用いられます。"
+        "en_phrase": "exceeded all expectations",
+        "academic_alt": "surpassed all initial projections",
+        "fr_phrase": "dépasser toutes les attentes",
+        "cognate_hint": "expectations (期待) と attentes (待つこと・期待) は意味的に同等。exceed ≒ dépasser。",
+        "ja_explanation": "「すべての期待（予想）を上回った」という意味。実験結果やプロジェクトの成果を報告する際、英検1級・学術論文の文脈で好まれるポジティブな評価表現です。"
       },
       {
-        "en_phrase": "heavy-handed security strategy",
-        "academic_alt": "coercive security policy / authoritarian counter-terrorism approach",
-        "fr_phrase": "stratégie de sécurité autoritaire",
-        "cognate_hint": "strategy（英）と stratégie（仏）はギリシャ語 stratēgia（将術・軍略）に由来する同源語です。",
-        "ja_explanation": "「強硬な治安（安全保障）戦略」。heavy-handed は「高圧的な、過剰な力を用いた」という批判的ニュアンスを含む形容詞です。"
+        "en_phrase": "at risk of exploding",
+        "academic_alt": "susceptible to spontaneous detonation",
+        "fr_phrase": "risquer d'exploser",
+        "cognate_hint": "risk ≒ risque, explode ≒ exploser (語根が共通)。",
+        "ja_explanation": "「爆発する危険がある」という意味。化学物質の危険性や物理的状態を述べる表現です。学術的・専門的には susceptible to spontaneous detonation（自然爆発の可能性がある）のように表現されます。"
       },
       {
-        "en_phrase": "instill fear",
-        "academic_alt": "induce terror / engender a climate of fear",
-        "fr_phrase": "instiller la peur / inspirer la crainte",
-        "cognate_hint": "instill（英）と instiller（仏）はラテン語 instillare（一滴ずつ落とす）から「（感情や観念を）徐々に染み込ませる」を意味します。",
-        "ja_explanation": "「（人々の心に）恐怖を植え付ける」。思想や感情を時間をかけて浸透させる際に用いられる、非常にフォーマルかつ抽象度の高い動詞です。"
+        "en_phrase": "vulnerable to harmful effects",
+        "academic_alt": "susceptible to adverse ramifications",
+        "fr_phrase": "vulnérable aux effets nocifs",
+        "cognate_hint": "vulnerable ≒ vulnérable (完全な同形同根語)。harmful ≒ nocif。",
+        "ja_explanation": "「有害な影響を受けやすい、〜に対して脆弱である」の意味。環境科学、医学、社会科学論文の頻出表現で、特定グループ（子供や妊婦など）のリスクを説明する際に必須のイディオムです。"
       }
     ],
     "slash_reading": [
       {
-        "fr_original": "Le président colombien accuse les rebelles d'avoir orchestré l'attentat.",
-        "en_meaning": "The Colombian president accuses the rebels of having orchestrated the attack.",
-        "ja_meaning": "コロンビアの大統領は、反乱軍がテロを仕組んだとして非難している。",
+        "fr_original": "L'armée américaine a déclaré que l'explosion contrôlée était un grand succès.",
+        "en_meaning": "The US Army declared that the controlled explosion was a huge success.",
+        "ja_meaning": "米軍は、管理された爆発は大成功であったと宣言した。",
         "chunks": [
           {
             "role": "S",
-            "text": "Le président colombien",
-            "note": "主語：コロンビアの大統領"
+            "text": "L'armée américaine",
+            "note": "主語「米軍」"
           },
           {
             "role": "V",
-            "text": "accuse",
-            "note": "動詞：非難する・訴える（accuserの直説法現在3人称単数）"
+            "text": "a déclaré",
+            "note": "動詞（複合過去）「宣言した」"
           },
           {
             "role": "O",
-            "text": "les rebelles",
-            "note": "直接目的語：反乱分子らを"
-          },
-          {
-            "role": "M",
-            "text": "d'avoir orchestré l'attentat",
-            "note": "前置詞句（accuser A de B）：テロを画策したことに対して"
+            "text": "que l'explosion contrôlée était un grand succès",
+            "note": "従属節（目的語）「制御された爆発が大成功であったと」"
           }
         ],
         "verbs": [
           {
-            "word": "accuse",
-            "lemma": "accuser",
-            "tense": "現在形",
-            "meaning": "非難する"
+            "word": "a déclaré",
+            "lemma": "déclarer",
+            "tense": "複合過去",
+            "meaning": "宣言した"
           },
           {
-            "word": "avoir orchestré",
-            "lemma": "orchestrer",
-            "tense": "複合過去（不定詞）",
-            "meaning": "計画・画策した"
+            "word": "était",
+            "lemma": "être",
+            "tense": "半過去",
+            "meaning": "〜であった"
           }
         ]
       },
       {
-        "fr_original": "Les attaques visent le bâtiment du gouvernement dans la province.",
-        "en_meaning": "The attacks target the government building in the province.",
-        "ja_meaning": "攻撃は州内にある政府機関の建物を標的にしている。",
+        "fr_original": "Les habitants inquiets ont fermé leurs fenêtres avant la détonation.",
+        "en_meaning": "The worried residents closed their windows before the detonation.",
+        "ja_meaning": "心配した住民たちは爆発の前に窓を閉めた。",
         "chunks": [
           {
             "role": "S",
-            "text": "Les attaques",
-            "note": "主語：攻撃（複数形）"
+            "text": "Les habitants inquiets",
+            "note": "主語「心配した住民たち」"
           },
           {
             "role": "V",
-            "text": "visent",
-            "note": "動詞：狙う・標的にする（viserの直説法現在3人称複数）"
+            "text": "ont fermé",
+            "note": "動詞（複合過去）「閉めた」"
           },
           {
             "role": "O",
-            "text": "le bâtiment du gouvernement",
-            "note": "直接目的語：政府の建物"
+            "text": "leurs fenêtres",
+            "note": "目的語「彼らの窓を」"
           },
           {
             "role": "M",
-            "text": "dans la province",
-            "note": "場所の修飾語：州内の"
+            "text": "avant la détonation",
+            "note": "前置詞句（修飾語）「爆発の前に」"
           }
         ],
         "verbs": [
           {
-            "word": "visent",
-            "lemma": "viser",
-            "tense": "現在形",
-            "meaning": "標的にする・目指す"
+            "word": "ont fermé",
+            "lemma": "fermer",
+            "tense": "複合過去",
+            "meaning": "閉めた"
           }
         ]
       }
     ],
     "travel_apps": [
       {
-        "from_news_fr": "bâtiment (建物)",
-        "from_news_ja": "建物、ビル",
-        "situation": "パリなどの観光地で歴史的建造物や目的地を探すとき",
-        "travel_fr": "Où se trouve ce bâtiment historique, s'il vous plaît ?",
-        "travel_ja": "すいません、この歴史的建造物はどこにありますか？",
-        "tip": "ニュースでは「政府ビル」の意味でしたが、旅行では美術館や歴史的建造物（bâtiment historique）の位置を聞く際に重宝します。"
+        "from_news_fr": "fermer les fenêtres",
+        "from_news_ja": "窓を閉める",
+        "situation": "ホテルや列車の室内環境を調整したい時",
+        "travel_fr": "Pouvez-vous fermer la fenêtre, s'il vous plaît ?",
+        "travel_ja": "窓を閉めていただけますか？",
+        "tip": "フランスのホテルや長距離列車（TGV）で風が強かったり寒かったりする際、周囲の人やスタッフに丁寧に頼むときに使えます。「Pouvez-vous + 動詞原形」は万能な丁寧表現です。"
       },
       {
-        "from_news_fr": "sécurité (安全・治安)",
-        "from_news_ja": "治安、安全",
-        "situation": "ホテルのフロントで夜間の治安状況を確認するとき",
-        "travel_fr": "Est-ce qu'il y a un problème de sécurité dans ce quartier ?",
-        "travel_ja": "このエリアは安全上の問題（治安の問題）がありますか？",
-        "tip": "初めての都市で夜出かける際、「quartier（地区）」と「sécurité（安全）」を組み合わせてスタッフに相談すると安心です。"
+        "from_news_fr": "un grand succès",
+        "from_news_ja": "大成功",
+        "situation": "旅行ツアーやイベント、料理の感想を伝える時",
+        "travel_fr": "Ce repas était un grand succès, merci beaucoup !",
+        "travel_ja": "この食事は本当に素晴らしかったです（大成功でした）、ありがとうございました！",
+        "tip": "イベントや食事、案内などの感想として「とても上手くいった」「素晴らしかった」と感謝を伝える際に「un grand succès」と表現すると、とても喜ばれます。"
       }
     ],
     "quiz": {
       "q1": {
-        "question": "The dissident militia carried out the strike in _____ for the military offensive.",
+        "question": "The experimental procedure __________ all expectations, yielding results far more accurate than initially projected.",
         "options": [
-          "retaliation",
-          "reluctance",
-          "reconciliation",
-          "restitution"
+          "exceeded",
+          "exposed",
+          "expressed",
+          "expanded"
         ],
         "answer": 0,
-        "explanation": "「in retaliation for ~（〜の報復として）」が正解です。他の選択肢：reluctance（気の進まないこと）、reconciliation（和解）、restitution（賠償・返還）。"
+        "explanation": "文脈上「予想・期待を上回った」という意味になるため、「exceeded」が正解です。（exceed expectations = 期待を超える）"
       },
       "q2": {
-        "question": "ニュース記事の中に出てきた表現 \"déposer les armes\" の日本語訳として最も適切なものはどれですか？",
+        "question": "フランス語の単語「détonation」の意味として最も適切なものはどれですか？",
         "options": [
-          "武器を購入する",
-          "武装解除する（武器を置く）",
-          "警備を強化する",
-          "宣戦布告する"
+          "避難",
+          "爆発・爆音",
+          "延期",
+          "測定"
         ],
         "answer": 1,
-        "explanation": "「déposer（置く）+ les armes（武器）」で、英語の「lay down arms（武装解除する、武器を捨てる）」に対応します。"
+        "explanation": "「détonation」は英語の「detonation」と同根語の女性名詞で、「爆発」「爆音」を意味します。"
       },
       "q3": {
-        "prompt": "「政府の強硬な治安策（heavy-handed strategy）は意図せず紛争を激化させ、市民のリスクを高める可能性がある」という趣旨の英文を1文で書いてください。",
-        "model_answer": "A heavy-handed counter-terrorism strategy may inadvertently escalate violence, thereby compounding the security risks faced by the civilian population.",
-        "notes": "heavy-handed（強硬な）、inadvertently escalate（意図せず激化させる）、thereby compounding（それによって〜を重層的に悪化させる）などの学術的な語彙・分詞構文を活用すると説得力が増します。"
+        "prompt": "「環境への危険を最小限に抑えるため、有害な爆発物の処理は厳重に管理された状況下で行われた。」という意味の英文を1文、学術的なレベルで作成してください。",
+        "model_answer": "To minimize environmental hazards, the disposal of toxic explosives was executed under strictly controlled conditions.",
+        "notes": "「minimize environmental hazards」（環境への危険を最小限に抑える）、「disposal of toxic explosives」（有害爆発物の処理）、「executed under strictly controlled conditions」（厳重に管理された状況下で実施された）といった語彙・表現を使用すると学術的な格調高さが出ます。"
       }
     }
   }
