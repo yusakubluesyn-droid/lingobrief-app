@@ -1,421 +1,376 @@
 {
-  "date": "2026-11-27",
-  "category": "Economy",
-  "source": "BBC Business",
-  "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+  "date": "2026-11-28",
+  "category": "Military & Geopolitics",
+  "source": "BBC World",
+  "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
   "lesson": {
-    "title_en": "Faisal Islam: Why Trump's new tariffs are less of a threat",
-    "title_fr": "Faisal Islam : Pourquoi les nouveaux tarifs douaniers de Trump sont moins menaçants",
+    "title_en": "Spanish PM and rivals rally supporters in final pitch for votes",
+    "title_fr": "Le Premier ministre espagnol et ses rivaux rassemblent leurs partisans lors du dernier appel aux votes",
     "vocab": {
       "w1": {
-        "en": "fanfare",
-        "fr": "fanfare",
-        "pos": "名詞",
-        "lemma": "fanfare",
-        "cognate": "英語と同語源（フランス語由来）",
-        "ja": "華々しい宣伝、派手な大騒ぎ",
-        "note": "元々はトランペットのファンファーレ。政治・報道では「派手で大大的なアピール」を指します。"
+        "en": "hurling insults",
+        "fr": "lancer des insultes",
+        "pos": "動詞句",
+        "lemma": "lancer",
+        "cognate": "なし (insult と insulte は同語源)",
+        "ja": "浴びせるように悪口を言う、侮辱を投げつける",
+        "note": "英語の hurl は「強く投げつける」を意味し、悪口を発する表現として用いられます。フランス語では lancer des insultes または lancer des invectives と表現します。"
       },
       "w2": {
-        "en": "rhetoric",
-        "fr": "rhétorique",
-        "pos": "名詞",
-        "lemma": "rhétorique",
-        "cognate": "英語と同語源（ギリシャ語・ラテン語由来）",
-        "ja": "レトリック、誇張した言明、強弁",
-        "note": "政治的文脈では、実態を伴わない「誇張された大言壮語」という批判的なニュアンスを含みます。"
+        "en": "defying the polls",
+        "fr": "défier les sondages",
+        "pos": "動詞句",
+        "lemma": "défier",
+        "cognate": "defy - défier (完全同語源)",
+        "ja": "世論調査の予想を覆す、反する",
+        "note": "defy と défier はラテン語 disfidare に由来する同語源（コグネイト）です。"
       },
       "w3": {
-        "en": "tentative",
-        "fr": "tâtonnant",
-        "pos": "形容詞",
-        "lemma": "tâtonnant",
-        "cognate": "英語の tentative と語源は同じだが、フランス語では tâtillon や hésitant / provisoire など文脈に応じた表現を使う",
-        "ja": "探り探りの、ためらいがちな、試行的な",
-        "note": "確証がないまま慎重に試みている状態を表します。"
+        "en": "coalition",
+        "fr": "coalition",
+        "pos": "名詞",
+        "lemma": "coalition",
+        "cognate": "coalition - coalition (同形同義)",
+        "ja": "連立、連立政権",
+        "note": "英仏共通の語彙で、政治の文脈で「連立（政権）」を意味します。"
       },
       "w4": {
-        "en": "shore up",
-        "fr": "renforcer",
-        "pos": "動詞句",
-        "lemma": "renforcer",
-        "cognate": "英語固有の句動詞（つっかえ棒で支える）",
-        "ja": "（法的基盤や組織等を）強化する、補強する",
-        "note": "建物につっかえ棒（shore）をして倒壊を防ぐイメージから、基盤を立て直す・強化する際に用います。"
+        "en": "good governance",
+        "fr": "bonne gouvernance",
+        "pos": "名詞句",
+        "lemma": "gouvernance",
+        "cognate": "governance - gouvernance (同語源)",
+        "ja": "善政、良好な統治",
+        "note": "governance はフランス語 gouvernance から英語に入った借用語です。"
       },
       "w5": {
-        "en": "underpinning",
-        "fr": "fondement",
-        "pos": "名詞",
-        "lemma": "fondement",
-        "cognate": "英語の under + pin より",
-        "ja": "土台、根拠、下支え",
-        "note": "法律や政策・主張などの「裏付けとなる理論的・法的根拠」を指します。"
+        "en": "evading",
+        "fr": "éluder",
+        "pos": "動詞",
+        "lemma": "éluder",
+        "cognate": "evade - évider / éluder (ラテン語 evadere 近縁)",
+        "ja": "（質問や責任を）巧みにかわす、回避する",
+        "note": "英語の evade はフランス語では éluder や esquiver（かわす）が自然な訳語となります。"
       },
       "w6": {
-        "en": "swathes",
-        "fr": "portions",
-        "pos": "名詞",
-        "lemma": "portion",
-        "cognate": "英語の swathe（帯状の広い範囲）",
-        "ja": "（広範な）領域、地域、部分",
-        "note": "large swathes of ... で「〜の広大な範囲・大部分」という意味を作る重要表現です。"
+        "en": "left-wing",
+        "fr": "de gauche",
+        "pos": "形容詞句",
+        "lemma": "gauche",
+        "cognate": "なし",
+        "ja": "左派の、革新系の",
+        "note": "英語の wing（翼・派閥）に対応するフランス語政治用語は単純に de gauche（左派の）となります。"
       },
       "w7": {
-        "en": "provisions",
-        "fr": "dispositions",
-        "pos": "名詞",
-        "lemma": "disposition",
-        "cognate": "英語の provision（同語源）だが、フランス語の法用語では dispositions が対応する",
-        "ja": "（法律・協定の）規定、条項",
-        "note": "法律文書や条約における個々の「規定」を指す専門用語です。"
+        "en": "in quick succession",
+        "fr": "coup sur coup",
+        "pos": "副詞句",
+        "lemma": "coup",
+        "cognate": "succession - succession (同語源)",
+        "ja": "相次いで、立て続けに",
+        "note": "フランス語の慣用表現 coup sur coup は短期間に連続して起こる出来事を表します。"
       },
       "w8": {
-        "en": "albeit",
-        "fr": "bien que",
-        "pos": "接続詞",
-        "lemma": "bien que",
-        "cognate": "中英語 although it be の縮小形",
-        "ja": "〜とはいえ、〜ではあるが",
-        "note": "書き言葉で補足的に譲歩（〜ではあるものの）を表す高難度接続詞。フランス語では bien que (que + 接続法) などで表します。"
-      },
-      "w9": {
-        "en": "struck down",
-        "fr": "invalidé",
-        "pos": "動詞句",
-        "lemma": "invalider",
-        "cognate": "英語 strike down（打ち倒す・無効にする）",
-        "ja": "（裁判所が法律等を）無効と判決した、破棄した",
-        "note": "最高裁判所などが法令や行政処分を「違憲・違法として無効化する」際の決まり文句です。"
+        "en": "turnout",
+        "fr": "taux de participation",
+        "pos": "名詞",
+        "lemma": "participation",
+        "cognate": "participation - participation (同語源)",
+        "ja": "投票率、参加者数",
+        "note": "選挙における turnout はフランス語で taux de participation または単に participation と呼びます。"
       },
       "w30": {
-        "en": "repeal",
-        "fr": "abroger",
-        "pos": "動詞",
-        "lemma": "abroger",
-        "cognate": "abrogate",
-        "ja": "（法律・関税などを）撤廃する、無効にする",
-        "note": "法案や関税などを公式に撤廃する際に用いられる法律・政治分野の標準的な動詞です。"
+        "en": "nod",
+        "fr": "clin d'œil",
+        "pos": "名詞",
+        "lemma": "clin d'œil",
+        "cognate": "なし",
+        "ja": "（承認・言及の）配慮、目くばせ",
+        "note": "in a nod to は「〜を意識して/〜に言及して」という意味の表現。"
       },
       "w31": {
-        "en": "truce",
-        "fr": "trêve",
-        "pos": "名詞",
-        "lemma": "trêve",
-        "cognate": "truce",
-        "ja": "停戦、一時休止",
-        "note": "貿易摩擦や対立の一時的な停止状態を指す語です。"
+        "en": "betrayed",
+        "fr": "trahi",
+        "pos": "動詞（過去分詞）",
+        "lemma": "trahir",
+        "cognate": "英語 betray / 仏 trahir（ラテン語 tradere 由来）",
+        "ja": "裏切った",
+        "note": "フランス語 trahir は「秘密を漏らす」「裏切る」の意。"
       },
       "w32": {
-        "en": "retaliation",
-        "fr": "représailles",
+        "en": "rally",
+        "fr": "rassemblement",
         "pos": "名詞",
-        "lemma": "représailles",
-        "cognate": "reprisal",
-        "ja": "報復、仕返し",
-        "note": "外交や貿易政策において「報復措置（報復関税など）」の意味で多用される女性複数名詞です。"
+        "lemma": "rassemblement",
+        "cognate": "英語 rally は古仏語 rallier（再集結する）に由来",
+        "ja": "政治集会、決起集会",
+        "note": "仏語 rassemblement は人々が再び集まる（rassembler）ことに由来。"
       },
       "w33": {
-        "en": "leverage",
-        "fr": "levier",
+        "en": "venue",
+        "fr": "lieu",
         "pos": "名詞",
-        "lemma": "levier",
-        "cognate": "leverage",
-        "ja": "影響力、交渉力、てこ",
-        "note": "原義は「てこ」ですが、政治・経済のコンテキストでは「交渉における優位性や影響力」を指します。"
+        "lemma": "lieu",
+        "cognate": "英語 venue は古仏語 venue（来ること）に由来",
+        "ja": "会場、開催地",
+        "note": "仏語 lieu は「場所」全般を指す一般的な単語。"
       },
       "w34": {
-        "en": "authorised",
-        "fr": "autorisés",
-        "pos": "形容詞/過去分詞",
-        "lemma": "autoriser",
-        "cognate": "autoriser",
-        "ja": "認可された、権限を与えられた",
-        "note": "法律や特定の条項に基づいて正当な権限が付与されている状態を示します。"
+        "en": "homeland",
+        "fr": "patrie",
+        "pos": "名詞",
+        "lemma": "patrie",
+        "cognate": "ラテン語 patria 由来（英 patriot 等と同系）",
+        "ja": "祖国、母国",
+        "note": "patrie は感情的な響きを持つ「祖国」を意味する言葉。"
       },
       "w35": {
-        "en": "over-ride",
-        "fr": "outrepasser",
-        "pos": "動詞",
-        "lemma": "outrepasser",
-        "cognate": "override",
-        "ja": "（決定や拒否権などを）覆す、無効にする",
-        "note": "議会が大統領の拒否権を再決議によって突っぱねる際などによく使われます。"
+        "en": "chanting",
+        "fr": "scander",
+        "pos": "動詞（現在分詞/動名詞）",
+        "lemma": "scander",
+        "cognate": "英語 chant / 仏 chanter（歌う）",
+        "ja": "（スローガンなどを）繰り返し叫ぶ",
+        "note": "仏語 scander は韻律に合わせて区切って発声・連呼することを指す。"
       },
       "w36": {
-        "en": "veto",
-        "fr": "veto",
-        "pos": "名詞",
-        "lemma": "veto",
-        "cognate": "veto",
-        "ja": "拒否権",
-        "note": "ラテン語由来の単語で、フランス語でも un veto（発音：ヴェト）としてそのまま用いられます。"
+        "en": "heralded",
+        "fr": "annoncé",
+        "pos": "動詞（過去形/過去分詞）",
+        "lemma": "annoncer",
+        "cognate": "英 announce / 仏 annoncer",
+        "ja": "〜の到来を告げた、前触れとなった",
+        "note": "herald は新時代の到来などを予言・告知すること。"
       },
       "w37": {
-        "en": "interim",
-        "fr": "intérimaire",
-        "pos": "形容詞",
-        "lemma": "intérimaire",
-        "cognate": "interim",
-        "ja": "暫定の、中間の",
-        "note": "正式・恒久的な合意に至るまでの「一時的な・中間的な」段階を表します。"
-      },
-      "w38": {
-        "en": "legislate",
-        "fr": "légiférer",
-        "pos": "動詞",
-        "lemma": "légiférer",
-        "cognate": "legislate",
-        "ja": "法律を制定する、立法化する",
-        "note": "議会が法案を通して法制化することを指す動詞です。"
-      },
-      "w39": {
-        "en": "machinations",
-        "fr": "machinations",
+        "en": "transition",
+        "fr": "transition",
         "pos": "名詞",
-        "lemma": "machination",
-        "cognate": "machination",
-        "ja": "陰謀、策動、裏工作",
-        "note": "政治的な水面下での画策や陰謀を指す、やや非難的なニュアンスを含む語です。"
-      },
-      "w40": {
-        "en": "tenure",
-        "fr": "mandat",
-        "pos": "名詞",
-        "lemma": "mandat",
-        "cognate": "tenure",
-        "ja": "在任期間、任期",
-        "note": "政治家や役職者の任期・在職期間を指します。フランス語では context に応じて mandat と訳すのが一般的です。"
-      },
-      "w41": {
-        "en": "reshaped",
-        "fr": "remodelé",
-        "pos": "動詞/過去分詞",
-        "lemma": "remodeler",
-        "cognate": "reshape",
-        "ja": "形を再構築した、一変させた",
-        "note": "既存の構造やパターンを大きく作り変えたことを表します。"
+        "lemma": "transition",
+        "cognate": "完全な同源語（英 transition / 仏 transition）",
+        "ja": "移行、転換",
+        "note": "スペイン史において la Transición はフランコ独裁から民主主義への移行期を指す。"
       }
     },
     "paragraphs": [
       {
-        "en_tagged": "There was none of last April's <w id='w1'>fanfare</w>, the Rose Garden reveal, the gameshow blue board or \"Liberation Day\" <w id='w2'>rhetoric</w> surrounding Trump's tariff announcement this week.",
-        "fr_b2_tagged": "Il n'y a eu rien de la <w id='w1'>fanfare</w> d'avril dernier, ni de la présentation dans le Rose Garden, ni du panneau bleu de jeu télévisé ou de la <w id='w2'>rhétorique</w> du « Jour de la Libération » entourant l'annonce des tarifs douaniers de Trump cette semaine.",
-        "fr_a2_tagged": "Cette semaine, Trump a annoncé de nouvelles taxes. Mais il n'y a pas eu de grande <w id='w1'>fête</w> comme en avril, ni de discours avec de grands mots comme la <w id='w2'>rhétorique</w> de « Libération »."
+        "en_tagged": "Pedro SÃ¡nchez accused his opponents of <w id='w1'>hurling insults</w> and lies but his conservative rival has promised a new era of politics",
+        "fr_b2_tagged": "Pedro Sánchez a accusé ses adversaires de <w id='w1'>lancer des insultes</w> et des mensonges, mais son rival conservateur a promis une nouvelle ère politique.",
+        "fr_a2_tagged": "Pedro Sánchez a dit que ses opposants aimaient <w id='w1'>dire des insultes</w> et mentir, mais son rival conservateur a promis une nouvelle façon de faire de la politique."
       },
       {
-        "en_tagged": "Instead there is something rather <w id='w3'>tentative</w> about this latest exercise with talk of further negotiations.",
-        "fr_b2_tagged": "Au contraire, cette dernière démarche a quelque chose de plutôt <w id='w3'>tâtonnant</w>, avec des évocations de nouvelles négociations.",
-        "fr_a2_tagged": "À la place, cette nouvelle décision semble plutôt <w id='w3'>hésitante</w>, et on parle encore de négociations futures."
+        "en_tagged": "Spain's main party leaders have held their final rallies ahead of Sunday's election, with Socialist Prime Minister Pedro SÃ¡nchez saying he is confident of <w id='w2'>defying the polls</w>.",
+        "fr_b2_tagged": "Les principaux chefs de parti espagnols ont tenu leurs derniers rassemblements avant le scrutin de dimanche, le premier ministre socialiste Pedro Sánchez se disant confiant quant au fait de <w id='w2'>défier les sondages</w>.",
+        "fr_a2_tagged": "Les grands leaders politiques d'Espagne ont fait leurs derniers discours avant l'élection de dimanche, et Pedro Sánchez pense pouvoir <w id='w2'>gagner contre les sondages</w>."
       },
       {
-        "en_tagged": "\"We expect to have a broad, even a plurilateral negotiation to talk about excess capacity and how to resolve it,\" US Trade Representative Jamieson Greer told CNBC.",
-        "fr_b2_tagged": "« Nous prévoyons d'avoir des négociations larges, voire plurilatérales, pour parler de la surcapacité et de la manière de la résoudre », a déclaré Jamieson Greer, représentant américain au commerce, à CNBC.",
-        "fr_a2_tagged": "« Nous voulons discuter avec beaucoup de pays pour parler du problème de surcapacité et trouver des solutions », a dit le représentant américain Jamieson Greer à CNBC."
+        "en_tagged": "\"I cannot imagine us losing,\" he said, posing for selfies with supporters in red T-shirts and accusing conservative rival Alberto NÃºÃ±ez FeijÃ³o of planning a <w id='w3'>coalition</w> with the far right.",
+        "fr_b2_tagged": "« Je ne peux pas nous imaginer perdre », a-t-il déclaré, posant pour des selfies avec des partisans en t-shirt rouge et accusant son rival conservateur Alberto Núñez Feijóo de préparer une <w id='w3'>coalition</w> avec l'extrême droite.",
+        "fr_a2_tagged": "« Je ne pense pas que nous allons perdre », a-t-il dit, en faisant des photos avec ses partisans et en disant que son rival préparait une <w id='w3'>alliance</w> avec l'extrême droite."
       },
       {
-        "en_tagged": "Around the world the view is that this week's announcement is an attempt to <w id='w4'>shore up</w> the domestic legal <w id='w5'>underpinning</w> of these tariffs, more than a fundamental change in the Trump trade agenda.",
-        "fr_b2_tagged": "Dans le monde entier, on estime que l'annonce de cette semaine est une tentative de <w id='w4'>renforcer</w> le <w id='w5'>fondement</w> juridique interne de ces tarifs, plutôt qu'un changement fondamental de l'agenda commercial de Trump.",
-        "fr_a2_tagged": "Dans le monde, on pense que cette annonce veut simplement <w id='w4'>consolider</w> la <w id='w5'>base</w> légale américaine de ces taxes, sans vraiment changer la politique de Trump."
+        "en_tagged": "FeijÃ³o's People's Party (PP) is narrowly ahead in the polls, and in the final hours of the campaign he travelled first to Barcelona and then Seville, promising voters a new political era of \"truth, decency and <w id='w4'>good governance</w>\".",
+        "fr_b2_tagged": "Le Parti populaire (PP) de Feijóo devance de peu les sondages et, dans les dernières heures de la campagne, il s'est d'abord rendu à Barcelone puis à Séville, promettant aux électeurs une nouvelle ère politique de « vérité, de décence et de <w id='w4'>bonne gouvernance</w> ».",
+        "fr_a2_tagged": "Le parti de Feijóo est un peu en avance dans les sondages. À la fin de sa campagne, il a promis aux gens un <w id='w4'>bon gouvernement</w> honnête et juste."
       },
       {
-        "en_tagged": "The tariffs are also not due to come in until January or possibly February, after a period of consultation. There has already been eight months of process and hearings, and the rates announced are upper ceilings, often up for negotiation. It's quite the contrast to the overnight shock meted out to the world last April.",
-        "fr_b2_tagged": "Ces tarifs ne doivent d'ailleurs entrer en vigueur qu'en janvier ou peut-être en février, après une période de consultation. Il y a déjà eu huit mois de procédures et d'auditions, et les taux annoncés sont des plafonds, souvent négociables. C'est un grand contraste avec le choc soudain infligé au monde en avril dernier.",
-        "fr_a2_tagged": "Les taxes vont commencer seulement en janvier ou février, après des discussions. Il y a déjà eu huit mois de travail et les prix annoncés peuvent changer. C'est très différent du choc rapide du mois d'avril dernier."
+        "en_tagged": "He accused SÃ¡nchez of <w id='w5'>evading</w> questions on key issues like corruption, rail disasters, immigration and the national debt.",
+        "fr_b2_tagged": "Il a accusé Sánchez d'<w id='w5'>éluder</w> les questions sur des thèmes clés tels que la corruption, les catastrophes ferroviaires, l'immigration et la dette nationale.",
+        "fr_a2_tagged": "Il a reproché à Sánchez d'<w id='w5'>éviter</w> les questions importantes sur la corruption, les accidents de train et la dette."
       },
       {
-        "en_tagged": "Still, the USA is making the argument that large <w id='w6'>swathes</w> of the rest of the world, including allies, are harming the US goods trade position by supporting their own industries. This is the basis for the tariffs, in large part replacing the previous tariffs justified on \"forced labour\" <w id='w7'>provisions</w>.",
-        "fr_b2_tagged": "Néanmoins, les États-Unis soutiennent que de larges <w id='w6'>portions</w> du reste du monde, y compris des alliés, nuisent à la position commerciale des biens américains en soutenant leurs propres industries. C'est la base de ces tarifs, qui remplacent en grande partie les taxes précédentes justifiées par des <w id='w7'>dispositions</w> sur le « travail forcé ».",
-        "fr_a2_tagged": "Pourtant, les États-Unis disent que de grands <w id='w6'>secteurs</w> du monde aident leurs entreprises et font du mal au commerce américain. C'est la raison de ces taxes, qui remplacent les anciennes règles sur les <w id='w7'>clauses</w> de travail forcé."
+        "en_tagged": "Alberto NÃºÃ±ez FeijÃ³o's PP holds a narrow lead in the opinion polls",
+        "fr_b2_tagged": "Le PP d'Alberto Núñez Feijóo conserve une courte avance dans les sondages d'opinion.",
+        "fr_a2_tagged": "Le parti d'Alberto Núñez Feijóo a une petite avance dans les sondages."
       },
       {
-        "en_tagged": "The UK, which was unaffected by the new tariff announcements, remains caught by the forced labour provisions, <w id='w8'>albeit</w> at a rate of 10% extra on global tariffs. There was no move in response to the UK's digital services tax.",
-        "fr_b2_tagged": "Le Royaume-Uni, qui n'a pas été touché par les nouvelles annonces tarifaires, reste concerné par les dispositions sur le travail forcé, <w id='w8'>bien que</w> ce soit à un taux supplémentaire de 10 % sur les tarifs globaux. Il n'y a eu aucune réaction à la taxe britannique sur les services numériques.",
-        "fr_a2_tagged": "Le Royaume-Uni n'est pas touché par les nouvelles taxes, mais il garde les règles sur le travail forcé, <w id='w8'>même si</w> c'est seulement 10 % de plus. Les États-Unis n'ont pas répondu à la taxe numérique anglaise."
+        "en_tagged": "The Socialist leader heads one of Europe's few <w id='w6'>left-wing</w> governments, and with the French presidential elections five months away, there is a real chance that two of the continent's biggest economies could move to the right <w id='w7'>in quick succession</w>.",
+        "fr_b2_tagged": "Le dirigeant socialiste est à la tête de l'un des rares gouvernements <w id='w6'>de gauche</w> d'Europe et, à cinq mois de l'élection présidentielle française, il existe un risque réel de voir deux des plus grandes économies du continent basculer à droite <w id='w7'>coup sur coup</w>.",
+        "fr_a2_tagged": "Ce chef socialiste dirige un gouvernement <w id='w6'>de gauche</w>. Avec les élections en France dans cinq mois, deux grands pays pourraient passer à droite <w id='w7'>l'un après l'autre</w>."
       },
       {
-        "en_tagged": "It means for many important countries there are now two legal bases upon which the Trump tariffs rest, after the Supreme Court <w id='w9'>struck down</w> the original emergency basis earlier this year. A group of 25 states has taken the Trump administration to court to strike down the forced labour tariffs.",
-        "fr_b2_tagged": "Cela signifie que pour de nombreux pays importants, il existe désormais deux bases juridiques sur lesquelles reposent les tarifs de Trump, après que la Cour suprême a <w id='w9'>invalidé</w> la base d'urgence initiale plus tôt cette année. Un groupe de 25 États a attaqué l'administration Trump en justice pour annuler les tarifs sur le travail forcé.",
-        "fr_a2_tagged": "Cela veut dire que pour beaucoup de pays, il y a deux bases légales pour ces taxes, car la Cour suprême a <w id='w9'>annulé</w> la première raison d'urgence. Vingt-cinq États attaquent le gouvernement Trump en justice pour annuler ces taxes."
+        "en_tagged": "Almost 39 million people have a vote in Spain and while commentators expect a high <w id='w8'>turnout</w>, most polls have suggested a close finish. Under Spanish electoral law, no polls have been published since Monday.",
+        "fr_b2_tagged": "Près de 39 millions de personnes ont le droit de voter en Espagne et, bien que les commentateurs prévoient un fort <w id='w8'>taux de participation</w>, la plupart des sondages annoncent un résultat très serré. Conformément à la loi électorale espagnole, aucun sondage n'a été publié depuis lundi.",
+        "fr_a2_tagged": "Presque 39 millions d'Espagnols peuvent voter. Les experts attendent une forte <w id='w8'>participation</w>, mais le résultat sera très proche. La loi interdit de publier des sondages depuis lundi."
       },
       {
-        "en_tagged": "The tariffs will have to be finalised under a Democrat Congress, which has influence, but not power. The Speaker-designate Hakeem Jeffries said this week that the new House would in its first 100 days \"move aggressively toâ¦ repeal the Trump tariffs\".",
-        "fr_b2_tagged": "Les droits de douane devront être finalisés sous un Congrès démocrate, qui détient de l'influence, mais pas le pouvoir exécutif. Le président désigné de la Chambre, Hakeem Jeffries, a déclaré cette semaine que la nouvelle Chambre agirait fermement au cours de ses 100 premiers jours pour « <w id='w30'>abroger</w> les tarifs douaniers de Trump ».",
-        "fr_a2_tagged": "Les taxes doivent être finies sous un Congrès démocrate. Ce Congrès a de l'influence, mais pas tout le pouvoir. Hakeem Jeffries a dit cette semaine que la Chambre va agir très vite pour « <w id='w30'>abroger</w> les taxes de Trump »."
+        "en_tagged": "\"This time, yes, we're going to do it,\" FeijÃ³o told PP supporters, in a <w id='w30'>nod</w> to his failure to form a government three years ago despite winning most seats.",
+        "fr_b2_tagged": "« Cette fois-ci, oui, nous allons y arriver », a déclaré Feijóo aux partisans du PP, dans un <w id='w30'>clin d'œil</w> à son échec à former un gouvernement il y a trois ans malgré l'obtention de la majorité des sièges.",
+        "fr_a2_tagged": "« Cette fois, nous allons réussir », a dit Feijóo aux sympathisants du PP. C'était un <w id='w30'>clin d'œil</w> à son échec d'il y a trois ans, quand il n'a pas pu former de gouvernement."
       },
       {
-        "en_tagged": "The Chinese rate of 20% is the <w id='w31'>truce</w> rate from last year's Trump-Xi deal. The truce is due to expire in mid-January. Beijing's response was muted, no <w id='w32'>retaliation</w>, criticism of industrial overcapacity as a \"false issue\", and a call to implement the Xi-Trump deal. The <w id='w33'>leverage</w> over China has weakened, with the US share of its exports dropping to around 10% this year, down from 15%, just two years ago, and 19% in 2018.",
-        "fr_b2_tagged": "Le taux de 20 % appliqué à la Chine est le taux de <w id='w31'>trêve</w> issu de l'accord Trump-Xi de l'année dernière. Cette trêve doit expirer mi-janvier. La réponse de Pékin a été modérée : aucune <w id='w32'>représailles</w>, une critique de la surcapacité industrielle qualifiée de « faux problème », et un appel à appliquer l'accord Xi-Trump. Le <w id='w33'>levier</w> d'action sur la Chine s'est affaibli, la part des États-Unis dans ses exportations étant tombée à environ 10 % cette année, contre 15 % il y a deux ans et 19 % en 2018.",
-        "fr_a2_tagged": "Le taux de 20 % pour la Chine vient de la <w id='w31'>trêve</w> de l'accord Trump-Xi. La trêve finit au milieu du mois de janvier. Pékin a répondu calmement : pas de <w id='w32'>représailles</w>, et un appel à suivre l'accord. Le <w id='w33'>levier</w> contre la Chine est plus faible maintenant, car les ventes vers les États-Unis ont baissé."
+        "en_tagged": "Abascal said on Friday that SÃ¡nchez's government had '<w id='w31'>betrayed</w>' Spaniards",
+        "fr_b2_tagged": "Abascal a déclaré vendredi que le gouvernement de Sánchez avait « <w id='w31'>trahi</w> » les Espagnols.",
+        "fr_a2_tagged": "Abascal a dit vendredi que le gouvernement de Sánchez avait <w id='w31'>trahi</w> les Espagnols."
       },
       {
-        "en_tagged": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
-        "fr_b2_tagged": "Faisal Islam : Cet accord de réduction des coûts entre le Royaume-Uni et l'UE ne garantit pas une baisse ultérieure des prix",
-        "fr_a2_tagged": "Faisal Islam : Cet accord entre le Royaume-Uni et l'UE réduit les coûts, mais ne veut pas dire que les prix vont baisser"
+        "en_tagged": "If he gets to form a government this time, it will be with the support of anti-immigration party Vox, led by Santiago Abascal, whose final <w id='w32'>rally</w> took place in front of thousands of people in a bull-ring in Valencia on Spain's east coast.",
+        "fr_b2_tagged": "S'il parvient à former un gouvernement cette fois, ce sera avec le soutien du parti anti-immigration Vox, dirigé par Santiago Abascal, dont le dernier <w id='w32'>rassemblement</w> a eu lieu devant des milliers de personnes dans des arènes à Valence, sur la côte est de l'Espagne.",
+        "fr_a2_tagged": "S'il peut former un gouvernement, ce sera avec l'aide du parti Vox. Ce parti est contre l'immigration et dirigé par Santiago Abascal. Son dernier grand <w id='w32'>rassemblement</w> s'est déroulé à Valence avec des milliers de personnes."
       },
       {
-        "en_tagged": "However, the most interesting spot to focus on is closer to home for Trump. Over half of Canada tariffs are <w id='w34'>authorised</w> under \"Section 338\" of the 1930s Smoot-Hawley act. There is already a Senate Bill to repeal them, and it is possible that there would be enough rebel Republicans in the House and Senate to threaten to <w id='w35'>over-ride</w> any Presidential <w id='w36'>veto</w>. The incoming Senate Finance Committee chair Ron Wyden last week said Democrats were focussed on \"figuring out a way to beat Trump and his veto\".",
-        "fr_b2_tagged": "Cependant, le point le plus intéressant à observer se situe plus près du territoire américain. Plus de la moitié des tarifs douaniers imposés au Canada sont <w id='w34'>autorisés</w> en vertu de la « Section 338 » de la loi Smoot-Hawley des années 1930. Un projet de loi du Sénat vise déjà à les abroger, et il est possible qu'il y ait suffisamment de républicains rebelles pour menacer d'<w id='w35'>outrepasser</w> tout <w id='w36'>veto</w> présidentiel. Le futur président de la commission des finances du Sénat, Ron Wyden, a déclaré la semaine dernière que les démocrates cherchaient le moyen de battre Trump et son veto.",
-        "fr_a2_tagged": "Mais le sujet le plus intéressant est près des États-Unis. Plus de la moitié des taxes sur le Canada sont <w id='w34'>autorisées</w> par une vieille loi de 1930. Le Sénat veut les effacer, et des républicains pourraient aider à <w id='w35'>outrepasser</w> le <w id='w36'>veto</w> du président. Ron Wyden a dit que les démocrates veulent bloquer Trump et son veto."
+        "en_tagged": "The <w id='w33'>venue</w> was filled with Spanish flags and green Vox banners, and one of the biggest cheers of the night came when the secretary general of the party called for \"less burka and less halal\".",
+        "fr_b2_tagged": "Le <w id='w33'>lieu</w> était rempli de drapeaux espagnols et de bannières vertes de Vox, et l'une des plus grandes clameurs de la soirée s'est produite lorsque le secrétaire général du parti a réclamé « moins de burqa et moins de halal ».",
+        "fr_a2_tagged": "Le <w id='w33'>lieu</w> était plein de drapeaux espagnols et de bannières vertes. La foule a beaucoup applaudi quand le secrétaire général a demandé « moins de burqa et moins de halal »."
       },
       {
-        "en_tagged": "Before that an <w id='w37'>interim</w> deal is being sought, and Democrat senators such as Chris Coons are appearing on Canadian TV, telling CBC , external : \"Frankly, if you can get an interim deal, I'd take it, and then put it to us in the new majority to <w id='w38'>legislate</w> an even better deal.\"",
-        "fr_b2_tagged": "Avant cela, un accord <w id='w37'>intérimaire</w> est recherché, et des sénateurs démocrates comme Chris Coons interviennent à la télévision canadienne, déclarants à la CBC : « Franchement, si vous pouvez obtenir un accord temporaire, acceptez-le, puis laissez la nouvelle majorité <w id='w38'>légiférer</w> pour un accord encore meilleur. »",
-        "fr_a2_tagged": "Avant cela, on cherche un accord <w id='w37'>intérimaire</w>. Des sénateurs démocrates parlent à la télé canadienne. Ils disent : « Si vous trouvez un accord temporaire, prenez-le. Ensuite, la nouvelle majorité va <w id='w38'>légiférer</w> pour faire un meilleur accord. »"
+        "en_tagged": "Ignacio Garriga said he was not acting out of hatred but love for the <w id='w34'>homeland</w>.",
+        "fr_b2_tagged": "Ignacio Garriga a affirmé qu'il n'agissait pas par haine, mais par amour pour la <w id='w34'>patrie</w>.",
+        "fr_a2_tagged": "Ignacio Garriga a dit qu'il n'agissait pas par haine, mais par amour de la <w id='w34'>patrie</w>."
       },
       {
-        "en_tagged": "The rest of world is watching the <w id='w39'>machinations</w> in Washington and also looking beyond Donald Trump's <w id='w40'>tenure</w>.",
-        "fr_b2_tagged": "Le reste du monde本 observe les <w id='w39'>machinations</w> à Washington tout en se projetant déjà au-delà du <w id='w40'>mandat</w> de Donald Trump.",
-        "fr_a2_tagged": "Le reste du monde regarde les <w id='w39'>machinations</w> à Washington et pense aussi à l'après du <w id='w40'>mandat</w> de Donald Trump."
+        "en_tagged": "A small section of the crowd could be heard <w id='w35'>chanting</w> \"Viva Franco\" in reference to the dictator, whose death in 1975 <w id='w36'>heralded</w> the start of Spain's <w id='w37'>transition</w> to democracy.",
+        "fr_b2_tagged": "Une petite partie de la foule pouvait être entendue en train de <w id='w35'>scander</w> « Viva Franco » en référence au dictateur, dont la mort en 1975 avait <w id='w36'>annoncé</w> le début de la <w id='w37'>transition</w> de l'Espagne vers la démocratie.",
+        "fr_a2_tagged": "Quelques personnes ont commencé à <w id='w35'>scander</w> « Viva Franco ». Franco était un dictateur. Sa mort en 1975 a <w id='w36'>annoncé</w> le début de la <w id='w37'>transition</w> vers la démocratie en Espagne."
       },
       {
-        "en_tagged": "It pays to look at how the initial Trump trade-quake has <w id='w41'>reshaped</w> the pattern of world trade already.",
-        "fr_b2_tagged": "Il est utile d'analyser la manière dont le séisme commercial initial provoqué par Trump a déjà <w id='w41'>remodelé</w> la structure du commerce mondial.",
-        "fr_a2_tagged": "Il est intéressant de voir comment le choc commercial de Trump a déjà <w id='w41'>remodelé</w> le commerce dans le monde."
+        "en_tagged": "A number of first-time voters at the rally said they were supporting Vox because of its policies on immigration.",
+        "fr_b2_tagged": "Plusieurs personnes votant pour la première fois lors du rassemblement ont déclaré soutenir Vox en raison de sa politique sur l'immigration.",
+        "fr_a2_tagged": "Des jeunes qui votent pour la première fois ont dit qu'ils soutenaient Vox pour sa politique d'immigration."
       }
     ],
     "expressions": [
       {
-        "en_phrase": "shore up",
-        "academic_alt": "reinforce / fortify",
-        "fr_phrase": "consolider / renforcer",
-        "cognate_hint": "英語 shore (支柱で支える) ＝ フランス語 soutenir (支える) と同様の補強イメージ",
-        "ja_explanation": "「（立場・法的根拠・支持などを）強固にする、補強する、下支えする」という意味の重要句動詞。政策や議論の基礎を固める文脈でよく使われます。"
+        "en_phrase": "defying the polls",
+        "academic_alt": "contradicting statistical projections",
+        "fr_phrase": "défier les sondages",
+        "cognate_hint": "英語の defy とフランス語の défier (挑む・逆らう) は同語源 (ラテン語 dis- + fidare)。",
+        "ja_explanation": "「世論調査の予想を覆す、裏切る」という意味。選挙報道や市場予測などのアカデミック・ジャーナリズム文脈で多用されます。"
       },
       {
-        "en_phrase": "strike down",
-        "academic_alt": "invalidate / overturn",
-        "fr_phrase": "invalider / annuler",
-        "cognate_hint": "英語 invalid (無効な) ＝ フランス語 invalider (無効にする)",
-        "ja_explanation": "裁判所などが「（法律や規定を）無効と判決する、破棄する」ことを表す司法用語です。"
+        "en_phrase": "final pitch for votes",
+        "academic_alt": "ultimate campaign appeal to the electorate",
+        "fr_phrase": "l'ultime appel aux votes",
+        "cognate_hint": "pitch は英語特有の説得行動ですが、appeal / appel は英仏共通の同根語です。",
+        "ja_explanation": "pitch は「売り込み・アピール」の意味。final pitch で投票直前の「最後の演説・有権者への最終アピール」を指します。"
       },
       {
-        "en_phrase": "tentative",
-        "academic_alt": "provisional / exploratory",
-        "fr_phrase": "tentatif / provisoire",
-        "cognate_hint": "英語 tentative ＝ フランス語 tentative (試み・試作、ラテン語 tentare「試みる」が共通の語源)",
-        "ja_explanation": "「確定的でない、探り探りの、仮の」を意味する形容詞。決定打ではなく交渉の余地を残した提案や姿勢を表現する際に重宝します。"
+        "en_phrase": "in quick succession",
+        "academic_alt": "in rapid sequence",
+        "fr_phrase": "en succession rapide",
+        "cognate_hint": "succession は英仏共通語 (連続、継承)。ラテン語 succedere (後に続く) 由来。",
+        "ja_explanation": "「立て続けに、間を置かず連続して」。政治的出来事や経済的変動が短期間に相次いで起こる様子を記述するフォーマルな表現です。"
       },
       {
-        "en_phrase": "machinations",
-        "academic_alt": "political maneuvering / intrigues",
-        "fr_phrase": "machinations / intrigues",
-        "cognate_hint": "英語 machination ＝ フランス語 machination (綴り・意味ともにほぼ同一の完全同源語)",
-        "ja_explanation": "「（政治的裏舞台での）策動、画策、からくり」。複雑な政治的駆け引きや陰謀を指す語で、報道や論文の分析で使われます。"
+        "en_phrase": "heralded the start of",
+        "academic_alt": "signaled the commencement of",
+        "fr_phrase": "annoncer le début de",
+        "cognate_hint": "英語 herald (先触れ) は古フランス語 heraut 由来の語彙的つながりがあります。",
+        "ja_explanation": "「〜の始まりを告げる、もたらす」。歴史の転換点や新時代の到来を説明する際によく使われる高品位な表現です。"
       }
     ],
     "slash_reading": [
       {
-        "fr_original": "Les nouveaux tarifs douaniers ne sont pas une menace immédiate.",
-        "en_meaning": "The new customs tariffs are not an immediate threat.",
-        "ja_meaning": "新しい関税は即座の脅威ではありません。",
+        "fr_original": "Le Premier ministre espagnol / a rassemblé ses partisans / avant les élections.",
+        "en_meaning": "The Spanish Prime Minister / gathered his supporters / before the elections.",
+        "ja_meaning": "スペインの首相は / 選挙の前に / 支持者らを再結集させた。",
         "chunks": [
           {
             "role": "S",
-            "text": "Les nouveaux tarifs douaniers",
-            "note": "複数形主語「新しい関税」"
+            "text": "Le Premier ministre espagnol",
+            "note": "主語: 男性名詞 Premier ministre (首相) + 形容詞 espagnol (スペインの)"
           },
           {
             "role": "V",
-            "text": "ne sont pas",
-            "note": "動詞 être の複数否定形「〜ではない」"
+            "text": "a rassemblé",
+            "note": "動詞: 助動詞 avoir + 過去分詞 rassemblé (複合過去形「集めた」)"
           },
           {
             "role": "O",
-            "text": "une menace immédiate",
-            "note": "主語補語「即座の脅威」"
+            "text": "ses partisans",
+            "note": "目的語: 所有形容詞 ses (彼の) + 複名詞 partisans (支持者たち)"
+          },
+          {
+            "role": "M",
+            "text": "avant les élections",
+            "note": "修飾語: 前置詞 avant (〜の前に) + 複名詞 les élections (選挙)"
           }
         ],
         "verbs": [
           {
-            "word": "sont",
-            "lemma": "être",
-            "tense": "現在形 (Présent)",
-            "meaning": "〜である"
+            "word": "a rassemblé",
+            "lemma": "rassembler",
+            "tense": "複合過去",
+            "meaning": "集めた、再結集させた"
           }
         ]
       },
       {
-        "fr_original": "Les pays négocient un accord temporaire avant janvier.",
-        "en_meaning": "The countries are negotiating a temporary agreement before January.",
-        "ja_meaning": "諸国は1月より前に一時的な協定を交渉しています。",
+        "fr_original": "Les sondages montrent / une victoire étroite / du parti conservateur.",
+        "en_meaning": "The polls show / a narrow victory / for the conservative party.",
+        "ja_meaning": "世論調査は示している / 僅差の勝利を / 保守党の。",
         "chunks": [
           {
             "role": "S",
-            "text": "Les pays",
-            "note": "主語「諸国」"
+            "text": "Les sondages",
+            "note": "主語: 複数名詞 sondages (世論調査)"
           },
           {
             "role": "V",
-            "text": "négocient",
-            "note": "第1グループ規則動詞 négocier「交渉する」の3人称複数形"
+            "text": "montrent",
+            "note": "動詞: montrer (示す) の三人称複数現在形"
           },
           {
             "role": "O",
-            "text": "un accord temporaire",
-            "note": "直接目的語「一時的な協定」"
-          },
-          {
-            "role": "M",
-            "text": "avant janvier",
-            "note": "時を表す修飾語「1月より前に」"
+            "text": "une victoire étroite du parti conservateur",
+            "note": "目的語: 僅差の勝利 (victoire étroite) + 所有 (du parti conservateur)"
           }
         ],
         "verbs": [
           {
-            "word": "négocient",
-            "lemma": "négocier",
-            "tense": "現在形 (Présent)",
-            "meaning": "交渉する"
+            "word": "montrent",
+            "lemma": "montrer",
+            "tense": "現在形",
+            "meaning": "示す、表している"
           }
         ]
       }
     ],
     "travel_apps": [
       {
-        "from_news_fr": "un accord temporaire",
-        "from_news_ja": "一時的な合意・取り決め",
-        "situation": "ホテルで予約内容変更や部屋の不備について暫定策を提案・交渉する時",
-        "travel_fr": "Est-ce qu'on peut trouver un arrangement temporaire ?",
-        "travel_ja": "一時的な解決策（取り決め）を見つけることはできますか？",
-        "tip": "ニュースに出てきた 'accord' の代わりに、旅行中の会話では 'arrangement' (妥協案・手配) という語も頻出します。"
+        "from_news_fr": "rassembler",
+        "from_news_ja": "集める、再結集する",
+        "situation": "パリの現地ツアーに参加し、ガイドに再集合の場所を聞くとき",
+        "travel_fr": "Où allons-nous nous rassembler après la visite ?",
+        "travel_ja": "見学の後、私たちはどこで集合しますか？",
+        "tip": "旅行中は再帰動詞 se rassembler (集合する) の形でよく使われます。se retrouver (再会する・待ち合わせる) も同様によく使えます。"
       },
       {
-        "from_news_fr": "négocier",
-        "from_news_ja": "交渉する・相談する",
-        "situation": "蚤の市（Marché aux puces）で店主と値段の相談をする時",
-        "travel_fr": "Est-ce possible de négocier un peu le prix ?",
-        "travel_ja": "少しお値段を交渉することは可能ですか？",
-        "tip": "「négocier」は非常に使いやすい動詞です。丁寧さを出すために「Est-ce possible de + 動詞原形 ?」の形を組み合わせると観光客として上品な印象を与えられます。"
+        "from_news_fr": "sondage",
+        "from_news_ja": "世論調査、アンケート",
+        "situation": "ホテルや観光案内所でアンケート協力を頼まれたとき",
+        "travel_fr": "Est-ce que c'est un court sondage ?",
+        "travel_ja": "これは短いアンケートですか？",
+        "tip": "sondage は政治の世論調査だけでなく、顧客アンケートなどにも使われる一般的な単語です。"
       }
     ],
     "quiz": {
       "q1": {
-        "question": "The administration sought to _____ its legal position before introducing the new trade regulations.",
+        "question": "The young candidate managed to win the election in spite of all predictions, effectively _____ the polls.",
         "options": [
-          "shore up",
-          "strike down",
-          "rule out",
-          "pass over"
+          "defying",
+          "heralded",
+          "pitching",
+          "evading"
         ],
         "answer": 0,
-        "explanation": "文脈上、「法的立場を強固にする・下支えする」という意味の 'shore up' が最も適切です。'strike down' は判決などで「無効にする」の意味になります。"
+        "explanation": "「世論調査の予想を覆す」は defy the polls です。ここでは現在分詞 defying が正解となります。"
       },
       "q2": {
-        "question": "ニュース記事の文脈や解説に登場したフランス語 'accord' の意味として最も適切なものを選んでください。",
+        "question": "フランス語の単語「sondage」の意味として最も適切なものはどれですか？",
         "options": [
-          "1. 関税",
-          "2. 脅威",
-          "3. 合意・協定",
-          "4. 判決"
+          "1. 投票箱",
+          "2. 世論調査・アンケート",
+          "3. 政治演説",
+          "4. 連立政権"
         ],
-        "answer": 2,
-        "explanation": "フランス語の 'accord' は英語の 'accord / agreement' に相当し、「合意」「協定」「一致」を意味します。"
+        "answer": 1,
+        "explanation": "sondage は「世論調査」や「アンケート」を意味するフランス語の名詞です。"
       },
       "q3": {
-        "prompt": "記事のテーマ（国際貿易と交渉）に関連し、「一方的な関税措置に対抗するために、国々は積極的な多国間交渉を促進するべきである。」という内容の学術的英文を作成してください。",
-        "model_answer": "In order to counteract unilateral tariff measures, nations ought to promote active plurilateral negotiations to preserve international trade stability.",
-        "notes": "学術的表現のポイント：counteract（〜に対抗する・相殺する）、unilateral tariff measures（一方的な関税措置）、plurilateral negotiations（複数国間/多角間交渉）、preserve stability（安定性を維持する）。"
+        "prompt": "「複数の主要経済国において保守政権が相次いで誕生している」という文脈を、記事内の表現を用いて英文にしなさい。",
+        "model_answer": "Conservative governments are coming to power in quick succession across several major economies.",
+        "notes": "in quick succession（立て続けに）、come to power（政権に就く）というアカデミックな表現を使用しています。"
       }
     }
   }

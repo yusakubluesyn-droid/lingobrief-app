@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-28",
+  "category": "Military & Geopolitics",
+  "source": "BBC World",
+  "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+  "lesson": {
+    "title_en": "Spanish PM and rivals rally supporters in final pitch for votes",
+    "title_fr": "Le Premier ministre espagnol et ses rivaux rassemblent leurs partisans lors du dernier appel aux votes",
+    "vocab": {
+      "w1": {
+        "en": "hurling insults",
+        "fr": "lancer des insultes",
+        "pos": "動詞句",
+        "lemma": "lancer",
+        "cognate": "なし (insult と insulte は同語源)",
+        "ja": "浴びせるように悪口を言う、侮辱を投げつける",
+        "note": "英語の hurl は「強く投げつける」を意味し、悪口を発する表現として用いられます。フランス語では lancer des insultes または lancer des invectives と表現します。"
+      },
+      "w2": {
+        "en": "defying the polls",
+        "fr": "défier les sondages",
+        "pos": "動詞句",
+        "lemma": "défier",
+        "cognate": "defy - défier (完全同語源)",
+        "ja": "世論調査の予想を覆す、反する",
+        "note": "defy と défier はラテン語 disfidare に由来する同語源（コグネイト）です。"
+      },
+      "w3": {
+        "en": "coalition",
+        "fr": "coalition",
+        "pos": "名詞",
+        "lemma": "coalition",
+        "cognate": "coalition - coalition (同形同義)",
+        "ja": "連立、連立政権",
+        "note": "英仏共通の語彙で、政治の文脈で「連立（政権）」を意味します。"
+      },
+      "w4": {
+        "en": "good governance",
+        "fr": "bonne gouvernance",
+        "pos": "名詞句",
+        "lemma": "gouvernance",
+        "cognate": "governance - gouvernance (同語源)",
+        "ja": "善政、良好な統治",
+        "note": "governance はフランス語 gouvernance から英語に入った借用語です。"
+      },
+      "w5": {
+        "en": "evading",
+        "fr": "éluder",
+        "pos": "動詞",
+        "lemma": "éluder",
+        "cognate": "evade - évider / éluder (ラテン語 evadere 近縁)",
+        "ja": "（質問や責任を）巧みにかわす、回避する",
+        "note": "英語の evade はフランス語では éluder や esquiver（かわす）が自然な訳語となります。"
+      },
+      "w6": {
+        "en": "left-wing",
+        "fr": "de gauche",
+        "pos": "形容詞句",
+        "lemma": "gauche",
+        "cognate": "なし",
+        "ja": "左派の、革新系の",
+        "note": "英語の wing（翼・派閥）に対応するフランス語政治用語は単純に de gauche（左派の）となります。"
+      },
+      "w7": {
+        "en": "in quick succession",
+        "fr": "coup sur coup",
+        "pos": "副詞句",
+        "lemma": "coup",
+        "cognate": "succession - succession (同語源)",
+        "ja": "相次いで、立て続けに",
+        "note": "フランス語の慣用表現 coup sur coup は短期間に連続して起こる出来事を表します。"
+      },
+      "w8": {
+        "en": "turnout",
+        "fr": "taux de participation",
+        "pos": "名詞",
+        "lemma": "participation",
+        "cognate": "participation - participation (同語源)",
+        "ja": "投票率、参加者数",
+        "note": "選挙における turnout はフランス語で taux de participation または単に participation と呼びます。"
+      },
+      "w30": {
+        "en": "nod",
+        "fr": "clin d'œil",
+        "pos": "名詞",
+        "lemma": "clin d'œil",
+        "cognate": "なし",
+        "ja": "（承認・言及の）配慮、目くばせ",
+        "note": "in a nod to は「〜を意識して/〜に言及して」という意味の表現。"
+      },
+      "w31": {
+        "en": "betrayed",
+        "fr": "trahi",
+        "pos": "動詞（過去分詞）",
+        "lemma": "trahir",
+        "cognate": "英語 betray / 仏 trahir（ラテン語 tradere 由来）",
+        "ja": "裏切った",
+        "note": "フランス語 trahir は「秘密を漏らす」「裏切る」の意。"
+      },
+      "w32": {
+        "en": "rally",
+        "fr": "rassemblement",
+        "pos": "名詞",
+        "lemma": "rassemblement",
+        "cognate": "英語 rally は古仏語 rallier（再集結する）に由来",
+        "ja": "政治集会、決起集会",
+        "note": "仏語 rassemblement は人々が再び集まる（rassembler）ことに由来。"
+      },
+      "w33": {
+        "en": "venue",
+        "fr": "lieu",
+        "pos": "名詞",
+        "lemma": "lieu",
+        "cognate": "英語 venue は古仏語 venue（来ること）に由来",
+        "ja": "会場、開催地",
+        "note": "仏語 lieu は「場所」全般を指す一般的な単語。"
+      },
+      "w34": {
+        "en": "homeland",
+        "fr": "patrie",
+        "pos": "名詞",
+        "lemma": "patrie",
+        "cognate": "ラテン語 patria 由来（英 patriot 等と同系）",
+        "ja": "祖国、母国",
+        "note": "patrie は感情的な響きを持つ「祖国」を意味する言葉。"
+      },
+      "w35": {
+        "en": "chanting",
+        "fr": "scander",
+        "pos": "動詞（現在分詞/動名詞）",
+        "lemma": "scander",
+        "cognate": "英語 chant / 仏 chanter（歌う）",
+        "ja": "（スローガンなどを）繰り返し叫ぶ",
+        "note": "仏語 scander は韻律に合わせて区切って発声・連呼することを指す。"
+      },
+      "w36": {
+        "en": "heralded",
+        "fr": "annoncé",
+        "pos": "動詞（過去形/過去分詞）",
+        "lemma": "annoncer",
+        "cognate": "英 announce / 仏 annoncer",
+        "ja": "〜の到来を告げた、前触れとなった",
+        "note": "herald は新時代の到来などを予言・告知すること。"
+      },
+      "w37": {
+        "en": "transition",
+        "fr": "transition",
+        "pos": "名詞",
+        "lemma": "transition",
+        "cognate": "完全な同源語（英 transition / 仏 transition）",
+        "ja": "移行、転換",
+        "note": "スペイン史において la Transición はフランコ独裁から民主主義への移行期を指す。"
+      }
+    },
+    "paragraphs": [
+      {
+        "en_tagged": "Pedro SÃ¡nchez accused his opponents of <w id='w1'>hurling insults</w> and lies but his conservative rival has promised a new era of politics",
+        "fr_b2_tagged": "Pedro Sánchez a accusé ses adversaires de <w id='w1'>lancer des insultes</w> et des mensonges, mais son rival conservateur a promis une nouvelle ère politique.",
+        "fr_a2_tagged": "Pedro Sánchez a dit que ses opposants aimaient <w id='w1'>dire des insultes</w> et mentir, mais son rival conservateur a promis une nouvelle façon de faire de la politique."
+      },
+      {
+        "en_tagged": "Spain's main party leaders have held their final rallies ahead of Sunday's election, with Socialist Prime Minister Pedro SÃ¡nchez saying he is confident of <w id='w2'>defying the polls</w>.",
+        "fr_b2_tagged": "Les principaux chefs de parti espagnols ont tenu leurs derniers rassemblements avant le scrutin de dimanche, le premier ministre socialiste Pedro Sánchez se disant confiant quant au fait de <w id='w2'>défier les sondages</w>.",
+        "fr_a2_tagged": "Les grands leaders politiques d'Espagne ont fait leurs derniers discours avant l'élection de dimanche, et Pedro Sánchez pense pouvoir <w id='w2'>gagner contre les sondages</w>."
+      },
+      {
+        "en_tagged": "\"I cannot imagine us losing,\" he said, posing for selfies with supporters in red T-shirts and accusing conservative rival Alberto NÃºÃ±ez FeijÃ³o of planning a <w id='w3'>coalition</w> with the far right.",
+        "fr_b2_tagged": "« Je ne peux pas nous imaginer perdre », a-t-il déclaré, posant pour des selfies avec des partisans en t-shirt rouge et accusant son rival conservateur Alberto Núñez Feijóo de préparer une <w id='w3'>coalition</w> avec l'extrême droite.",
+        "fr_a2_tagged": "« Je ne pense pas que nous allons perdre », a-t-il dit, en faisant des photos avec ses partisans et en disant que son rival préparait une <w id='w3'>alliance</w> avec l'extrême droite."
+      },
+      {
+        "en_tagged": "FeijÃ³o's People's Party (PP) is narrowly ahead in the polls, and in the final hours of the campaign he travelled first to Barcelona and then Seville, promising voters a new political era of \"truth, decency and <w id='w4'>good governance</w>\".",
+        "fr_b2_tagged": "Le Parti populaire (PP) de Feijóo devance de peu les sondages et, dans les dernières heures de la campagne, il s'est d'abord rendu à Barcelone puis à Séville, promettant aux électeurs une nouvelle ère politique de « vérité, de décence et de <w id='w4'>bonne gouvernance</w> ».",
+        "fr_a2_tagged": "Le parti de Feijóo est un peu en avance dans les sondages. À la fin de sa campagne, il a promis aux gens un <w id='w4'>bon gouvernement</w> honnête et juste."
+      },
+      {
+        "en_tagged": "He accused SÃ¡nchez of <w id='w5'>evading</w> questions on key issues like corruption, rail disasters, immigration and the national debt.",
+        "fr_b2_tagged": "Il a accusé Sánchez d'<w id='w5'>éluder</w> les questions sur des thèmes clés tels que la corruption, les catastrophes ferroviaires, l'immigration et la dette nationale.",
+        "fr_a2_tagged": "Il a reproché à Sánchez d'<w id='w5'>éviter</w> les questions importantes sur la corruption, les accidents de train et la dette."
+      },
+      {
+        "en_tagged": "Alberto NÃºÃ±ez FeijÃ³o's PP holds a narrow lead in the opinion polls",
+        "fr_b2_tagged": "Le PP d'Alberto Núñez Feijóo conserve une courte avance dans les sondages d'opinion.",
+        "fr_a2_tagged": "Le parti d'Alberto Núñez Feijóo a une petite avance dans les sondages."
+      },
+      {
+        "en_tagged": "The Socialist leader heads one of Europe's few <w id='w6'>left-wing</w> governments, and with the French presidential elections five months away, there is a real chance that two of the continent's biggest economies could move to the right <w id='w7'>in quick succession</w>.",
+        "fr_b2_tagged": "Le dirigeant socialiste est à la tête de l'un des rares gouvernements <w id='w6'>de gauche</w> d'Europe et, à cinq mois de l'élection présidentielle française, il existe un risque réel de voir deux des plus grandes économies du continent basculer à droite <w id='w7'>coup sur coup</w>.",
+        "fr_a2_tagged": "Ce chef socialiste dirige un gouvernement <w id='w6'>de gauche</w>. Avec les élections en France dans cinq mois, deux grands pays pourraient passer à droite <w id='w7'>l'un après l'autre</w>."
+      },
+      {
+        "en_tagged": "Almost 39 million people have a vote in Spain and while commentators expect a high <w id='w8'>turnout</w>, most polls have suggested a close finish. Under Spanish electoral law, no polls have been published since Monday.",
+        "fr_b2_tagged": "Près de 39 millions de personnes ont le droit de voter en Espagne et, bien que les commentateurs prévoient un fort <w id='w8'>taux de participation</w>, la plupart des sondages annoncent un résultat très serré. Conformément à la loi électorale espagnole, aucun sondage n'a été publié depuis lundi.",
+        "fr_a2_tagged": "Presque 39 millions d'Espagnols peuvent voter. Les experts attendent une forte <w id='w8'>participation</w>, mais le résultat sera très proche. La loi interdit de publier des sondages depuis lundi."
+      },
+      {
+        "en_tagged": "\"This time, yes, we're going to do it,\" FeijÃ³o told PP supporters, in a <w id='w30'>nod</w> to his failure to form a government three years ago despite winning most seats.",
+        "fr_b2_tagged": "« Cette fois-ci, oui, nous allons y arriver », a déclaré Feijóo aux partisans du PP, dans un <w id='w30'>clin d'œil</w> à son échec à former un gouvernement il y a trois ans malgré l'obtention de la majorité des sièges.",
+        "fr_a2_tagged": "« Cette fois, nous allons réussir », a dit Feijóo aux sympathisants du PP. C'était un <w id='w30'>clin d'œil</w> à son échec d'il y a trois ans, quand il n'a pas pu former de gouvernement."
+      },
+      {
+        "en_tagged": "Abascal said on Friday that SÃ¡nchez's government had '<w id='w31'>betrayed</w>' Spaniards",
+        "fr_b2_tagged": "Abascal a déclaré vendredi que le gouvernement de Sánchez avait « <w id='w31'>trahi</w> » les Espagnols.",
+        "fr_a2_tagged": "Abascal a dit vendredi que le gouvernement de Sánchez avait <w id='w31'>trahi</w> les Espagnols."
+      },
+      {
+        "en_tagged": "If he gets to form a government this time, it will be with the support of anti-immigration party Vox, led by Santiago Abascal, whose final <w id='w32'>rally</w> took place in front of thousands of people in a bull-ring in Valencia on Spain's east coast.",
+        "fr_b2_tagged": "S'il parvient à former un gouvernement cette fois, ce sera avec le soutien du parti anti-immigration Vox, dirigé par Santiago Abascal, dont le dernier <w id='w32'>rassemblement</w> a eu lieu devant des milliers de personnes dans des arènes à Valence, sur la côte est de l'Espagne.",
+        "fr_a2_tagged": "S'il peut former un gouvernement, ce sera avec l'aide du parti Vox. Ce parti est contre l'immigration et dirigé par Santiago Abascal. Son dernier grand <w id='w32'>rassemblement</w> s'est déroulé à Valence avec des milliers de personnes."
+      },
+      {
+        "en_tagged": "The <w id='w33'>venue</w> was filled with Spanish flags and green Vox banners, and one of the biggest cheers of the night came when the secretary general of the party called for \"less burka and less halal\".",
+        "fr_b2_tagged": "Le <w id='w33'>lieu</w> était rempli de drapeaux espagnols et de bannières vertes de Vox, et l'une des plus grandes clameurs de la soirée s'est produite lorsque le secrétaire général du parti a réclamé « moins de burqa et moins de halal ».",
+        "fr_a2_tagged": "Le <w id='w33'>lieu</w> était plein de drapeaux espagnols et de bannières vertes. La foule a beaucoup applaudi quand le secrétaire général a demandé « moins de burqa et moins de halal »."
+      },
+      {
+        "en_tagged": "Ignacio Garriga said he was not acting out of hatred but love for the <w id='w34'>homeland</w>.",
+        "fr_b2_tagged": "Ignacio Garriga a affirmé qu'il n'agissait pas par haine, mais par amour pour la <w id='w34'>patrie</w>.",
+        "fr_a2_tagged": "Ignacio Garriga a dit qu'il n'agissait pas par haine, mais par amour de la <w id='w34'>patrie</w>."
+      },
+      {
+        "en_tagged": "A small section of the crowd could be heard <w id='w35'>chanting</w> \"Viva Franco\" in reference to the dictator, whose death in 1975 <w id='w36'>heralded</w> the start of Spain's <w id='w37'>transition</w> to democracy.",
+        "fr_b2_tagged": "Une petite partie de la foule pouvait être entendue en train de <w id='w35'>scander</w> « Viva Franco » en référence au dictateur, dont la mort en 1975 avait <w id='w36'>annoncé</w> le début de la <w id='w37'>transition</w> de l'Espagne vers la démocratie.",
+        "fr_a2_tagged": "Quelques personnes ont commencé à <w id='w35'>scander</w> « Viva Franco ». Franco était un dictateur. Sa mort en 1975 a <w id='w36'>annoncé</w> le début de la <w id='w37'>transition</w> vers la démocratie en Espagne."
+      },
+      {
+        "en_tagged": "A number of first-time voters at the rally said they were supporting Vox because of its policies on immigration.",
+        "fr_b2_tagged": "Plusieurs personnes votant pour la première fois lors du rassemblement ont déclaré soutenir Vox en raison de sa politique sur l'immigration.",
+        "fr_a2_tagged": "Des jeunes qui votent pour la première fois ont dit qu'ils soutenaient Vox pour sa politique d'immigration."
+      }
+    ],
+    "expressions": [
+      {
+        "en_phrase": "defying the polls",
+        "academic_alt": "contradicting statistical projections",
+        "fr_phrase": "défier les sondages",
+        "cognate_hint": "英語の defy とフランス語の défier (挑む・逆らう) は同語源 (ラテン語 dis- + fidare)。",
+        "ja_explanation": "「世論調査の予想を覆す、裏切る」という意味。選挙報道や市場予測などのアカデミック・ジャーナリズム文脈で多用されます。"
+      },
+      {
+        "en_phrase": "final pitch for votes",
+        "academic_alt": "ultimate campaign appeal to the electorate",
+        "fr_phrase": "l'ultime appel aux votes",
+        "cognate_hint": "pitch は英語特有の説得行動ですが、appeal / appel は英仏共通の同根語です。",
+        "ja_explanation": "pitch は「売り込み・アピール」の意味。final pitch で投票直前の「最後の演説・有権者への最終アピール」を指します。"
+      },
+      {
+        "en_phrase": "in quick succession",
+        "academic_alt": "in rapid sequence",
+        "fr_phrase": "en succession rapide",
+        "cognate_hint": "succession は英仏共通語 (連続、継承)。ラテン語 succedere (後に続く) 由来。",
+        "ja_explanation": "「立て続けに、間を置かず連続して」。政治的出来事や経済的変動が短期間に相次いで起こる様子を記述するフォーマルな表現です。"
+      },
+      {
+        "en_phrase": "heralded the start of",
+        "academic_alt": "signaled the commencement of",
+        "fr_phrase": "annoncer le début de",
+        "cognate_hint": "英語 herald (先触れ) は古フランス語 heraut 由来の語彙的つながりがあります。",
+        "ja_explanation": "「〜の始まりを告げる、もたらす」。歴史の転換点や新時代の到来を説明する際によく使われる高品位な表現です。"
+      }
+    ],
+    "slash_reading": [
+      {
+        "fr_original": "Le Premier ministre espagnol / a rassemblé ses partisans / avant les élections.",
+        "en_meaning": "The Spanish Prime Minister / gathered his supporters / before the elections.",
+        "ja_meaning": "スペインの首相は / 選挙の前に / 支持者らを再結集させた。",
+        "chunks": [
+          {
+            "role": "S",
+            "text": "Le Premier ministre espagnol",
+            "note": "主語: 男性名詞 Premier ministre (首相) + 形容詞 espagnol (スペインの)"
+          },
+          {
+            "role": "V",
+            "text": "a rassemblé",
+            "note": "動詞: 助動詞 avoir + 過去分詞 rassemblé (複合過去形「集めた」)"
+          },
+          {
+            "role": "O",
+            "text": "ses partisans",
+            "note": "目的語: 所有形容詞 ses (彼の) + 複名詞 partisans (支持者たち)"
+          },
+          {
+            "role": "M",
+            "text": "avant les élections",
+            "note": "修飾語: 前置詞 avant (〜の前に) + 複名詞 les élections (選挙)"
+          }
+        ],
+        "verbs": [
+          {
+            "word": "a rassemblé",
+            "lemma": "rassembler",
+            "tense": "複合過去",
+            "meaning": "集めた、再結集させた"
+          }
+        ]
+      },
+      {
+        "fr_original": "Les sondages montrent / une victoire étroite / du parti conservateur.",
+        "en_meaning": "The polls show / a narrow victory / for the conservative party.",
+        "ja_meaning": "世論調査は示している / 僅差の勝利を / 保守党の。",
+        "chunks": [
+          {
+            "role": "S",
+            "text": "Les sondages",
+            "note": "主語: 複数名詞 sondages (世論調査)"
+          },
+          {
+            "role": "V",
+            "text": "montrent",
+            "note": "動詞: montrer (示す) の三人称複数現在形"
+          },
+          {
+            "role": "O",
+            "text": "une victoire étroite du parti conservateur",
+            "note": "目的語: 僅差の勝利 (victoire étroite) + 所有 (du parti conservateur)"
+          }
+        ],
+        "verbs": [
+          {
+            "word": "montrent",
+            "lemma": "montrer",
+            "tense": "現在形",
+            "meaning": "示す、表している"
+          }
+        ]
+      }
+    ],
+    "travel_apps": [
+      {
+        "from_news_fr": "rassembler",
+        "from_news_ja": "集める、再結集する",
+        "situation": "パリの現地ツアーに参加し、ガイドに再集合の場所を聞くとき",
+        "travel_fr": "Où allons-nous nous rassembler après la visite ?",
+        "travel_ja": "見学の後、私たちはどこで集合しますか？",
+        "tip": "旅行中は再帰動詞 se rassembler (集合する) の形でよく使われます。se retrouver (再会する・待ち合わせる) も同様によく使えます。"
+      },
+      {
+        "from_news_fr": "sondage",
+        "from_news_ja": "世論調査、アンケート",
+        "situation": "ホテルや観光案内所でアンケート協力を頼まれたとき",
+        "travel_fr": "Est-ce que c'est un court sondage ?",
+        "travel_ja": "これは短いアンケートですか？",
+        "tip": "sondage は政治の世論調査だけでなく、顧客アンケートなどにも使われる一般的な単語です。"
+      }
+    ],
+    "quiz": {
+      "q1": {
+        "question": "The young candidate managed to win the election in spite of all predictions, effectively _____ the polls.",
+        "options": [
+          "defying",
+          "heralded",
+          "pitching",
+          "evading"
+        ],
+        "answer": 0,
+        "explanation": "「世論調査の予想を覆す」は defy the polls です。ここでは現在分詞 defying が正解となります。"
+      },
+      "q2": {
+        "question": "フランス語の単語「sondage」の意味として最も適切なものはどれですか？",
+        "options": [
+          "1. 投票箱",
+          "2. 世論調査・アンケート",
+          "3. 政治演説",
+          "4. 連立政権"
+        ],
+        "answer": 1,
+        "explanation": "sondage は「世論調査」や「アンケート」を意味するフランス語の名詞です。"
+      },
+      "q3": {
+        "prompt": "「複数の主要経済国において保守政権が相次いで誕生している」という文脈を、記事内の表現を用いて英文にしなさい。",
+        "model_answer": "Conservative governments are coming to power in quick succession across several major economies.",
+        "notes": "in quick succession（立て続けに）、come to power（政権に就く）というアカデミックな表現を使用しています。"
+      }
+    }
+  }
+}
